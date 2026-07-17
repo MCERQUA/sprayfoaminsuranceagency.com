@@ -98,7 +98,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                   {service.title}{" "}
                   <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">{COPY.serviceDetail.h1Suffix}</span>
                 </h1>
-                {detail && <p className="mt-5 lead max-w-2xl">{detail.heroBlurb}</p>}
+                {detail?.intro && <p className="mt-5 lead max-w-2xl">{detail.intro}</p>}
                 <div className="mt-7 flex flex-col sm:flex-row gap-3">
                   <Link href="/quote" className="btn-primary">Get a quote<ArrowRight className="h-5 w-5" /></Link>
                   <a href={SITE.phoneHref} className="btn-secondary">Call {SITE.phone}</a>
