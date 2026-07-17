@@ -1,14 +1,14 @@
 // Centralized site data — used across nav, footer, schema, CTAs
-// Spray Foam Insurance Agency — dedicated insurance for spray foam contractors
+// AZ Homeowners Insurance — Arizona homeowners insurance specialists
 
 export const SITE = {
-  name: "Spray Foam Insurance Agency",
-  legalName: "Spray Foam Insurance Agency (by Contractors Choice Agency)",
-  domain: "sprayfoaminsuranceagency.com",
-  url: "https://sprayfoaminsuranceagency.com",
-  tagline: "Insurance for Spray Foam Contractors & Insulation Businesses",
+  name: "AZ Homeowners Insurance",
+  legalName: "AZ Homeowners Insurance (by Contractors Choice Agency)",
+  domain: "azhomeownersinsurance.com",
+  url: "https://azhomeownersinsurance.com",
+  tagline: "Arizona Homeowners Insurance — Fast Quotes, Local Expertise",
   description:
-    "Specialized commercial insurance for spray foam insulation contractors — general liability with spray foam endorsements, off-ratio coverage, contractor pollution liability for VOC and chemical exposure, workers' comp, commercial auto for spray rigs, tools and equipment, umbrella, and contractor bonds. Licensed all 50 states.",
+    "Arizona homeowners insurance specialists — dwelling coverage, personal property, liability, loss of use, flood, and umbrella for AZ homeowners. We compare top-rated carriers to find the best rate for your Arizona home. Licensed in Arizona, quotes in 15 minutes.",
   phone: "844-967-5247",
   phoneAlt: "855-336-7189",
   phoneHref: "tel:+18449675247",
@@ -24,34 +24,33 @@ export const SITE = {
     country: "US",
   },
   hours: "Mon–Fri 8am–5pm (MST)",
-  claimsSla: "2-hour claims response",
+  claimsSla: "Same-day claims contact",
   quoteSla: "15-minute quote turnaround",
-  statesLicensed: "All 50 states",
+  statesLicensed: "Licensed in Arizona",
 } as const;
 
-// Niche nouns used in headings, metadata, and component copy
 export const BRAND = {
-  brandShort: "Spray Foam",
-  brandSub: "Contractor Insurance",
-  nicheShort: "spray foam contractor",
-  nicheShortCap: "Spray Foam Contractor",
-  nichePlural: "spray foam contractors",
-  nichePluralCap: "Spray Foam Contractors",
-  operator: "spray foam operation",
-  operatorCap: "Spray Foam Operation",
-  industry: "spray foam insulation",
-  industryCap: "Spray Foam Insulation",
-  audience: "spray foam applicators",
-  audienceCap: "Spray Foam Applicators",
-  ownerTitle: "spray foam contractor",
-  regionPill: "Texas · Florida · National",
-  serviceSuffix: "Spray Foam Contractors",
+  brandShort: "AZ Homeowners",
+  brandSub: "Insurance Specialists",
+  nicheShort: "Arizona homeowner",
+  nicheShortCap: "Arizona Homeowner",
+  nichePlural: "Arizona homeowners",
+  nichePluralCap: "Arizona Homeowners",
+  operator: "Arizona home",
+  operatorCap: "Arizona Home",
+  industry: "homeowners insurance",
+  industryCap: "Homeowners Insurance",
+  audience: "Arizona homeowners",
+  audienceCap: "Arizona Homeowners",
+  ownerTitle: "Arizona homeowner",
+  regionPill: "Phoenix · Scottsdale · Tucson · Chandler",
+  serviceSuffix: "Arizona Homeowners",
 } as const;
 
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
-  { label: "Services", href: "/services" },
   { label: "Coverage", href: "/coverage" },
+  { label: "Services", href: "/services" },
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
@@ -59,108 +58,106 @@ export const NAV_LINKS = [
 
 export const SERVICES = [
   {
-    slug: "general-liability",
-    title: "General Liability for Spray Foam",
-    short: "GL built for the spray foam exposure — not a generic contractor form",
+    slug: "dwelling-coverage",
+    title: "Dwelling Coverage",
+    short: "Rebuild cost protection for your Arizona home structure",
     description:
-      "Standard contractor GL policies exclude or severely limit spray foam operations. We place GL with spray foam endorsements that cover completed operations, property damage from foam expansion, and the chemical-application exposure that generic policies carve out.",
+      "Arizona's extreme heat, monsoon storms, and wildfire exposure mean your dwelling coverage needs to reflect true replacement cost — not market value. We match you with carriers that build rebuild-cost estimates for Arizona's construction environment, ensuring you're not underinsured after a total loss.",
+    icon: "Home",
+    keywords: ["arizona dwelling insurance", "arizona home structure coverage", "az homeowners dwelling policy", "arizona home rebuild coverage"],
+  },
+  {
+    slug: "personal-property",
+    title: "Personal Property Coverage",
+    short: "Belongings protection against theft, fire, and storm damage",
+    description:
+      "Your furniture, electronics, clothing, appliances, and valuables are covered against theft, fire, monsoon damage, and vandalism. We help you inventory your belongings and right-size coverage so you're not over- or under-insured on contents.",
+    icon: "Package",
+    keywords: ["arizona personal property insurance", "az home contents coverage", "arizona homeowners personal property", "home belongings insurance arizona"],
+  },
+  {
+    slug: "liability",
+    title: "Personal Liability",
+    short: "Legal protection if someone is injured on your property",
+    description:
+      "If a guest is injured at your Arizona home, your dog bites a neighbor, or your child accidentally damages a neighbor's property, your personal liability coverage pays for legal defense and any judgment. Arizona pools, trampolines, and dogs significantly affect your liability exposure.",
     icon: "ShieldCheck",
-    keywords: ["spray foam general liability", "spray foam contractor GL insurance", "spray foam insulation liability coverage", "spray foam applicator insurance"],
+    keywords: ["arizona home liability insurance", "homeowners liability coverage arizona", "az personal liability insurance", "arizona home liability protection"],
   },
   {
-    slug: "off-ratio-coverage",
-    title: "Off-Ratio Coverage",
-    short: "When A & B mix wrong — the claim no standard policy touches",
+    slug: "loss-of-use",
+    title: "Loss of Use Coverage",
+    short: "Hotel and living costs while your home is repaired",
     description:
-      "Off-ratio spray foam — when A-component and B-component are mixed incorrectly — causes property damage, structural issues, and chemical exposure claims that most GL policies explicitly exclude. We place coverage that addresses off-ratio events as a standalone insurable risk.",
-    icon: "Gauge",
-    keywords: ["off-ratio spray foam coverage", "spray foam off-ratio insurance", "foam ratio error insurance", "spray polyurethane foam defect coverage"],
+      "If a covered loss makes your Arizona home uninhabitable — a fire, major monsoon damage, or a burst pipe — loss of use coverage pays for hotel stays, restaurant meals, and temporary housing while repairs are underway. Critical in Phoenix metro where hotel rates run $150–$400/night.",
+    icon: "Building",
+    keywords: ["loss of use coverage arizona", "additional living expenses arizona homeowners", "az homeowners loss of use", "arizona home temporary housing coverage"],
   },
   {
-    slug: "contractor-pollution-liability",
-    title: "Contractor Pollution Liability",
-    short: "VOC, isocyanate, and chemical exposure claims covered",
+    slug: "flood-insurance",
+    title: "Flood Insurance",
+    short: "Monsoon and flash-flood protection standard HO-3 excludes",
     description:
-      "Spray foam application releases volatile organic compounds, isocyanates, and blowing agents that expose contractors to third-party bodily injury and property claims. Contractor Pollution Liability (CPL) covers these chemical-exposure events that standard GL excludes under the pollution exclusion.",
+      "Arizona's monsoon season brings flash flooding that standard homeowners policies exclude entirely. We access NFIP and private flood markets with broader triggers and higher limits — important for Phoenix, Tucson, and low-lying metro homeowners.",
     icon: "Droplets",
-    keywords: ["contractor pollution liability spray foam", "spray foam CPL insurance", "VOC exposure insurance contractor", "isocyanate liability insurance spray foam"],
-  },
-  {
-    slug: "workers-compensation",
-    title: "Workers' Compensation",
-    short: "For spray foam crews handling chemicals and working at height",
-    description:
-      "Spray foam work involves chemical inhalation risk, confined-space exposure, fall hazards, and heat from exothermic reactions. We class-code spray foam labor correctly and access markets that don't surcharge or exclude the trade.",
-    icon: "HardHat",
-    keywords: ["spray foam workers compensation", "spray foam contractor workers comp", "insulation contractor workers comp", "spray foam employee insurance"],
-  },
-  {
-    slug: "commercial-auto",
-    title: "Commercial Auto & Spray Rigs",
-    short: "Coverage for foam rigs, proportioners, and service trucks",
-    description:
-      "Spray foam contractors operate specialized vehicles — proportioning machines on trucks, heated hose rigs, and chemical-transport vehicles. We insure the vehicle, the equipment on it, and the liability when your rig is on the road or on a jobsite.",
-    icon: "Truck",
-    keywords: ["spray foam commercial auto insurance", "foam rig insurance", "proportioner truck coverage", "spray foam vehicle insurance"],
-  },
-  {
-    slug: "tools-equipment",
-    title: "Tools & Equipment Coverage",
-    short: "Protect proportioners, spray guns, hoses, and rigs",
-    description:
-      "A spray foam contractor's equipment — proportioning machines, spray guns, heated hoses, transfer pumps, and generators — represents tens of thousands in capital. Tools and equipment coverage pays for theft, damage, and breakdown of the gear your jobs depend on.",
-    icon: "Wrench",
-    keywords: ["spray foam tools equipment insurance", "proportioner insurance", "spray foam equipment coverage", "foam rig equipment insurance"],
+    keywords: ["arizona flood insurance", "az monsoon flood coverage", "phoenix flood insurance homeowner", "arizona private flood insurance"],
   },
   {
     slug: "umbrella",
-    title: "Commercial Umbrella",
-    short: "Extra limits above GL, auto, and workers' comp",
+    title: "Personal Umbrella",
+    short: "Extra liability above your home and auto policies",
     description:
-      "A single spray foam claim — a fire from foam off-gassing, major property damage, or a pollution release — can exceed standard policy limits. Commercial umbrella provides excess coverage above your GL, auto, and workers' comp for catastrophic events.",
+      "A $1M personal umbrella runs $15–$30/month in Arizona and provides excess liability above your homeowners and auto policies. Essential for Arizona homeowners with pools, dogs, teenage drivers, or significant assets.",
     icon: "Umbrella",
-    keywords: ["spray foam umbrella insurance", "contractor umbrella policy", "spray foam excess liability", "insulation contractor umbrella"],
+    keywords: ["arizona personal umbrella insurance", "az homeowners umbrella policy", "arizona umbrella liability coverage", "phoenix homeowners umbrella"],
   },
   {
-    slug: "bonds",
-    title: "Contractor License & Surety Bonds",
-    short: "License bonds, performance bonds, and bid bonds",
+    slug: "scheduled-personal-property",
+    title: "Scheduled Personal Property",
+    short: "Jewelry, art, guns, and high-value items properly covered",
     description:
-      "Many states require spray foam contractors to carry a license bond. General contractors and property managers often require performance and payment bonds. We issue contractor bonds fast — often same-day — and coordinate them with your liability program.",
-    icon: "FileCheck",
-    keywords: ["spray foam contractor bond", "insulation contractor surety bond", "spray foam license bond", "contractor performance bond spray foam"],
+      "Standard homeowners policies cap jewelry at $1,500–$2,500 and firearms at $2,500. Scheduling individual items on a floater removes sub-limits and provides broader coverage including mysterious disappearance — important for Arizona homeowners with collections or jewelry.",
+    icon: "Gem",
+    keywords: ["arizona scheduled personal property", "jewelry insurance arizona", "az firearms insurance homeowners", "arizona high value items coverage"],
+  },
+  {
+    slug: "dwelling-fire",
+    title: "Rental & Vacant Home Coverage",
+    short: "Coverage for rental properties and vacant Arizona homes",
+    description:
+      "If you own a rental property, vacation home, or a home that sits vacant, a standard HO-3 won't cover it. Dwelling fire policies cover the structure and liability for non-owner-occupied or vacant Arizona properties — including Phoenix and Scottsdale investment homes.",
+    icon: "Flame",
+    keywords: ["arizona rental property insurance", "az dwelling fire policy", "vacant home insurance arizona", "arizona investment property insurance"],
   },
 ] as const;
 
 export const LOCATIONS = [
-  { slug: "texas-southwest", name: "Texas & Southwest", region: "TX · AZ · NM · NV", blurb: "The spray foam market in Texas and the Southwest is one of the largest in the country. High heat, energy codes, and new construction volume drive enormous demand for spray foam insulation contractors — and the liability and pollution exposures that come with high-volume chemical application." },
-  { slug: "southeast", name: "Southeast", region: "FL · GA · NC · SC · AL", blurb: "Florida and the Southeast are high-growth spray foam markets driven by humidity, mold, and energy efficiency requirements. Coastal construction and renovation work creates elevated completed-operations and pollution exposure. We understand the Southeast's building codes and risk environment." },
-  { slug: "midwest", name: "Midwest", region: "IL · IN · OH · MI · MN", blurb: "The Midwest's extreme temperature swings make spray foam insulation essential for residential and commercial buildings. Cold-climate spray foam contractors face unique off-ratio risk from low-temperature application and confined-space chemical exposure in tight building envelopes." },
-  { slug: "northeast", name: "Northeast", region: "NY · PA · NJ · CT · MA", blurb: "The Northeast's aging housing stock and tight energy codes create strong demand for spray foam retrofits. New York and Pennsylvania contractors face demanding residential clients and high completed-operations exposure — we place GL and CPL programs built for that environment." },
-  { slug: "california", name: "California", region: "CA · Pacific Coast", blurb: "California's Title 24 energy code and green-building requirements fuel significant spray foam insulation demand. California contractors face strict VOC regulations, air-quality enforcement, and elevated third-party bodily-injury exposure from chemical applications — requiring robust CPL and GL programs." },
-  { slug: "mountain-states", name: "Mountain States", region: "CO · UT · ID · WY", blurb: "Colorado and Mountain State contractors insulate high-altitude homes and commercial buildings where energy performance is critical. Cold-weather application, high-elevation worksites, and a booming construction market make well-structured spray foam insurance essential in this region." },
-  { slug: "mid-atlantic", name: "Mid-Atlantic", region: "VA · MD · DC · DE", blurb: "Mid-Atlantic spray foam contractors serve a dense mix of residential retrofits, commercial builds, and federal projects in the DC metro. High-value properties and demanding GC requirements mean GL limits, CPL, and performance bonds are standard parts of a complete program here." },
-  { slug: "pacific-northwest", name: "Pacific Northwest", region: "WA · OR · ID", blurb: "Pacific Northwest energy codes and the region's focus on sustainable building drive demand for spray foam insulation. Washington and Oregon contractors face stringent environmental regulations around chemical applications — making contractor pollution liability and proper GL coverage essential." },
+  { slug: "phoenix", name: "Phoenix Metro", region: "Phoenix · Glendale · Tempe · Mesa", blurb: "Phoenix homeowners face some of Arizona's highest wildfire interface exposure combined with urban monsoon flooding. The Valley's extreme heat accelerates roof and HVAC wear, and carriers have tightened underwriting here. We access markets that still write competitively for Phoenix metro homes." },
+  { slug: "scottsdale", name: "Scottsdale & Paradise Valley", region: "Scottsdale · Paradise Valley · Fountain Hills", blurb: "High-value Scottsdale and Paradise Valley homes require specialty markets for true replacement-cost coverage. Desert hillside locations carry elevated wildfire exposure. We place coverage with carriers experienced in Scottsdale's high-value home market and the McDowell Mountain interface zone." },
+  { slug: "tucson", name: "Tucson & Southern Arizona", region: "Tucson · Marana · Oro Valley · Sierra Vista", blurb: "Tucson homeowners face monsoon flooding, wildfire risk in Catalina foothills neighborhoods, and an older housing stock that can affect underwriting. We find competitive rates for Tucson homes across a range of ages, conditions, and locations." },
+  { slug: "chandler-gilbert", name: "Chandler, Gilbert & East Valley", region: "Chandler · Gilbert · Queen Creek · San Tan Valley", blurb: "East Valley homeowners in newer subdivisions often overpay for homeowners insurance on homes with favorable risk profiles. We re-market your home annually against multiple carriers to ensure you're not paying renewal-creep premiums on what is often a low-risk, newer-construction property." },
+  { slug: "flagstaff", name: "Flagstaff & Northern Arizona", region: "Flagstaff · Sedona · Prescott · Williams", blurb: "Northern Arizona homeowners face wildfire interface risk unlike anywhere else in the state. Flagstaff's WUI classification and Sedona's proximity to fire-prone terrain make insurer placement critical. We access specialty carriers writing northern Arizona homes other agents can't place." },
+  { slug: "prescott", name: "Prescott & Yavapai County", region: "Prescott · Prescott Valley · Chino Valley · Dewey", blurb: "Prescott and Yavapai County homeowners face one of Arizona's most challenging insurance markets — aging wood-frame homes, wildfire interface risk, and carriers exiting the county. We work with admitted and surplus lines markets to get your Prescott area home insured." },
 ] as const;
 
 export const CREDENTIALS = [
-  { label: "Licensed in all 50 states", icon: "MapPin" },
+  { label: "Licensed in Arizona", icon: "MapPin" },
   { label: "Founded 2005 — 20+ years", icon: "CalendarCheck" },
-  { label: "Spray foam specialist agents", icon: "HardHat" },
+  { label: "Arizona home insurance specialists", icon: "Home" },
   { label: "15-minute quote turnaround", icon: "Timer" },
-  { label: "2-hour claims response", icon: "Zap" },
+  { label: "Same-day claims contact", icon: "Zap" },
   { label: "A.M. Best A+ carrier partners", icon: "Award" },
 ] as const;
 
 export const STATS = [
-  { value: 500, suffix: "+", label: "Spray foam contractors insured nationwide", prefix: "" },
-  { value: 20, suffix: "+", label: "Years insuring specialty contractors", prefix: "" },
+  { value: 2000, suffix: "+", label: "Arizona homeowners insured", prefix: "" },
+  { value: 20, suffix: "+", label: "Years insuring Arizona homes", prefix: "" },
   { value: 15, suffix: " min", label: "Average quote turnaround", prefix: "" },
-  { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
+  { value: 12, suffix: "+", label: "Carriers compared for every quote", prefix: "" },
 ] as const;
 
 export const TESTIMONIALS = [
-  { quote: "A homeowner claimed our foam expanded into their HVAC system and caused $40,000 in damage. Our old GL carrier said it was excluded. Spray Foam Insurance Agency placed a GL form that actually covered the claim — we had no idea generic policies had that gap until it almost cost us everything.", name: "Marcus T.", role: "Owner", location: "Texas" },
-  { quote: "We had an off-ratio event on a commercial retrofit that triggered VOC complaints from the building's tenants. The claim crossed GL and pollution lines. Having both coordinated by the same agency was critical — one phone call, no finger-pointing between carriers, and a fair settlement.", name: "Sandra R.", role: "Operations Manager", location: "Florida" },
-  { quote: "Three carriers declined us because of our CPL exposure and one prior pollution claim. These guys understood spray foam chemistry, documented our protocols, and placed an A-rated program with off-ratio coverage included. They know this trade inside and out.", name: "Derek M.", role: "Spray Foam Applicator", location: "Colorado" },
+  { quote: "After our monsoon season damage last summer, our old carrier wanted to drop us at renewal. AZ Homeowners Insurance found us an A-rated carrier with better flood coverage at a lower premium. They handled the whole transition so we never had a gap.", name: "Maria S.", role: "Homeowner", location: "Chandler, AZ" },
+  { quote: "We have a Scottsdale home with a pool, two dogs, and a jewelry collection. Getting it all properly covered was a project. They scheduled the jewelry, got the right liability limits for the pool, and added an umbrella — all in one call. Way simpler than I expected.", name: "Tom & Karen B.", role: "Homeowners", location: "Scottsdale, AZ" },
+  { quote: "I own three rental properties in Phoenix and a primary residence. Having one agency handle all four policies, coordinate renewals, and make sure my landlord policies have the right liability is worth every penny. They catch things my previous agent missed.", name: "David R.", role: "Property Owner", location: "Phoenix, AZ" },
 ] as const;
