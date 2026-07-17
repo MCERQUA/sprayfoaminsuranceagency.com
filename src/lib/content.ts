@@ -260,10 +260,10 @@ export const YEARS_OPTIONS = [
 /* ============================================================
    SERVICE DETAIL (per-slug extended content for service pages)
    ============================================================ */
-export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]; faqs?: { q: string; a: string }[] }> = {
+export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: string[]; whoItsFor: string[]; whyCca: string[]; faqs?: { q: string; a: string }[] }> = {
   "dwelling-coverage": {
     intro: "Your Arizona home's dwelling coverage pays to rebuild the structure after a covered loss — fire, wildfire, windstorm, hail, lightning, or vandalism. The key is matching your coverage limit to actual rebuild cost, not market value.",
-    bullets: [
+    whatsCovered: [
       "Covers the home's structure, attached garage, and built-in systems",
       "Should reflect replacement cost, not market or purchase price",
       "Extended replacement cost endorsements add 25–50% buffer above your stated limit",
@@ -276,7 +276,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]
   },
   "personal-property": {
     intro: "Personal property coverage (Coverage C) pays to replace your furniture, electronics, clothing, appliances, and other belongings after theft, fire, or covered storm damage.",
-    bullets: [
+    whatsCovered: [
       "Covers belongings both inside and outside the home (worldwide at reduced percentage)",
       "Actual cash value vs. replacement cost — replacement cost pays more at claim time",
       "Sub-limits apply to jewelry, firearms, art, and electronics",
@@ -288,7 +288,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]
   },
   "liability": {
     intro: "Personal liability (Coverage E) pays for legal defense and judgments if you're found legally responsible for bodily injury or property damage to others. Arizona pools, dogs, and trampolines all create significant liability exposure.",
-    bullets: [
+    whatsCovered: [
       "Covers legal defense costs and judgments up to your policy limit",
       "Standard limits: $100K–$300K; umbrella extends above that",
       "Arizona dog-bite strict liability law applies regardless of prior behavior",
@@ -300,7 +300,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]
   },
   "loss-of-use": {
     intro: "Loss of use coverage (Coverage D) pays your additional living expenses — hotel, restaurant meals, temporary housing — while your home is being repaired after a covered loss.",
-    bullets: [
+    whatsCovered: [
       "Pays hotel, food, and temporary rental costs above your normal living expenses",
       "Applies when a covered loss makes your home uninhabitable",
       "Does NOT apply if the underlying cause is flood (unless you have flood insurance)",
@@ -312,7 +312,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]
   },
   "flood-insurance": {
     intro: "Flood insurance covers damage from external water — flash flooding, monsoon runoff, rising water from washes and canals — that standard homeowners policies exclude entirely.",
-    bullets: [
+    whatsCovered: [
       "Standard HO-3 policies exclude all flood damage",
       "NFIP: up to $250K structure / $100K contents; 30-day waiting period",
       "Private flood: higher limits, replacement-cost contents, shorter waiting periods",
@@ -324,7 +324,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]
   },
   "umbrella": {
     intro: "A personal umbrella policy adds $1M–$5M in liability above your homeowners and auto policies for a modest annual premium — typically $150–$300/year in Arizona.",
-    bullets: [
+    whatsCovered: [
       "$1M umbrella costs $150–$300/year in Arizona",
       "Extends above homeowners liability, auto liability, and watercraft liability",
       "Essential for pool owners, dog owners, and households with teenage drivers",
@@ -336,7 +336,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]
   },
   "scheduled-personal-property": {
     intro: "Scheduling valuable items removes the sub-limits in your standard policy and often provides broader coverage, including mysterious disappearance.",
-    bullets: [
+    whatsCovered: [
       "Jewelry sub-limit: $1,500–$2,500 under standard HO-3",
       "Firearms sub-limit: $2,500 under standard HO-3",
       "Fine art, silverware, collectibles all have similar restrictions",
@@ -348,7 +348,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]
   },
   "dwelling-fire": {
     intro: "Dwelling fire policies cover non-owner-occupied properties — rental homes, vacation homes, and vacant properties — that standard HO-3 policies won't cover.",
-    bullets: [
+    whatsCovered: [
       "Covers rental homes, investment properties, and vacant homes",
       "Landlord liability coverage for tenant injury claims",
       "Loss of rents endorsement covers rental income during repairs",
