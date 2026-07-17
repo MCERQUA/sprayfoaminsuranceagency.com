@@ -20,7 +20,7 @@ export function CoverageMap() {
               {AZ_REGIONS.map((region) => (
                 <li key={region.name} className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-clay flex-shrink-0 mt-0.5" />
-                  <div><span className="font-heading font-semibold text-espresso">{region.name}</span><span className="text-mocha"> — {region.note}</span></div>
+                  <div><span className="font-heading font-semibold text-espresso">{region.name}</span><span className="text-mocha"> — {"cities" in region ? region.cities : ""}</span></div>
                 </li>
               ))}
             </ul>
