@@ -264,10 +264,21 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
   "dwelling-coverage": {
     intro: "Your Arizona home's dwelling coverage pays to rebuild the structure after a covered loss — fire, wildfire, windstorm, hail, lightning, or vandalism. The key is matching your coverage limit to actual rebuild cost, not market value.",
     whatsCovered: [
-      "Covers the home's structure, attached garage, and built-in systems",
-      "Should reflect replacement cost, not market or purchase price",
-      "Extended replacement cost endorsements add 25–50% buffer above your stated limit",
-      "Inflation guard auto-adjusts your limit annually for construction cost changes",
+      "Home structure, walls, roof, foundation, and attached garage",
+      "Built-in appliances, electrical, plumbing, and HVAC systems",
+      "Extended replacement cost: 25–50% buffer above your stated limit",
+      "Inflation guard auto-adjusts your limit annually",
+    ],
+    whoItsFor: [
+      "Homeowners who haven't verified their dwelling limit in 2+ years",
+      "Anyone who's done renovations without updating coverage",
+      "Scottsdale and Paradise Valley owners with high-value construction",
+      "Any homeowner who wants extended replacement cost protection",
+    ],
+    whyCca: [
+      "We verify your dwelling limit against Arizona rebuild costs",
+      "Extended replacement cost endorsements recommended for every client",
+      "Annual inflation guard review included at renewal",
     ],
     faqs: [
       { q: "What does dwelling coverage pay for?", a: "Dwelling coverage (Coverage A) pays to repair or rebuild your home's structure after a covered loss — including the foundation, walls, roof, windows, built-in appliances, and attached structures like a garage. It does not cover personal property or the land." },
@@ -277,10 +288,21 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
   "personal-property": {
     intro: "Personal property coverage (Coverage C) pays to replace your furniture, electronics, clothing, appliances, and other belongings after theft, fire, or covered storm damage.",
     whatsCovered: [
-      "Covers belongings both inside and outside the home (worldwide at reduced percentage)",
-      "Actual cash value vs. replacement cost — replacement cost pays more at claim time",
-      "Sub-limits apply to jewelry, firearms, art, and electronics",
-      "Consider scheduling high-value items above standard sub-limits",
+      "Furniture, clothing, electronics, and appliances",
+      "Personal property worldwide at 10% of your coverage limit",
+      "Replacement cost pays more at claim time than ACV",
+      "Theft from your vehicle if property is inside",
+    ],
+    whoItsFor: [
+      "Homeowners who've never done a home inventory",
+      "Anyone with jewelry or firearms near sub-limits",
+      "Homeowners who want replacement cost at claim time",
+      "Anyone who works from home with high-value equipment",
+    ],
+    whyCca: [
+      "We right-size personal property limits — not over or under-insure",
+      "We flag sub-limit exposures and recommend scheduling high-value items",
+      "Replacement cost endorsement recommended for every client",
     ],
     faqs: [
       { q: "Does personal property coverage apply outside my home?", a: "Yes. HO-3 personal property coverage applies worldwide, typically at 10% of your personal property limit for items away from home. If your laptop is stolen from your car or your luggage is lost in transit, your homeowners policy may cover it." },
@@ -289,10 +311,21 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
   "liability": {
     intro: "Personal liability (Coverage E) pays for legal defense and judgments if you're found legally responsible for bodily injury or property damage to others. Arizona pools, dogs, and trampolines all create significant liability exposure.",
     whatsCovered: [
-      "Covers legal defense costs and judgments up to your policy limit",
-      "Standard limits: $100K–$300K; umbrella extends above that",
-      "Arizona dog-bite strict liability law applies regardless of prior behavior",
-      "Pool ownership significantly increases liability exposure",
+      "Legal defense costs if you're sued for bodily injury or property damage",
+      "Judgments up to your policy liability limit",
+      "Dog bite claims under Arizona's strict liability statute",
+      "Guest injuries on your property — pool, stairs, sidewalks",
+    ],
+    whoItsFor: [
+      "Arizona homeowners with pools — top liability exposure in the state",
+      "Dog owners — Arizona has strict liability, no 'one bite' rule",
+      "Homeowners with trampolines or other attractive nuisances",
+      "Anyone with significant assets to protect from a lawsuit",
+    ],
+    whyCca: [
+      "We review your liability limits against your actual exposure",
+      "We recommend personal umbrella for elevated liability risk",
+      "We find carriers that write dog breeds others surcharge or exclude",
     ],
     faqs: [
       { q: "How much personal liability coverage do I need?", a: "Most homeowners carry $100,000–$300,000 in personal liability. If you have a pool, dogs, significant assets, or teenage drivers, you should consider a $1M personal umbrella policy above your base liability limit — it typically costs $15–$30/month." },
@@ -301,10 +334,21 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
   "loss-of-use": {
     intro: "Loss of use coverage (Coverage D) pays your additional living expenses — hotel, restaurant meals, temporary housing — while your home is being repaired after a covered loss.",
     whatsCovered: [
-      "Pays hotel, food, and temporary rental costs above your normal living expenses",
-      "Applies when a covered loss makes your home uninhabitable",
-      "Does NOT apply if the underlying cause is flood (unless you have flood insurance)",
-      "Phoenix metro hotel rates $150–$400/night make this coverage critical",
+      "Hotel stays above your normal housing cost",
+      "Restaurant meals above your normal food budget",
+      "Temporary rental housing while repairs are underway",
+      "Storage costs for personal property during repairs",
+    ],
+    whoItsFor: [
+      "All Arizona homeowners — this coverage is standard and critical",
+      "Homeowners in areas with limited temporary housing options",
+      "Families who'd face hardship without their home for months",
+      "Anyone whose home repair could take months after a major loss",
+    ],
+    whyCca: [
+      "We verify loss of use limits are adequate for your area's hotel and rental costs",
+      "We explain the flood exclusion interaction so you're not surprised at claim time",
+      "We make sure you understand what qualifies as an 'additional' expense",
     ],
     faqs: [
       { q: "What is loss of use coverage?", a: "Loss of use (Coverage D) pays for additional living expenses you incur while your home is uninhabitable after a covered loss — hotel stays, restaurant meals above your normal food budget, and temporary housing. It does not cover your normal living expenses, only the incremental cost of living elsewhere." },
