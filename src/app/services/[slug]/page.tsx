@@ -12,12 +12,12 @@ import {
   ShieldCheck, HardHat, Truck, Wrench, FileCheck,
   Umbrella, Gauge,
   CheckCircle2, ArrowRight, ArrowLeft, Users, Target,
-  Droplets, Flame,
+  Droplets, Flame, Home, Package, Building, Gem,
 } from "lucide-react";
 
 const ICONS = {
   ShieldCheck, HardHat, Truck, Wrench, FileCheck,
-  Umbrella, Gauge, Droplets, Flame,
+  Umbrella, Gauge, Droplets, Flame, Home, Package, Building, Gem,
 } as const;
 
 export function generateStaticParams() {

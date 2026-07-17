@@ -256,3 +256,106 @@ export const YEARS_OPTIONS = [
   "6–10 years",
   "10+ years",
 ] as const;
+
+/* ============================================================
+   SERVICE DETAIL (per-slug extended content for service pages)
+   ============================================================ */
+export const SERVICE_DETAIL: Record<string, { intro?: string; bullets?: string[]; faqs?: { q: string; a: string }[] }> = {
+  "dwelling-coverage": {
+    intro: "Your Arizona home's dwelling coverage pays to rebuild the structure after a covered loss — fire, wildfire, windstorm, hail, lightning, or vandalism. The key is matching your coverage limit to actual rebuild cost, not market value.",
+    bullets: [
+      "Covers the home's structure, attached garage, and built-in systems",
+      "Should reflect replacement cost, not market or purchase price",
+      "Extended replacement cost endorsements add 25–50% buffer above your stated limit",
+      "Inflation guard auto-adjusts your limit annually for construction cost changes",
+    ],
+    faqs: [
+      { q: "What does dwelling coverage pay for?", a: "Dwelling coverage (Coverage A) pays to repair or rebuild your home's structure after a covered loss — including the foundation, walls, roof, windows, built-in appliances, and attached structures like a garage. It does not cover personal property or the land." },
+      { q: "How is dwelling coverage limit set?", a: "Your dwelling limit should be based on the cost to rebuild your home at today's construction costs — not market value. We use residential reconstruction cost estimators calibrated to Arizona's construction market to set appropriate limits." },
+    ],
+  },
+  "personal-property": {
+    intro: "Personal property coverage (Coverage C) pays to replace your furniture, electronics, clothing, appliances, and other belongings after theft, fire, or covered storm damage.",
+    bullets: [
+      "Covers belongings both inside and outside the home (worldwide at reduced percentage)",
+      "Actual cash value vs. replacement cost — replacement cost pays more at claim time",
+      "Sub-limits apply to jewelry, firearms, art, and electronics",
+      "Consider scheduling high-value items above standard sub-limits",
+    ],
+    faqs: [
+      { q: "Does personal property coverage apply outside my home?", a: "Yes. HO-3 personal property coverage applies worldwide, typically at 10% of your personal property limit for items away from home. If your laptop is stolen from your car or your luggage is lost in transit, your homeowners policy may cover it." },
+    ],
+  },
+  "liability": {
+    intro: "Personal liability (Coverage E) pays for legal defense and judgments if you're found legally responsible for bodily injury or property damage to others. Arizona pools, dogs, and trampolines all create significant liability exposure.",
+    bullets: [
+      "Covers legal defense costs and judgments up to your policy limit",
+      "Standard limits: $100K–$300K; umbrella extends above that",
+      "Arizona dog-bite strict liability law applies regardless of prior behavior",
+      "Pool ownership significantly increases liability exposure",
+    ],
+    faqs: [
+      { q: "How much personal liability coverage do I need?", a: "Most homeowners carry $100,000–$300,000 in personal liability. If you have a pool, dogs, significant assets, or teenage drivers, you should consider a $1M personal umbrella policy above your base liability limit — it typically costs $15–$30/month." },
+    ],
+  },
+  "loss-of-use": {
+    intro: "Loss of use coverage (Coverage D) pays your additional living expenses — hotel, restaurant meals, temporary housing — while your home is being repaired after a covered loss.",
+    bullets: [
+      "Pays hotel, food, and temporary rental costs above your normal living expenses",
+      "Applies when a covered loss makes your home uninhabitable",
+      "Does NOT apply if the underlying cause is flood (unless you have flood insurance)",
+      "Phoenix metro hotel rates $150–$400/night make this coverage critical",
+    ],
+    faqs: [
+      { q: "What is loss of use coverage?", a: "Loss of use (Coverage D) pays for additional living expenses you incur while your home is uninhabitable after a covered loss — hotel stays, restaurant meals above your normal food budget, and temporary housing. It does not cover your normal living expenses, only the incremental cost of living elsewhere." },
+    ],
+  },
+  "flood-insurance": {
+    intro: "Flood insurance covers damage from external water — flash flooding, monsoon runoff, rising water from washes and canals — that standard homeowners policies exclude entirely.",
+    bullets: [
+      "Standard HO-3 policies exclude all flood damage",
+      "NFIP: up to $250K structure / $100K contents; 30-day waiting period",
+      "Private flood: higher limits, replacement-cost contents, shorter waiting periods",
+      "Arizona monsoon season runs June–September — buy before season starts",
+    ],
+    faqs: [
+      { q: "Does my homeowners insurance cover monsoon flooding?", a: "No. Flood caused by monsoon runoff, flash flooding, or rising water from a wash or canal is excluded under the flood exclusion in your standard homeowners policy. You need separate flood insurance — either NFIP or private flood — to cover this exposure." },
+    ],
+  },
+  "umbrella": {
+    intro: "A personal umbrella policy adds $1M–$5M in liability above your homeowners and auto policies for a modest annual premium — typically $150–$300/year in Arizona.",
+    bullets: [
+      "$1M umbrella costs $150–$300/year in Arizona",
+      "Extends above homeowners liability, auto liability, and watercraft liability",
+      "Essential for pool owners, dog owners, and households with teenage drivers",
+      "Covers personal injury claims including defamation and false arrest",
+    ],
+    faqs: [
+      { q: "Do I need a personal umbrella if I have homeowners insurance?", a: "If you own a pool, have dogs, have teenage drivers, or have significant assets to protect, a personal umbrella is highly recommended. A serious injury on your property or a major auto accident can result in a judgment far exceeding your base liability limits. A $1M umbrella costs $15–$30/month in Arizona." },
+    ],
+  },
+  "scheduled-personal-property": {
+    intro: "Scheduling valuable items removes the sub-limits in your standard policy and often provides broader coverage, including mysterious disappearance.",
+    bullets: [
+      "Jewelry sub-limit: $1,500–$2,500 under standard HO-3",
+      "Firearms sub-limit: $2,500 under standard HO-3",
+      "Fine art, silverware, collectibles all have similar restrictions",
+      "Scheduled items covered for full appraised value with no deductible",
+    ],
+    faqs: [
+      { q: "What items should I schedule on my homeowners policy?", a: "Consider scheduling any individual item worth more than the standard sub-limit — typically jewelry over $2,500, firearms collections, fine art, musical instruments, collectibles, and cameras. Scheduled coverage also covers mysterious disappearance (lost jewelry, for example) that standard policies exclude." },
+    ],
+  },
+  "dwelling-fire": {
+    intro: "Dwelling fire policies cover non-owner-occupied properties — rental homes, vacation homes, and vacant properties — that standard HO-3 policies won't cover.",
+    bullets: [
+      "Covers rental homes, investment properties, and vacant homes",
+      "Landlord liability coverage for tenant injury claims",
+      "Loss of rents endorsement covers rental income during repairs",
+      "Required when owner does not live in the property",
+    ],
+    faqs: [
+      { q: "What insurance does an Arizona landlord need?", a: "Arizona landlords need a dwelling fire policy (DP-3) rather than a standard homeowners policy. A DP-3 covers the structure, your liability as a landlord, and optionally loss of rents if a covered loss makes the unit uninhabitable. Standard HO-3 policies exclude rental activity." },
+    ],
+  },
+};
