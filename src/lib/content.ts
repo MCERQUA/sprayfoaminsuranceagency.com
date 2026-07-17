@@ -357,10 +357,21 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
   "flood-insurance": {
     intro: "Flood insurance covers damage from external water — flash flooding, monsoon runoff, rising water from washes and canals — that standard homeowners policies exclude entirely.",
     whatsCovered: [
-      "Standard HO-3 policies exclude all flood damage",
-      "NFIP: up to $250K structure / $100K contents; 30-day waiting period",
-      "Private flood: higher limits, replacement-cost contents, shorter waiting periods",
-      "Arizona monsoon season runs June–September — buy before season starts",
+      "Structure damage from rising water, flash flooding, and monsoon runoff",
+      "Contents when purchased separately (or bundled in private flood)",
+      "Foundation, walls, electrical, plumbing, HVAC damaged by flooding",
+      "Built-in appliances and flooring damaged by covered flood events",
+    ],
+    whoItsFor: [
+      "Arizona homeowners near washes, canals, or drainage corridors",
+      "Homes in FEMA Special Flood Hazard Areas (lender-required)",
+      "Any Arizona homeowner in a monsoon-prone area",
+      "Homeowners whose standard policy leaves them exposed to water damage",
+    ],
+    whyCca: [
+      "We compare NFIP and private flood markets for every Arizona homeowner",
+      "We advise on waiting period timing relative to monsoon season",
+      "We explain the gap between flood coverage and loss of use under standard policies",
     ],
     faqs: [
       { q: "Does my homeowners insurance cover monsoon flooding?", a: "No. Flood caused by monsoon runoff, flash flooding, or rising water from a wash or canal is excluded under the flood exclusion in your standard homeowners policy. You need separate flood insurance — either NFIP or private flood — to cover this exposure." },
@@ -369,22 +380,44 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
   "umbrella": {
     intro: "A personal umbrella policy adds $1M–$5M in liability above your homeowners and auto policies for a modest annual premium — typically $150–$300/year in Arizona.",
     whatsCovered: [
-      "$1M umbrella costs $150–$300/year in Arizona",
-      "Extends above homeowners liability, auto liability, and watercraft liability",
-      "Essential for pool owners, dog owners, and households with teenage drivers",
-      "Covers personal injury claims including defamation and false arrest",
+      "Liability judgments above your homeowners policy limit",
+      "Liability judgments above your auto policy limit",
+      "Personal injury claims: defamation, false arrest, invasion of privacy",
+      "Legal defense costs for covered claims above underlying limits",
+    ],
+    whoItsFor: [
+      "Arizona homeowners with pools — pool injury suits regularly exceed base limits",
+      "Dog owners — large injury claims can far exceed $300K limits",
+      "Households with teenage drivers — high auto liability exposure",
+      "Anyone with significant assets to protect",
+    ],
+    whyCca: [
+      "We bundle umbrella with your homeowners quote for accurate pricing",
+      "We verify your underlying limits meet umbrella carrier requirements",
+      "We explain exactly what the umbrella covers and where it kicks in",
     ],
     faqs: [
-      { q: "Do I need a personal umbrella if I have homeowners insurance?", a: "If you own a pool, have dogs, have teenage drivers, or have significant assets to protect, a personal umbrella is highly recommended. A serious injury on your property or a major auto accident can result in a judgment far exceeding your base liability limits. A $1M umbrella costs $15–$30/month in Arizona." },
+      { q: "Do I need a personal umbrella if I have homeowners insurance?", a: "If you own a pool, have dogs, have significant assets to protect, or have teenage drivers, a personal umbrella is highly recommended. A serious injury on your property or a major auto accident can result in a judgment far exceeding your base liability limits. A $1M umbrella costs $15–$30/month in Arizona." },
     ],
   },
   "scheduled-personal-property": {
     intro: "Scheduling valuable items removes the sub-limits in your standard policy and often provides broader coverage, including mysterious disappearance.",
     whatsCovered: [
-      "Jewelry sub-limit: $1,500–$2,500 under standard HO-3",
-      "Firearms sub-limit: $2,500 under standard HO-3",
-      "Fine art, silverware, collectibles all have similar restrictions",
-      "Scheduled items covered for full appraised value with no deductible",
+      "Jewelry at full appraised value, typically no deductible",
+      "Firearms collection at full replacement value",
+      "Fine art, antiques, and collectibles at scheduled value",
+      "Musical instruments, cameras, and high-value electronics",
+    ],
+    whoItsFor: [
+      "Arizona homeowners with jewelry collections over $2,500",
+      "Gun collectors whose collection exceeds the $2,500 sub-limit",
+      "Art collectors and antique owners",
+      "Musicians with professional-grade instruments",
+    ],
+    whyCca: [
+      "We review your standard policy sub-limits and identify items needing scheduling",
+      "We coordinate scheduled coverage with your overall policy for no gaps",
+      "We recommend appraisals for jewelry and art to set correct scheduled values",
     ],
     faqs: [
       { q: "What items should I schedule on my homeowners policy?", a: "Consider scheduling any individual item worth more than the standard sub-limit — typically jewelry over $2,500, firearms collections, fine art, musical instruments, collectibles, and cameras. Scheduled coverage also covers mysterious disappearance (lost jewelry, for example) that standard policies exclude." },
@@ -393,10 +426,21 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
   "dwelling-fire": {
     intro: "Dwelling fire policies cover non-owner-occupied properties — rental homes, vacation homes, and vacant properties — that standard HO-3 policies won't cover.",
     whatsCovered: [
-      "Covers rental homes, investment properties, and vacant homes",
-      "Landlord liability coverage for tenant injury claims",
-      "Loss of rents endorsement covers rental income during repairs",
-      "Required when owner does not live in the property",
+      "Rental property structure for fire, windstorm, and covered perils",
+      "Landlord personal liability for tenant injury claims",
+      "Loss of rents if a covered loss makes the unit uninhabitable",
+      "Vacant home structure coverage during extended vacancy",
+    ],
+    whoItsFor: [
+      "Phoenix, Scottsdale, and Tucson investment property owners",
+      "Homeowners renting out a house while temporarily relocated",
+      "Estate executors managing a vacant property",
+      "Short-term rental owners needing landlord liability",
+    ],
+    whyCca: [
+      "We write landlord policies for Arizona rental properties across all markets",
+      "We coordinate landlord policies with your primary homeowners program",
+      "We add loss of rents coverage so a major claim doesn't mean lost rental income",
     ],
     faqs: [
       { q: "What insurance does an Arizona landlord need?", a: "Arizona landlords need a dwelling fire policy (DP-3) rather than a standard homeowners policy. A DP-3 covers the structure, your liability as a landlord, and optionally loss of rents if a covered loss makes the unit uninhabitable. Standard HO-3 policies exclude rental activity." },
