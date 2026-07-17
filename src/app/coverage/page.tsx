@@ -62,7 +62,7 @@ export default function CoveragePage() {
                 <FadeIn key={region.name} delay={(i % 2) * 0.06}>
                   <div className="flex items-start gap-3 rounded-2xl bg-white border border-adobe p-5">
                     <MapPin className="h-5 w-5 text-clay flex-shrink-0 mt-0.5" />
-                    <div><p className="font-heading font-bold text-espresso">{region.name}</p><p className="text-sm text-mocha">{region.note}</p></div>
+                    <div><p className="font-heading font-bold text-espresso">{region.name}</p><p className="text-sm text-mocha">{"description" in region ? region.description : ""}</p></div>
                   </div>
                 </FadeIn>
               ))}
