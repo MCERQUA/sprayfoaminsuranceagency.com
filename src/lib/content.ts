@@ -210,3 +210,49 @@ export const HOME_FAQS = [
   { q: "Does homeowners insurance cover sewer backup in Arizona?", a: "Not by default. Sewer and drain backup is excluded from standard HO-3 policies but can be added as an endorsement for $50–$150/year. Given Arizona's aging sewer infrastructure in older Phoenix and Tucson neighborhoods, it's a cost-effective add." },
   { q: "How do I file a homeowners insurance claim in Arizona?", a: "Contact your insurer directly (their claims line is on your declarations page) as soon as the loss occurs. Document everything with photos before making temporary repairs. Temporary repairs to prevent further damage are covered — keep receipts. We walk clients through the process and help navigate disputes with the carrier." },
 ] as const;
+
+/* ============================================================
+   GENERAL FAQS (used on coverage page)
+   ============================================================ */
+export const GENERAL_FAQS = [
+  { q: "How do I switch homeowners insurance carriers in Arizona?", a: "Switching is straightforward: get a new policy bound before your current one expires, then cancel the old policy effective the new policy start date. Your mortgage lender will need the new declarations page. We handle the paperwork and coordinate with your lender." },
+  { q: "Will my homeowners insurance cover me if I rent out part of my home?", a: "Typically no — standard HO-3 policies exclude business and rental activities. If you rent a room or a guest house on your property, you may need a homeowners endorsement or a separate landlord policy for that portion of the home." },
+] as const;
+
+/* ============================================================
+   AZ REGIONS (used on coverage page and CoverageMap)
+   ============================================================ */
+export const AZ_REGIONS = [
+  { name: "Phoenix Metro", cities: "Phoenix · Mesa · Tempe · Glendale · Peoria", description: "The largest Arizona homeowners market. We compare 12+ carriers for Phoenix metro homes and re-shop annually to prevent renewal-creep." },
+  { name: "Scottsdale & East Valley", cities: "Scottsdale · Paradise Valley · Chandler · Gilbert · Queen Creek", description: "High-value homes and newer subdivisions. Specialty markets for Scottsdale custom homes; competitive programs for East Valley families." },
+  { name: "Tucson & Southern Arizona", cities: "Tucson · Marana · Oro Valley · Sierra Vista · Nogales", description: "Arizona's second-largest market. Competitive homeowners programs for Tucson homes across all ages, conditions, and risk profiles." },
+  { name: "Northern Arizona", cities: "Flagstaff · Sedona · Williams · Winslow · Show Low", description: "WUI specialist access for Flagstaff and northern Arizona homes. Admitted and surplus lines options when standard carriers decline." },
+  { name: "Prescott & Yavapai County", cities: "Prescott · Prescott Valley · Chino Valley · Cottonwood", description: "Challenging market requiring specialty placement. We work all admitted and surplus lines options for Prescott-area homeowners." },
+  { name: "West & Northwest Arizona", cities: "Surprise · Buckeye · Goodyear · Avondale · Wickenburg", description: "Newer West Valley communities with favorable risk profiles. Competitive programs for growing West Valley homeowners." },
+] as const;
+
+/* ============================================================
+   QUOTE PAGE CONSTANTS
+   ============================================================ */
+export const US_STATES = ["Arizona"] as const;
+
+export const QUOTE_SERVICE_TYPES = [
+  "Homeowners Insurance (HO-3)",
+  "Condo Insurance (HO-6)",
+  "Renters Insurance (HO-4)",
+  "Flood Insurance",
+  "Personal Umbrella",
+  "Rental / Landlord Policy",
+  "Vacant Home Coverage",
+  "Scheduled Personal Property",
+  "Bundle (Home + Auto)",
+  "Other / Not Sure",
+] as const;
+
+export const YEARS_OPTIONS = [
+  "Just purchased",
+  "1–2 years",
+  "3–5 years",
+  "6–10 years",
+  "10+ years",
+] as const;
