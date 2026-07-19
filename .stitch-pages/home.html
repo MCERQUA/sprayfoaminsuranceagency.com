@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AZ Homeowners Insurance - Premium Local Protection</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&amp;family=Work+Sans:wght@400;500;600&amp;family=Public+Sans:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        clay_orange: "#D4600A",
+                        espresso_navy: "#2A2118",
+                        amber_gold: "#E8A020",
+                        warm_cream: "#FAF9F7",
+                        light_steel_sand: "#EEF1F6"
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                        lg: "1rem",
+                        xl: "1.5rem",
+                        full: "9999px",
+                        '12': '0.75rem'
+                    },
+                    fontFamily: {
+                        headline: ["Space Grotesk", "sans-serif"],
+                        display: ["Space Grotesk", "sans-serif"],
+                        body: ["Work Sans", "sans-serif"],
+                        label: ["Public Sans", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-gradient-clay-gold {
+            background: linear-gradient(135deg, #D4600A 0%, #E8A020 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .bg-gradient-radial-hero {
+            background: radial-gradient(circle at center, rgba(42, 33, 24, 0.4) 0%, rgba(42, 33, 24, 0.8) 100%);
+        }
+        .glass-panel {
+            background: rgba(250, 249, 247, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+        }
+        .faq-item.active .material-symbols-outlined.chevron {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="bg-warm_cream text-espresso_navy font-body antialiased selection:bg-amber_gold selection:text-espresso_navy">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-warm_cream/90 backdrop-blur-md shadow-sm transition-all duration-300">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<a class="text-xl font-headline font-bold text-espresso_navy flex items-center gap-2 hover:opacity-80 transition-opacity" href="#">
+<span class="material-symbols-outlined text-clay_orange" style="font-variation-settings: 'FILL' 1;">home</span>
+                AZ Homeowners Insurance
+            </a>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-clay_orange font-bold border-b-2 border-clay_orange pb-1 hover:text-clay_orange transition-colors duration-300" href="#">Coverage</a>
+<a class="text-espresso_navy font-medium hover:text-clay_orange transition-colors duration-300" href="#">Services</a>
+<a class="text-espresso_navy font-medium hover:text-clay_orange transition-colors duration-300" href="#">About</a>
+<a class="text-espresso_navy font-medium hover:text-clay_orange transition-colors duration-300" href="#">FAQ</a>
+<a class="text-espresso_navy font-medium hover:text-clay_orange transition-colors duration-300" href="#">Blog</a>
+</div>
+<div class="hidden lg:flex items-center gap-6">
+<a class="text-espresso_navy font-bold flex items-center gap-2 hover:text-clay_orange transition-colors" href="tel:844-967-5247">
+<span class="material-symbols-outlined">call</span>
+                    844-967-5247
+                </a>
+<button class="bg-clay_orange text-warm_cream px-6 py-2.5 rounded-full font-bold hover:bg-clay_orange/90 scale-95 active:scale-100 transition-all shadow-md">
+                    Get a Quote
+                </button>
+</div>
+<button class="md:hidden text-espresso_navy">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pt-[88px]">
+<!-- Layered Hero Section -->
+<section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+<!-- Background Image -->
+<div class="absolute inset-0 w-full h-full">
+<img alt="Luxury Arizona desert home at sunset with saguaro cactus and pool" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida/AP1WRLvYw25JbF8pGsdMOJubEaJMs6VJrnlLEQpPNqzdgRSZBtFTvwGIYhqa531K_eWXLkHE7Kdc0OB4yMDddkGpcxYZPbTXkUIFs7HUqY20XwVCyo55JFPM7Qzme1EujKvec_1dgxDRYpvtzduqGd_x8lHCpwp4Qcd1B1_ObOClhmiN38WHGUdE_s3aZRQh8aK4I2C0G9w6jLMhiWt9pvS4Jj2bNOYXGDneXARvUWPzTQuNsgJyBcopQX5p5w"/>
+</div>
+<!-- Shader Overlay -->
+<!-- STITCH_SHADER_START:ANIMATION_9 class="absolute inset-0 w-full h-full opacity-60 mix-blend-overlay" -->
+<div class="absolute inset-0 w-full h-full opacity-60 mix-blend-overlay" style="display:block;">
+<canvas id="shader-canvas-ANIMATION_9" style="display:block;width:100%;height:100%"></canvas>
+<script>
+(function() {
+  const canvas = document.getElementById('shader-canvas-ANIMATION_9');
+
+  // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
+  // This fires on initial layout and whenever the element is resized.
+  function syncSize() {
+    const w = canvas.clientWidth  || 1280;
+    const h = canvas.clientHeight || 720;
+    if (canvas.width !== w || canvas.height !== h) {
+      canvas.width  = w;
+      canvas.height = h;
+    }
+  }
+  if (typeof ResizeObserver !== 'undefined') {
+    new ResizeObserver(syncSize).observe(canvas);
+  }
+  syncSize();
+
+  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+  if (!gl) return;
+  const vs = `attribute vec2 a_position;
+varying vec2 v_texCoord;
+void main() {
+  v_texCoord = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`;
+  const fs = `precision highp float;
+varying vec2 v_texCoord;
+uniform float u_time;
+uniform vec2 u_resolution;
+
+void main() {
+    vec2 uv = v_texCoord;
+    
+    // Create a subtle heat shimmer / atmospheric haze effect
+    // Using simple sine waves for performance and subtlety
+    float distortion = sin(uv.y * 10.0 + u_time * 0.5) * 0.003;
+    distortion += sin(uv.x * 8.0 - u_time * 0.8) * 0.002;
+    
+    // Sample a gradient that mimics the Arizona golden hour
+    // From a deep clay orange to a warm amber gold
+    vec3 colorA = vec3(0.831, 0.376, 0.039); // #D4600A (Clay Orange)
+    vec3 colorB = vec3(1.0, 0.749, 0.0);   // #FFBF00 (Amber Gold - derived from design system)
+    
+    // Add some noise-like variation to the gradient
+    float noise = sin(uv.x * 2.0 + uv.y * 1.5 + u_time * 0.2) * 0.5 + 0.5;
+    vec3 finalColor = mix(colorA, colorB, uv.y + noise * 0.2);
+    
+    // Add a soft "glow" at the top to simulate the sun
+    float glow = smoothstep(0.0, 1.0, 1.0 - distance(uv, vec2(0.5, 1.2)));
+    finalColor += glow * 0.15;
+
+    gl_FragColor = vec4(finalColor, 0.15); // Very subtle overlay
+}`;
+  function cs(type, src) {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src);
+    gl.compileShader(s);
+    return s;
+  }
+  const prog = gl.createProgram();
+  gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+  gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+  gl.linkProgram(prog);
+  gl.useProgram(prog);
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+  const pos = gl.getAttribLocation(prog, 'a_position');
+  gl.enableVertexAttribArray(pos);
+  gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+  const uTime = gl.getUniformLocation(prog, 'u_time');
+  const uRes = gl.getUniformLocation(prog, 'u_resolution');
+  const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+
+  // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
+  // Shaders that need normalized coords should use: u_mouse / u_resolution.
+  let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+  window.addEventListener('mousemove', (event) => {
+    const rect = canvas.getBoundingClientRect();
+    if (rect.width && rect.height) {
+      const nx = (event.clientX - rect.left) / rect.width;
+      const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+      mouse.x = nx * canvas.width;
+      mouse.y = ny * canvas.height;
+    }
+  });
+
+  function render(t) {
+    if (typeof ResizeObserver === 'undefined') syncSize();
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    if (uTime) gl.uniform1f(uTime, t * 0.001);
+    if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+    if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(render);
+  }
+  render(0);
+})();
+</script>
+</div>
+<!-- STITCH_SHADER_END:ANIMATION_9 -->
+<!-- Gradient Overlay -->
+<div class="absolute inset-0 bg-gradient-radial-hero"></div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-20 pb-24">
+<div class="lg:col-span-8 flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 bg-warm_cream/10 backdrop-blur-sm border border-warm_cream/20 px-4 py-2 rounded-full w-fit">
+<span class="w-2 h-2 rounded-full bg-amber_gold animate-pulse"></span>
+<span class="text-warm_cream text-sm font-semibold tracking-wide uppercase">Top Rated in Arizona</span>
+</div>
+<h1 class="text-5xl md:text-6xl lg:text-7xl font-headline font-bold leading-[1.1] tracking-tight text-warm_cream">
+                        Arizona homeowners insurance that covers the <span class="text-gradient-clay-gold">heat, the monsoon, and the wildfire</span>
+</h1>
+<p class="text-xl md:text-2xl text-warm_cream/90 font-body max-w-2xl leading-relaxed">
+                        Compare 12+ A-rated carriers for the best local protection. Tailored for the unique challenges of the Southwest.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<button class="bg-clay_orange text-warm_cream px-8 py-4 rounded-full font-bold text-lg hover:bg-clay_orange/90 transition-all shadow-lg hover:shadow-clay_orange/30 flex items-center justify-center gap-2">
+                            Get a Quote
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<a class="border-2 border-warm_cream text-warm_cream px-8 py-4 rounded-full font-bold text-lg hover:bg-warm_cream hover:text-espresso_navy transition-all flex items-center justify-center gap-2 backdrop-blur-sm bg-warm_cream/5" href="tel:844-967-5247">
+<span class="material-symbols-outlined">call</span>
+                            Call Now
+                        </a>
+</div>
+<!-- Trust Stats -->
+<div class="grid grid-cols-3 gap-6 pt-12 border-t border-warm_cream/20 mt-4">
+<div>
+<p class="text-3xl font-headline font-bold text-amber_gold mb-1">2,000+</p>
+<p class="text-warm_cream/80 text-sm font-medium uppercase tracking-wider">Homes Insured</p>
+</div>
+<div>
+<p class="text-3xl font-headline font-bold text-amber_gold mb-1">20+</p>
+<p class="text-warm_cream/80 text-sm font-medium uppercase tracking-wider">Years Expertise</p>
+</div>
+<div>
+<p class="text-3xl font-headline font-bold text-amber_gold mb-1">15-min</p>
+<p class="text-warm_cream/80 text-sm font-medium uppercase tracking-wider">Quotes</p>
+</div>
+</div>
+</div>
+<!-- Decorative element right side -->
+<div class="hidden lg:block lg:col-span-4 relative">
+<div class="glass-panel p-8 rounded-2xl shadow-2xl relative z-10 transform translate-y-8">
+<h3 class="font-headline font-bold text-2xl mb-6 text-espresso_navy">Fast, accurate quotes.</h3>
+<form class="flex flex-col gap-4">
+<div class="flex flex-col gap-2">
+<label class="text-sm font-semibold text-espresso_navy/70">Property ZIP Code</label>
+<input class="w-full px-4 py-3 rounded-xl border-gray-200 bg-white/80 focus:ring-2 focus:ring-clay_orange focus:border-transparent transition-all outline-none text-lg" placeholder="e.g. 85001" type="text"/>
+</div>
+<button class="w-full bg-espresso_navy text-warm_cream py-4 rounded-xl font-bold mt-2 hover:bg-espresso_navy/90 transition-colors flex items-center justify-center gap-2" type="button">
+                                Start Savings
+                                <span class="material-symbols-outlined">trending_flat</span>
+</button>
+</form>
+</div>
+<!-- Decorative blobs behind card -->
+<div class="absolute -top-10 -right-10 w-40 h-40 bg-clay_orange/30 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-10 -left-10 w-40 h-40 bg-amber_gold/30 rounded-full blur-3xl"></div>
+</div>
+</div>
+</section>
+<!-- Carrier Trust Bar -->
+<section class="bg-white py-12 border-b border-light_steel_sand/50">
+<div class="max-w-7xl mx-auto px-8">
+<p class="text-center text-sm font-bold text-espresso_navy/50 uppercase tracking-widest mb-8">Trusted by A-Rated Carriers</p>
+<div class="flex justify-center items-center opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+<img alt="Logos of various A-rated insurance carriers like Progressive, Safeco, Travelers, displayed in a row" class="h-16 object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLs1HS6VdsyGV4UUotQg5t6JFXuTjG0iu3RBsFDCkH3kqf0_MhxGmg0dnmcEye2qz74RCS7fFh8KFAHiMWexXTJc7JfkCOWpRlHONyaP-InBnuxIQBppWFk0X9yPfBkar8fusa4Bvw9pQuSk9jy5oCz6CC-hrlUPDERcesnOoAZZLYOZ56jSckTTfuQaXaZ5O3sHiZHBKD1RhUcKDOizWOlCTsitxNBVCMF4tEegEHVrzQGkYjNouMZD88U"/>
+</div>
+</div>
+</section>
+<!-- Services Grid - Bento Style -->
+<section class="py-24 bg-light_steel_sand/30">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16 max-w-2xl mx-auto">
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-espresso_navy mb-6 tracking-tight">Comprehensive Protection</h2>
+<p class="text-lg text-espresso_navy/70">Tailored coverages designed specifically to shield your Arizona home from local risks and everyday uncertainties.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-white p-8 rounded-12 shadow-sm hover:shadow-md transition-shadow duration-300 border border-warm_cream group">
+<div class="w-14 h-14 bg-clay_orange/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-clay_orange transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-clay_orange group-hover:text-white transition-colors duration-300" style="font-variation-settings: 'FILL' 1;">home</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-espresso_navy mb-3">Dwelling</h3>
+<p class="text-espresso_navy/70 leading-relaxed">Protect the physical structure of your home against fire, wind, hail, and vandalism. Essential coverage for your primary asset.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-white p-8 rounded-12 shadow-sm hover:shadow-md transition-shadow duration-300 border border-warm_cream group">
+<div class="w-14 h-14 bg-amber_gold/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber_gold transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-amber_gold group-hover:text-espresso_navy transition-colors duration-300" style="font-variation-settings: 'FILL' 1;">chair</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-espresso_navy mb-3">Personal Property</h3>
+<p class="text-espresso_navy/70 leading-relaxed">Coverage for your belongings—furniture, electronics, clothing—whether they are inside your home or temporarily elsewhere.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-white p-8 rounded-12 shadow-sm hover:shadow-md transition-shadow duration-300 border border-warm_cream group">
+<div class="w-14 h-14 bg-espresso_navy/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-espresso_navy transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-espresso_navy group-hover:text-white transition-colors duration-300" style="font-variation-settings: 'FILL' 1;">shield_person</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-espresso_navy mb-3">Liability</h3>
+<p class="text-espresso_navy/70 leading-relaxed">Financial protection if someone is injured on your property or if you accidentally damage someone else's property.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-white p-8 rounded-12 shadow-sm hover:shadow-md transition-shadow duration-300 border border-warm_cream group">
+<div class="w-14 h-14 bg-blue-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-500 transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-blue-500 group-hover:text-white transition-colors duration-300" style="font-variation-settings: 'FILL' 1;">flood</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-espresso_navy mb-3">Flood (Monsoon)</h3>
+<p class="text-espresso_navy/70 leading-relaxed">Standard policies exclude flood damage. We offer specialized coverage to protect against Arizona's sudden monsoon flash floods.</p>
+</div>
+<!-- Card 5 -->
+<div class="bg-white p-8 rounded-12 shadow-sm hover:shadow-md transition-shadow duration-300 border border-warm_cream group">
+<div class="w-14 h-14 bg-purple-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-purple-500 transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-purple-500 group-hover:text-white transition-colors duration-300" style="font-variation-settings: 'FILL' 1;">umbrella</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-espresso_navy mb-3">Umbrella</h3>
+<p class="text-espresso_navy/70 leading-relaxed">Extra liability coverage that goes beyond the limits of your standard home policy, safeguarding your future earnings and assets.</p>
+</div>
+<!-- Card 6 -->
+<div class="bg-clay_orange text-white p-8 rounded-12 shadow-lg relative overflow-hidden group">
+<div class="absolute -right-10 -bottom-10 w-48 h-48 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
+<div class="relative z-10">
+<div class="w-14 h-14 bg-white/20 backdrop-blur-md rounded-xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-3xl text-white" style="font-variation-settings: 'FILL' 1;">diamond</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-3">High-Value Home</h3>
+<p class="text-white/80 leading-relaxed mb-6">Customized, high-limit policies for luxury homes in Scottsdale and Paradise Valley with extensive features and fine art.</p>
+<a class="inline-flex items-center gap-2 text-warm_cream font-bold hover:text-amber_gold transition-colors" href="#">
+                                Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Two Column: Why Switch -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1 relative">
+<div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative">
+<img alt="Friendly insurance agent consulting with a couple in a sunlit modern office" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLs_dbz-uge1H9XOgFRPlXxlbqtMev6CRrlCNJEQCBS-H7AIJJ3Cj6bhHveKaFHMzNrTDY9-Qmr6UNTPj0Gv9DKss5bJsQ7_UMk4hiAjuo2rEOjQ_h1bP2eGisr5HNumm-KMXJmaKc439-Ic-i4pniCXE7sRzK1Fn9UX27hetp3qFpIoKmkCzLsYOwB6R-D_F8SqZMshVyZpTHKtLftj5TVtHhIHZJrdyggiOiGgG4t0Go3hWVPtsRZiXxk"/>
+<div class="absolute inset-0 border-4 border-white/20 rounded-2xl pointer-events-none"></div>
+</div>
+<!-- Floating badge -->
+<div class="absolute -bottom-8 -right-8 bg-espresso_navy text-warm_cream p-6 rounded-2xl shadow-xl max-w-xs glass-panel bg-espresso_navy/95 border-none">
+<div class="flex items-center gap-4 mb-2">
+<div class="flex -space-x-2">
+<div class="w-10 h-10 rounded-full bg-clay_orange border-2 border-espresso_navy flex items-center justify-center text-xs font-bold">JD</div>
+<div class="w-10 h-10 rounded-full bg-amber_gold border-2 border-espresso_navy flex items-center justify-center text-xs font-bold text-espresso_navy">MK</div>
+</div>
+<div class="text-sm font-bold">Local Experts</div>
+</div>
+<p class="text-sm text-warm_cream/70">Our agents live and work in the communities they insure.</p>
+</div>
+</div>
+<div class="order-1 lg:order-2 flex flex-col gap-8">
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-espresso_navy tracking-tight leading-tight">
+                        Why Arizona homeowners switch to us
+                    </h2>
+<div class="flex flex-col gap-8 mt-4">
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-light_steel_sand rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-clay_orange" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div>
+<h4 class="text-xl font-bold text-espresso_navy mb-2">Local Expertise</h4>
+<p class="text-espresso_navy/70 leading-relaxed">We understand roof types, stucco, and the exact risks of living in the desert. National call centers don't.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-light_steel_sand rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-amber_gold" style="font-variation-settings: 'FILL' 1;">handshake</span>
+</div>
+<div>
+<h4 class="text-xl font-bold text-espresso_navy mb-2">Personal Service</h4>
+<p class="text-espresso_navy/70 leading-relaxed">You get a dedicated agent. No holding for hours, no explaining your situation to a new rep every time.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-light_steel_sand rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-espresso_navy" style="font-variation-settings: 'FILL' 1;">tune</span>
+</div>
+<div>
+<h4 class="text-xl font-bold text-espresso_navy mb-2">Unbiased Options</h4>
+<p class="text-espresso_navy/70 leading-relaxed">As an independent agency, we shop your policy across multiple top-tier carriers to find the best rate and coverage combo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4-Step Process -->
+<section class="py-24 bg-espresso_navy text-warm_cream relative overflow-hidden">
+<!-- Background Accent -->
+<div class="absolute top-0 right-0 w-[800px] h-[800px] bg-clay_orange/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="text-center mb-20">
+<h2 class="text-4xl md:text-5xl font-headline font-bold mb-6 tracking-tight">Your Path to Protection</h2>
+<p class="text-lg text-warm_cream/70 max-w-2xl mx-auto">Securing your home shouldn't be complicated. We've streamlined the process.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+<!-- Connecting line for desktop -->
+<div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-warm_cream/10 -translate-y-1/2 z-0"></div>
+<!-- Step 1 -->
+<div class="relative z-10 flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-espresso_navy border-4 border-clay_orange rounded-full flex items-center justify-center mb-6 shadow-lg shadow-clay_orange/20 group-hover:scale-110 transition-transform duration-300">
+<span class="text-2xl font-headline font-bold text-clay_orange">1</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Connect</h4>
+<p class="text-warm_cream/60 text-sm">Provide basic details about your property and current coverage needs.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative z-10 flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-espresso_navy border-4 border-amber_gold rounded-full flex items-center justify-center mb-6 shadow-lg shadow-amber_gold/20 group-hover:scale-110 transition-transform duration-300">
+<span class="text-2xl font-headline font-bold text-amber_gold">2</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Quote</h4>
+<p class="text-warm_cream/60 text-sm">We analyze your risks and gather quotes from our network of carriers.</p>
+</div>
+<!-- Step 3 -->
+<div class="relative z-10 flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-espresso_navy border-4 border-warm_cream rounded-full flex items-center justify-center mb-6 shadow-lg shadow-warm_cream/10 group-hover:scale-110 transition-transform duration-300">
+<span class="text-2xl font-headline font-bold text-warm_cream">3</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Compare</h4>
+<p class="text-warm_cream/60 text-sm">Review a side-by-side comparison of your best options with an agent.</p>
+</div>
+<!-- Step 4 -->
+<div class="relative z-10 flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-clay_orange border-4 border-clay_orange rounded-full flex items-center justify-center mb-6 shadow-lg shadow-clay_orange/40 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-3xl text-white" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Secure</h4>
+<p class="text-warm_cream/60 text-sm">Sign digitally and rest easy knowing your Arizona home is fully protected.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Arizona Coverage Map Section -->
+<section class="py-24 bg-warm_cream">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-espresso_navy mb-6 tracking-tight">Protecting the Entire Grand Canyon State</h2>
+<p class="text-lg text-espresso_navy/70 mb-10 leading-relaxed">From the pines of Flagstaff to the sprawling metro of Phoenix, we provide tailored policies that account for local elevation, weather patterns, and regional risks.</p>
+<ul class="grid grid-cols-2 gap-y-4 gap-x-8">
+<li class="flex items-center gap-3 text-lg font-medium text-espresso_navy">
+<span class="w-2 h-2 rounded-full bg-clay_orange"></span> Phoenix
+                        </li>
+<li class="flex items-center gap-3 text-lg font-medium text-espresso_navy">
+<span class="w-2 h-2 rounded-full bg-clay_orange"></span> Scottsdale
+                        </li>
+<li class="flex items-center gap-3 text-lg font-medium text-espresso_navy">
+<span class="w-2 h-2 rounded-full bg-amber_gold"></span> Tucson
+                        </li>
+<li class="flex items-center gap-3 text-lg font-medium text-espresso_navy">
+<span class="w-2 h-2 rounded-full bg-amber_gold"></span> Chandler
+                        </li>
+<li class="flex items-center gap-3 text-lg font-medium text-espresso_navy">
+<span class="w-2 h-2 rounded-full bg-espresso_navy"></span> Flagstaff
+                        </li>
+<li class="flex items-center gap-3 text-lg font-medium text-espresso_navy">
+<span class="w-2 h-2 rounded-full bg-espresso_navy"></span> Prescott
+                        </li>
+</ul>
+</div>
+<div class="relative flex justify-center">
+<img alt="Stylized map of Arizona highlighting major cities like Phoenix, Tucson, and Flagstaff in warm desert tones" class="w-full max-w-md object-contain mix-blend-multiply opacity-90" data-location="Arizona" src="https://lh3.googleusercontent.com/aida/AP1WRLtmiurtJDqNl9pXwGEAAI86aAxFAYRxvNP1ikDEFVdLV9YxnitA8TUrnaWitSfBTQOFEZA9WyFxKLYc-di4PwAAWC3uw-cLXdDaiU2HiDX_VFQS90GVx4on0U01DHLax72W-mloAFEiiz1de5VWG76QbIQR9Q-nX12RHrU4i9FBOf-rhJ6eOcKt0zSvW-k3iYjCbWfzaHYXxqFUYeNEDU6ZnfeT-ANiID_vYb8UKa4Y8F3XNjgCy53umRI"/>
+</div>
+</div>
+</section>
+<!-- Animated Stat Counters -->
+<section class="py-20 bg-clay_orange text-warm_cream">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center divide-y md:divide-y-0 md:divide-x divide-warm_cream/20">
+<div class="py-4">
+<div class="text-5xl md:text-6xl font-headline font-bold mb-2 tracking-tight">29%</div>
+<div class="text-lg font-medium text-warm_cream/90 uppercase tracking-wide">Average Savings</div>
+</div>
+<div class="py-4">
+<div class="text-5xl md:text-6xl font-headline font-bold mb-2 tracking-tight">2020+</div>
+<div class="text-lg font-medium text-warm_cream/90 uppercase tracking-wide">Homes Protected</div>
+</div>
+<div class="py-4">
+<div class="text-5xl md:text-6xl font-headline font-bold mb-2 tracking-tight">98%</div>
+<div class="text-lg font-medium text-warm_cream/90 uppercase tracking-wide">Satisfaction Rate</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Accordion -->
+<section class="py-24 bg-white">
+<div class="max-w-4xl mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-espresso_navy mb-6 tracking-tight">Arizona Insurance FAQs</h2>
+<p class="text-lg text-espresso_navy/70">Common questions about insuring homes in the desert environment.</p>
+</div>
+<div class="flex flex-col gap-4">
+<!-- FAQ 1 -->
+<div class="faq-item border border-light_steel_sand rounded-xl overflow-hidden bg-warm_cream/30 hover:bg-warm_cream/60 transition-colors cursor-pointer" onclick="this.classList.toggle('active')">
+<div class="p-6 flex justify-between items-center">
+<h3 class="text-lg font-bold text-espresso_navy">Does standard home insurance cover monsoon wind and water damage?</h3>
+<span class="material-symbols-outlined chevron text-clay_orange transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-answer px-6 pb-6 text-espresso_navy/70">
+                            Wind damage (like roof shingles blowing off) is typically covered. However, flood damage caused by heavy monsoon rains pooling and entering your home from the ground up requires a separate Flood Insurance policy.
+                        </div>
+</div>
+<!-- FAQ 2 -->
+<div class="faq-item border border-light_steel_sand rounded-xl overflow-hidden bg-warm_cream/30 hover:bg-warm_cream/60 transition-colors cursor-pointer" onclick="this.classList.toggle('active')">
+<div class="p-6 flex justify-between items-center">
+<h3 class="text-lg font-bold text-espresso_navy">Are wildfires covered under my policy?</h3>
+<span class="material-symbols-outlined chevron text-clay_orange transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-answer px-6 pb-6 text-espresso_navy/70">
+                            Yes, fire is a standard covered peril. However, if you live in high-risk brush areas (like parts of Flagstaff, Prescott, or the foothills), getting coverage can be difficult. We work with specialized carriers who write policies in these specific zones.
+                        </div>
+</div>
+<!-- FAQ 3 -->
+<div class="faq-item border border-light_steel_sand rounded-xl overflow-hidden bg-warm_cream/30 hover:bg-warm_cream/60 transition-colors cursor-pointer" onclick="this.classList.toggle('active')">
+<div class="p-6 flex justify-between items-center">
+<h3 class="text-lg font-bold text-espresso_navy">Do I need extra liability for my swimming pool?</h3>
+<span class="material-symbols-outlined chevron text-clay_orange transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-answer px-6 pb-6 text-espresso_navy/70">
+                            Absolutely. A pool is considered an "attractive nuisance" and increases your liability risk significantly. We strongly recommend higher liability limits (at least $500,000) or an Umbrella policy for homes with pools.
+                        </div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-espresso_navy text-warm_cream pt-20 pb-10 rounded-t-[2.5rem] mt-[-2rem] relative z-20">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<!-- Brand & CTA -->
+<div class="md:col-span-1">
+<a class="text-2xl font-headline font-bold text-warm_cream flex items-center gap-2 mb-6" href="#">
+<span class="material-symbols-outlined text-clay_orange" style="font-variation-settings: 'FILL' 1;">home</span>
+                        AZ Homeowners Insurance
+                    </a>
+<p class="text-warm_cream/70 text-sm mb-6 leading-relaxed">Providing premium, tailored protection for Arizona homes against the unique elements of the Southwest.</p>
+<button class="bg-clay_orange text-warm_cream px-6 py-3 rounded-full font-bold text-sm hover:bg-amber_gold hover:text-espresso_navy transition-colors w-full sm:w-auto text-center">
+                        Get a Free Quote
+                    </button>
+</div>
+<!-- Quick Links -->
+<div>
+<h4 class="font-headline font-bold text-amber_gold mb-6 uppercase tracking-wider text-sm">Navigation</h4>
+<ul class="flex flex-col gap-3">
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">Coverage Options</a></li>
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">Agency Services</a></li>
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">About Us</a></li>
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">Blog &amp; Resources</a></li>
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">FAQ</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h4 class="font-headline font-bold text-amber_gold mb-6 uppercase tracking-wider text-sm">Contact</h4>
+<ul class="flex flex-col gap-4">
+<li>
+<a class="flex items-start gap-3 text-warm_cream/80 hover:text-amber_gold transition-colors group" href="tel:844-967-5247">
+<span class="material-symbols-outlined text-clay_orange group-hover:text-amber_gold transition-colors mt-0.5" style="font-size: 20px;">call</span>
+<div>
+<span class="block text-sm font-bold">844-967-5247</span>
+<span class="block text-xs opacity-70">Mon-Fri, 8am - 6pm MST</span>
+</div>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 text-warm_cream/80 hover:text-amber_gold transition-colors group text-sm" href="mailto:josh@contractorschoiceagency.com">
+<span class="material-symbols-outlined text-clay_orange group-hover:text-amber_gold transition-colors" style="font-size: 20px;">mail</span>
+                                josh@contractorschoiceagency.com
+                            </a>
+</li>
+</ul>
+</div>
+<!-- Legal/Trust -->
+<div>
+<h4 class="font-headline font-bold text-amber_gold mb-6 uppercase tracking-wider text-sm">Legal</h4>
+<ul class="flex flex-col gap-3">
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">Privacy Policy</a></li>
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">Terms of Service</a></li>
+<li><a class="text-warm_cream/80 hover:text-amber_gold transition-colors text-sm" href="#">Accessibility</a></li>
+</ul>
+<div class="mt-6 flex gap-2">
+<div class="w-8 h-8 rounded bg-warm_cream/10 flex items-center justify-center" title="Equal Housing Opportunity">
+<span class="material-symbols-outlined text-warm_cream/50 text-sm">home_work</span>
+</div>
+<div class="w-8 h-8 rounded bg-warm_cream/10 flex items-center justify-center" title="Secure Site">
+<span class="material-symbols-outlined text-warm_cream/50 text-sm">lock</span>
+</div>
+</div>
+</div>
+</div>
+<div class="border-t border-warm_cream/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-warm_cream/50 text-sm">© 2024 AZ Homeowners Insurance. Licensed in Arizona.</p>
+<div class="flex gap-4">
+<a class="text-warm_cream/50 hover:text-clay_orange transition-colors" href="#">
+<span class="sr-only">Facebook</span>
+<svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-warm_cream/50 hover:text-clay_orange transition-colors" href="#">
+<span class="sr-only">LinkedIn</span>
+<svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
