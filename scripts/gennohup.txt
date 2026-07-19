@@ -8,3 +8,47 @@
 [og-image.jpg] OK together (104059 bytes)
 [dwelling-coverage.jpg] together attempt 1
 [dwelling-coverage.jpg] together attempt 2
+[dwelling-coverage.jpg] OK together (328413 bytes)
+[personal-property.jpg] together attempt 1
+[personal-property.jpg] together attempt 2
+[personal-property.jpg] OK together (314777 bytes)
+[liability.jpg] together attempt 1
+[liability.jpg] together attempt 2
+[liability.jpg] OK together (223421 bytes)
+[loss-of-use.jpg] together attempt 1
+[loss-of-use.jpg] together attempt 2
+[loss-of-use.jpg] OK together (236316 bytes)
+[flood-insurance.jpg] together attempt 1
+[flood-insurance.jpg] together attempt 2
+[flood-insurance.jpg] OK together (396568 bytes)
+[umbrella.jpg] together attempt 1
+[umbrella.jpg] OK together (99081 bytes)
+[scheduled-personal-property.jpg] together attempt 1
+[scheduled-personal-property.jpg] together attempt 2
+[scheduled-personal-property.jpg] together attempt 3
+[scheduled-personal-property.jpg] OK together (174038 bytes)
+[dwelling-fire.jpg] together attempt 1
+[dwelling-fire.jpg] together attempt 2
+[dwelling-fire.jpg] OK together (608875 bytes)
+[condo-insurance.jpg] together attempt 1
+[condo-insurance.jpg] together attempt 2
+[condo-insurance.jpg] OK together (403158 bytes)
+[renters-insurance.jpg] together attempt 1
+[renters-insurance.jpg] together attempt 2
+[renters-insurance.jpg] OK together (329195 bytes)
+[mobile-home-insurance.jpg] together attempt 1
+[mobile-home-insurance.jpg] together attempt 2
+[mobile-home-insurance.jpg] OK together (204717 bytes)
+[high-value-home-insurance.jpg] together attempt 1
+[high-value-home-insurance.jpg] together attempt 2
+[high-value-home-insurance.jpg] OK together (342032 bytes)
+[flood-coverage.jpg] together attempt 1
+[flood-coverage.jpg] together attempt 2
+[flood-coverage.jpg] OK together (231538 bytes)
+[wildfire-coverage.jpg] together attempt 1
+[wildfire-coverage.jpg] together attempt 2
+[wildfire-coverage.jpg] OK together (371011 bytes)
+[monsoon-guide.jpg] together attempt 1
+[monsoon-guide.jpg] together attempt 2
+[monsoon-guide.jpg] OK together (206727 bytes)
+[cost-breakdown.jpg] together attempt 1
