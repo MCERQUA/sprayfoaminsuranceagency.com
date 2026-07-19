@@ -8,7 +8,11 @@ import { SITE } from "@/lib/site";
 import { COPY } from "@/lib/content";
 import { CheckCircle2, ArrowRight, Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 
-const WEBHOOK_URL = `https://josh.jam-bot.com/social-api/api/leads/webhook/netlify?tenant=josh&site=${SITE.domain}`;
+// Netlify Forms submission encoder — posts urlencoded body to "/" (no external webhook).
+const encode = (data: Record<string, string>) =>
+  Object.keys(data)
+    .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
+    .join("&");
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: "", email: "", phone: "", subject: "", message: "", "bot-field": "" });
@@ -26,7 +30,12 @@ export default function ContactPage() {
     setSubmitting(true);
     setError("");
     try {
-      await fetch(WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ form_name: "contact", source: SITE.domain, ...formData }) });
+      const res = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...formData }),
+      });
+      if (!res.ok) throw new Error("submit failed");
       setSubmitted(true);
     } catch {
       setError(COPY.contact.errorMessage);

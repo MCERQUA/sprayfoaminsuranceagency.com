@@ -9,13 +9,17 @@ import { SITE } from "@/lib/site";
 import { US_STATES, QUOTE_SERVICE_TYPES, YEARS_OPTIONS, COPY } from "@/lib/content";
 import { CheckCircle2, ShieldCheck, ArrowRight, Phone, Clock, Zap, MapPin } from "lucide-react";
 
-const WEBHOOK_URL = `https://josh.jam-bot.com/social-api/api/leads/webhook/netlify?tenant=josh&site=${SITE.domain}`;
+// Netlify Forms submission encoder — posts urlencoded body to "/" (no external webhook).
+const encode = (data: Record<string, string>) =>
+  Object.keys(data)
+    .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
+    .join("&");
 
 const trustItems = [
   { icon: ShieldCheck, title: COPY.quote.trustNicheTitle, desc: COPY.quote.trustNicheDesc },
-  { icon: Zap, title: "~15-minute quotes", desc: "Real quotes from real markets, fast." },
-  { icon: Clock, title: "2-hour claims response", desc: "When a loss hits, you reach a person." },
-  { icon: MapPin, title: "All 50 states", desc: "Licensed nationwide — NPN #8608479." },
+  { icon: Zap, title: "~15-minute quotes", desc: "Real quotes from A-rated Arizona markets, fast." },
+  { icon: Clock, title: "Same-day claims contact", desc: "When a loss hits, you reach a person." },
+  { icon: MapPin, title: "Licensed in Arizona", desc: "AZ homeowners specialists — NPN #8608479." },
 ];
 
 export default function QuotePage() {
@@ -36,7 +40,12 @@ export default function QuotePage() {
     setSubmitting(true);
     setError("");
     try {
-      await fetch(WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ form_name: "quote", source: SITE.domain, ...formData }) });
+      const res = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "quote", ...formData }),
+      });
+      if (!res.ok) throw new Error("submit failed");
       setSubmitted(true);
     } catch {
       setError(COPY.quote.errorMessage);
@@ -91,7 +100,7 @@ export default function QuotePage() {
                     <div className="p-10 md:p-12 rounded-3xl bg-white border border-adobe shadow-card text-center">
                       <div className="w-16 h-16 rounded-full bg-sage/15 flex items-center justify-center mx-auto mb-4"><CheckCircle2 className="h-8 w-8 text-sage" /></div>
                       <h2 className="font-heading font-extrabold text-espresso text-2xl mb-3">Quote request received</h2>
-                      <p className="text-mocha mb-2">Thank you! We'll review your operation and reach out within one business day with personalized quotes.</p>
+                      <p className="text-mocha mb-2">Thank you! We'll review your home details and reach out within one business day with personalized quotes.</p>
                       <p className="text-sm text-mocha">Need it sooner? Call <a href={SITE.phoneHref} className="text-clay font-heading font-semibold">{SITE.phone}</a>.</p>
                       <Link href="/" className="btn-secondary mt-6 inline-flex">Back to home</Link>
                     </div>
@@ -104,7 +113,7 @@ export default function QuotePage() {
 
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div><label htmlFor="name" className={labelClass}>Full name *</label><input id="name" name="name" type="text" required value={formData.name} onChange={handleChange} placeholder="Jane Smith" className={inputClass} /></div>
-                        <div><label htmlFor="businessName" className={labelClass}>Business name *</label><input id="businessName" name="businessName" type="text" required value={formData.businessName} onChange={handleChange} placeholder={COPY.quote.businessPlaceholder} className={inputClass} /></div>
+                        <div><label htmlFor="businessName" className={labelClass}>Property address *</label><input id="businessName" name="businessName" type="text" required value={formData.businessName} onChange={handleChange} placeholder={COPY.quote.businessPlaceholder} className={inputClass} /></div>
                       </div>
 
                       <div className="grid sm:grid-cols-2 gap-4">
@@ -116,7 +125,7 @@ export default function QuotePage() {
                         <div><label htmlFor="state" className={labelClass}>Primary state *</label>
                           <select id="state" name="state" required value={formData.state} onChange={handleChange} className={inputClass}><option value="">Select a state…</option>{US_STATES.map((s) => (<option key={s} value={s}>{s}</option>))}</select>
                         </div>
-                        <div><label htmlFor="yearsInBusiness" className={labelClass}>Years in business</label>
+                        <div><label htmlFor="yearsInBusiness" className={labelClass}>How long you've owned it</label>
                           <select id="yearsInBusiness" name="yearsInBusiness" value={formData.yearsInBusiness} onChange={handleChange} className={inputClass}><option value="">Select…</option>{YEARS_OPTIONS.map((y) => (<option key={y} value={y}>{y}</option>))}</select>
                         </div>
                       </div>
@@ -126,7 +135,7 @@ export default function QuotePage() {
                       </div>
 
                       <div>
-                        <label htmlFor="message" className={labelClass}>Tell us about your operation <span className="text-mocha/60 font-normal">(optional)</span></label>
+                        <label htmlFor="message" className={labelClass}>Tell us about your home <span className="text-mocha/60 font-normal">(optional)</span></label>
                         <textarea id="message" name="message" rows={4} value={formData.message} onChange={handleChange} placeholder={COPY.quote.messagePlaceholder} className={`${inputClass} resize-none`} />
                       </div>
 
