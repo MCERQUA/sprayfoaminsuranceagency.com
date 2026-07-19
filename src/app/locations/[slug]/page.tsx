@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const url = `${SITE.url}/locations/${slug}`;
   return {
     title: `${SITE.name} — ${loc.name}`,
-    description: `${loc.blurb} GL, off-ratio coverage, CPL, workers' comp, commercial auto, tools and equipment, and bonds for ${loc.name} spray foam contractors. 15-minute quotes.`,
+    description: `${loc.blurb} Homeowners, dwelling, flood, liability, and umbrella coverage for ${loc.name} homeowners — 12+ A-rated carriers compared. Licensed in Arizona, quotes in 15 minutes.`,
     alternates: { canonical: url },
     openGraph: { title: `${SITE.name} — ${loc.name} | Contractors Choice Agency`, description: loc.blurb, url },
   };
@@ -89,7 +89,7 @@ export default async function LocationPage({ params }: Props) {
 
               <FadeIn direction="left" className="lg:col-span-5">
                 <div className="rounded-t-[10rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
-                  <img src="/images/coverage.jpg" alt={`Spray foam contractor working in ${loc.name}`} className="w-full h-[300px] md:h-[360px] object-cover" loading="lazy" />
+                  <img src="/images/coverage.jpg" alt={`Homeowners insurance for ${loc.name} — Arizona homes`} className="w-full h-[300px] md:h-[360px] object-cover" loading="lazy" />
                 </div>
               </FadeIn>
             </div>
@@ -99,9 +99,9 @@ export default async function LocationPage({ params }: Props) {
         <section className="bg-cream py-16 md:py-20">
           <div className="container-tight">
             <FadeIn className="max-w-2xl mb-10">
-              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} contractors</span>
-              <h2 className="mt-3 h-section">The full program, built for {loc.name} spray foam contractors.</h2>
-              <p className="mt-4 lead">From a solo applicator to a multi-crew insulation business, we coordinate every line a {loc.name} spray foam contractor needs.</p>
+              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} homeowners</span>
+              <h2 className="mt-3 h-section">The full program, built for {loc.name} homeowners.</h2>
+              <p className="mt-4 lead">From a first home to a high-value estate, we coordinate every line a {loc.name} homeowner needs — dwelling, personal property, liability, flood, and umbrella — comparing 12+ A-rated carriers.</p>
             </FadeIn>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {SERVICES.slice(0, 4).map((s, i) => (
@@ -117,9 +117,9 @@ export default async function LocationPage({ params }: Props) {
           </div>
         </section>
 
-        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Spray foam insurance questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
+        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Homeowners insurance questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
 
-        <CTABand title={`Insuring spray foam contractors in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
+        <CTABand title={`Insuring ${loc.name} homeowners since 2005`} description={`Local Arizona knowledge, A-rated carriers, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
       </main>
       <Footer />
     </>
