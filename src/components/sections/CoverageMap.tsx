@@ -26,7 +26,7 @@ export function CoverageMap() {
             </ul>
 
             <div className="mt-7 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sage/10 border border-sage/20 text-sage-dark text-sm font-heading font-semibold">
-              <CheckCircle2 className="h-4 w-4" />Licensed & writing in all 50 states — NPN #8608479
+              <CheckCircle2 className="h-4 w-4" />Licensed & writing across Arizona — NPN #8608479
             </div>
           </FadeIn>
 

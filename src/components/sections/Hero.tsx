@@ -41,7 +41,7 @@ export function Hero() {
             <motion.div {...item} className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-mocha">
               <span className="inline-flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-sage" />15-minute quotes</span>
               <span className="inline-flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-sage" />2-hour claims response</span>
-              <span className="inline-flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-sage" />Licensed all 50 states</span>
+              <span className="inline-flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-sage" />Licensed in Arizona</span>
               <span className="inline-flex items-center gap-1.5"><Star className="h-4 w-4 text-gold fill-gold" />20+ years insuring industry</span>
             </motion.div>
           </motion.div>
@@ -67,7 +67,7 @@ export function Hero() {
 
               <motion.div initial={prefersReduced ? {} : { opacity: 0, y: -10 }} animate={prefersReduced ? {} : { opacity: 1, y: 0 }} transition={{ delay: 0.75, duration: 0.6 }} className="absolute -top-4 -right-3 md:-right-6 bg-sage text-white rounded-2xl shadow-warm-lg px-4 py-3">
                 <p className="font-heading font-bold text-sm">NPN #{SITE.npn}</p>
-                <p className="text-[0.7rem] text-white/80 mt-0.5">Licensed all 50 states</p>
+                <p className="text-[0.7rem] text-white/80 mt-0.5">Licensed in Arizona</p>
               </motion.div>
             </div>
           </motion.div>

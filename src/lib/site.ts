@@ -17,12 +17,12 @@ export const SITE = {
   founded: 2005,
   npn: "8608479",
   address: {
-    street: "12220 E Riggs Road, Suite #105",
     city: "Chandler",
     state: "AZ",
-    zip: "85249",
+    region: "Arizona",
     country: "US",
   },
+  serviceArea: "Serving homeowners across Arizona — statewide",
   hours: "Mon–Fri 8am–5pm (MST)",
   claimsSla: "Same-day claims contact",
   quoteSla: "15-minute quote turnaround",
@@ -129,6 +129,42 @@ export const SERVICES = [
     icon: "Flame",
     keywords: ["arizona rental property insurance", "az dwelling fire policy", "vacant home insurance arizona", "arizona investment property insurance"],
   },
+  {
+    slug: "condo-insurance",
+    title: "Condo Insurance (HO-6)",
+    short: "Walls-in coverage for Arizona condo and townhome owners",
+    description:
+      "An Arizona condo policy (HO-6) covers everything your HOA master policy doesn't — interior walls, floors, cabinets, fixtures, your personal property, personal liability, and loss assessment. We help Tempe, Scottsdale, and Phoenix condo owners close the gap between the association's 'bare walls' master policy and what you actually own.",
+    icon: "Building",
+    keywords: ["arizona condo insurance", "ho-6 insurance arizona", "condo insurance phoenix", "arizona townhome insurance", "az condo ho6 policy"],
+  },
+  {
+    slug: "renters-insurance",
+    title: "Renters Insurance (HO-4)",
+    short: "Affordable belongings + liability coverage for AZ renters",
+    description:
+      "Arizona renters insurance (HO-4) protects your personal property against theft, fire, and monsoon damage, covers your personal liability, and pays additional living expenses if a covered loss forces you out. Most Arizona renters policies run $12–$20/month — and many Phoenix and Tucson landlords now require it.",
+    icon: "Package",
+    keywords: ["arizona renters insurance", "renters insurance phoenix", "ho-4 insurance arizona", "cheap renters insurance arizona", "tucson renters insurance"],
+  },
+  {
+    slug: "mobile-home-insurance",
+    title: "Mobile & Manufactured Home Insurance",
+    short: "Specialty coverage for Arizona manufactured and mobile homes",
+    description:
+      "Manufactured and mobile homes need a specialty policy (often an HO-7 or mobile-home form) — not a standard HO-3. We write coverage for single- and double-wide homes across Arizona's manufactured-home communities, covering the structure, attached additions, personal property, and liability against wind, fire, and monsoon perils.",
+    icon: "Home",
+    keywords: ["arizona mobile home insurance", "manufactured home insurance arizona", "mobile home insurance phoenix", "az manufactured home policy", "double wide insurance arizona"],
+  },
+  {
+    slug: "high-value-home-insurance",
+    title: "High-Value Home Insurance",
+    short: "Extended replacement-cost coverage for luxury AZ estates",
+    description:
+      "High-value Arizona homes in Scottsdale, Paradise Valley, and Silverleaf need specialty carriers — not standard markets that underinsure custom construction. We access high-net-worth programs offering guaranteed or extended replacement cost, higher liability limits, cash settlement options, and coverage for pools, casitas, art, and wine collections.",
+    icon: "Gem",
+    keywords: ["arizona high value home insurance", "luxury home insurance scottsdale", "paradise valley home insurance", "high net worth home insurance arizona", "az estate insurance"],
+  },
 ] as const;
 
 export const LOCATIONS = [
@@ -156,8 +192,4 @@ export const STATS = [
   { value: 12, suffix: "+", label: "Carriers compared for every quote", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  { quote: "After our monsoon season damage last summer, our old carrier wanted to drop us at renewal. AZ Homeowners Insurance found us an A-rated carrier with better flood coverage at a lower premium. They handled the whole transition so we never had a gap.", name: "Maria S.", role: "Homeowner", location: "Chandler, AZ" },
-  { quote: "We have a Scottsdale home with a pool, two dogs, and a jewelry collection. Getting it all properly covered was a project. They scheduled the jewelry, got the right liability limits for the pool, and added an umbrella — all in one call. Way simpler than I expected.", name: "Tom & Karen B.", role: "Homeowners", location: "Scottsdale, AZ" },
-  { quote: "I own three rental properties in Phoenix and a primary residence. Having one agency handle all four policies, coordinate renewals, and make sure my landlord policies have the right liability is worth every penny. They catch things my previous agent missed.", name: "David R.", role: "Property Owner", location: "Phoenix, AZ" },
-] as const;
+// NOTE: No testimonials — this site intentionally uses no customer testimonials or reviews.

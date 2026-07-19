@@ -34,7 +34,7 @@ export function Footer() {
           <p className="text-cream/70 text-sm leading-relaxed max-w-sm">{COPY.footer.description}</p>
           <div className="mt-5 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10">
             <ShieldCheck className="h-4 w-4 text-sage-light" />
-            <span className="text-xs font-semibold text-cream/90">NPN #{SITE.npn} · Licensed all 50 states</span>
+            <span className="text-xs font-semibold text-cream/90">NPN #{SITE.npn} · Licensed in Arizona</span>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
             <li><a href={SITE.phoneHref} className="flex items-start gap-2.5 text-cream/80 hover:text-gold transition-colors"><Phone className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span><span className="block font-semibold text-cream">{SITE.phone}</span><span className="text-xs text-cream/60">Toll-free</span></span></a></li>
             <li><a href={`mailto:${SITE.email}`} className="flex items-start gap-2.5 text-cream/80 hover:text-gold transition-colors"><Mail className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span className="break-all">{SITE.email}</span></a></li>
             <li className="flex items-start gap-2.5 text-cream/80"><MapPin className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span>{SITE.address.street}<br />{SITE.address.city}, {SITE.address.state} {SITE.address.zip}</span></li>
-            <li className="flex items-start gap-2.5 text-cream/80"><Clock className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span>{SITE.hours}<br /><span className="text-xs text-cream/60">24/7 claims hotline</span></span></li>
+            <li className="flex items-start gap-2.5 text-cream/80"><Clock className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span>{SITE.hours}<br /><span className="text-xs text-cream/60">Same-day claims contact</span></span></li>
           </ul>
         </div>
       </div>

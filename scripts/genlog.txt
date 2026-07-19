@@ -52,4 +52,37 @@
 'data'[monsoon-guide.jpg] together attempt 2
 [monsoon-guide.jpg] OK together (206727 bytes)
 [cost-breakdown.jpg] together attempt 1
-'data'
+'data'[cost-breakdown.jpg] together attempt 2
+[cost-breakdown.jpg] OK together (258794 bytes)
+[non-renewal.jpg] together attempt 1
+'data'[non-renewal.jpg] together attempt 2
+[non-renewal.jpg] OK together (321788 bytes)
+[monsoon-checklist.jpg] together attempt 1
+'data'[monsoon-checklist.jpg] together attempt 2
+[monsoon-checklist.jpg] OK together (202690 bytes)
+=== DONE ===
+total 5980
+drwxr-xr-x 2 abc abc   4096 Jul 19 16:36 .
+drwxr-xr-x 4 abc abc   4096 Jul 19 16:34 ..
+-rw-r--r-- 1 abc abc 106208 Jul 17 15:24 about.jpg
+-rw-rw-r-- 1 abc abc 403158 Jul 19 16:36 condo-insurance.jpg
+-rw-rw-r-- 1 abc abc 258794 Jul 19 16:36 cost-breakdown.jpg
+-rw-r--r-- 1 abc abc 163760 Jul 17 15:24 coverage.jpg
+-rw-rw-r-- 1 abc abc 328413 Jul 19 16:35 dwelling-coverage.jpg
+-rw-rw-r-- 1 abc abc 608875 Jul 19 16:36 dwelling-fire.jpg
+-rw-rw-r-- 1 abc abc 231538 Jul 19 16:36 flood-coverage.jpg
+-rw-rw-r-- 1 abc abc 396568 Jul 19 16:35 flood-insurance.jpg
+-rw-r--r-- 1 abc abc 449934 Jul 19 16:35 hero.jpg
+-rw-rw-r-- 1 abc abc 342032 Jul 19 16:36 high-value-home-insurance.jpg
+-rw-rw-r-- 1 abc abc 223421 Jul 19 16:35 liability.jpg
+-rw-rw-r-- 1 abc abc 236316 Jul 19 16:35 loss-of-use.jpg
+-rw-rw-r-- 1 abc abc 204717 Jul 19 16:36 mobile-home-insurance.jpg
+-rw-rw-r-- 1 abc abc 202690 Jul 19 16:36 monsoon-checklist.jpg
+-rw-rw-r-- 1 abc abc 206727 Jul 19 16:36 monsoon-guide.jpg
+-rw-rw-r-- 1 abc abc 321788 Jul 19 16:36 non-renewal.jpg
+-rw-r--r-- 1 abc abc 104059 Jul 17 15:24 og-image.jpg
+-rw-rw-r-- 1 abc abc 314777 Jul 19 16:35 personal-property.jpg
+-rw-rw-r-- 1 abc abc 329195 Jul 19 16:36 renters-insurance.jpg
+-rw-rw-r-- 1 abc abc 174038 Jul 19 16:36 scheduled-personal-property.jpg
+-rw-r--r-- 1 abc abc  99081 Jul 17 15:24 umbrella.jpg
+-rw-rw-r-- 1 abc abc 371011 Jul 19 16:36 wildfire-coverage.jpg
