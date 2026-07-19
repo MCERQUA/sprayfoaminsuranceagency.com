@@ -87,7 +87,7 @@ export default function CoveragePage() {
               <div className="rounded-[2rem] bg-warm-radial border border-adobe p-8 md:p-12 text-center">
                 <CheckCircle2 className="h-10 w-10 text-sage mx-auto" />
                 <h2 className="mt-4 font-heading font-extrabold text-espresso text-2xl md:text-3xl">Licensed and writing across Arizona</h2>
-                <p className="mt-3 text-mocha max-w-2xl mx-auto leading-relaxed">{COPY.coveragePage.nationwideLead}</p>
+                <p className="mt-3 text-mocha max-w-2xl mx-auto leading-relaxed">{COPY.coveragePage.statewideLead}</p>
                 <Link href="/quote" className="btn-primary mt-6">Get a quote <ArrowRight className="h-5 w-5" /></Link>
               </div>
             </FadeIn>

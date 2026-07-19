@@ -68,7 +68,7 @@ export const COPY = {
   servicesPage: {
     metaTitle: "Arizona Homeowners Insurance Coverage & Services | AZ Home Insurance",
     metaDescription:
-      "Eight lines of homeowners insurance for Arizona — dwelling, personal property, liability, loss of use, flood, umbrella, scheduled property, and rental coverage. Licensed in Arizona, quotes in 15 minutes.",
+      "Twelve lines of homeowners insurance for Arizona — dwelling, personal property, liability, loss of use, flood, umbrella, scheduled property, rental, condo, renters, mobile home, and high-value home coverage. Licensed in Arizona, quotes in 15 minutes.",
     h1Lead: "Insurance built line-by-line for",
     h1Highlight: "Arizona homeowners",
     lead: "Each coverage below addresses a specific exposure Arizona homeowners face — from monsoon flooding standard policies exclude to wildfire interface dwelling coverage and pool liability.",
@@ -147,7 +147,7 @@ export const COPY = {
     h1Highlight: "Phoenix to Flagstaff, every AZ market.",
     lead: "We insure Arizona homes across every region — Phoenix metro, Scottsdale, Tucson, the East Valley, northern Arizona, and Prescott/Yavapai County.",
     sectionTitle: "Arizona regions we serve.",
-    nationwideLead:
+    statewideLead:
       "Whether your home is in the Phoenix metro, Tucson, Flagstaff, or a small Arizona community, we compare carriers to find the right coverage. NPN #8608479.",
     faqs: [
       { q: "Do you only write homeowners insurance in certain parts of Arizona?", a: "No. We insure homes across all of Arizona — Phoenix metro, Scottsdale, Tucson, Chandler, Gilbert, Tempe, Flagstaff, Prescott, Sedona, Sierra Vista, and everywhere in between." },

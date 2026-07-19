@@ -1,0 +1,54 @@
+BUILD STATUS — azhomeownersinsurance.com
+Built: 2026-07-19
+Classification: INSURANCE (CCA insurance lead-gen) — Arizona Homeowners Insurance, statewide
+
+BUILD EXIT CODE: 0  (next build, static export → out/)
+Next.js: 15.5.19 | output:'export' | trailingSlash:true | images.unoptimized
+Netlify: publish=out, command="pnpm run build", NODE_VERSION=20, NO @netlify/plugin-nextjs, pnpm-lock only, no packageManager field.
+
+ROUTES: 36 content routes + 404 (40 static HTML pages generated)
+  Core: / /about /coverage /services /quote /contact /faq /blog /privacy /terms
+  Service/topic (12): dwelling-coverage, personal-property, liability, loss-of-use,
+    flood-insurance, umbrella, scheduled-personal-property, dwelling-fire,
+    condo-insurance, renters-insurance, mobile-home-insurance, high-value-home-insurance
+  Locations (6): phoenix, scottsdale, tucson, chandler-gilbert, flagstaff, prescott
+  Blog posts (7): see below
+
+RENDERED WORD COUNTS (visible text incl. shared nav/FAQ):
+  home 4456 | about 3370 | services 4111 | coverage 5208 | faq 8186
+  quote 1458 | contact 1362 | blog 3255 | service pages ~5000-5400 each
+
+BLOG POSTS: 7 (source-word counts)
+  * FLAGSHIP 2701w — The Arizona Homeowner's Guide to Monsoon, Haboob & Storm Damage Claims (2026)
+  - 882w  — How Much Is Homeowners Insurance in Arizona? 2026 Cost Breakdown by City
+  - 961w  — Why Arizona Homeowners Are Getting Non-Renewed — and What to Do About It
+  - 846w  — Monsoon-Proofing Your Arizona Home: A Pre-Season Checklist
+  - 914w  — Is Your Dwelling Coverage Enough to Actually Rebuild?
+  - 1041w — Arizona Homeowners Insurance and Monsoon Flooding: What Your Policy Doesn't Cover
+  - 914w  — Wildfire and Homeowners Insurance in Arizona: What WUI Homeowners Need to Know
+
+IMAGES: 22 unique AI-generated (HF FLUX.1-schnell), all >10KB, all wired, zero orphans.
+  hero, coverage, about, og-image (1216x640), + 12 service images (1 per slug),
+  + blog: flood-coverage, wildfire-coverage, monsoon-guide, cost-breakdown, non-renewal, monsoon-checklist
+  Wrong-niche (spray-foam) images moved to public/.old-images/ (not deleted).
+
+FORMS: REAL Netlify Forms pattern confirmed.
+  - <form data-netlify="true"> + netlify-honeypot="bot-field" + hidden form-name on quote & contact
+  - JS fetch POST to "/" with application/x-www-form-urlencoded body (encode helper)
+  - public/__forms.html stub declares both "quote" and "contact" forms (present in out/)
+  - grep WEBHOOK_URL src/ = 0 hits
+  - netlify.toml [[notifications]] webhooks point to site=azhomeownersinsurance.com
+
+SEO: JSON-LD on every page (InsuranceAgency, InsuranceService, FAQPage, BreadcrumbList,
+  BlogPosting, PostalAddress/State) | llms.txt (rewritten for AZ) | sitemap.xml (force-static,
+  incl. /faq + all services/locations/posts) | robots.txt | canonical + OpenGraph on all pages.
+
+COMPLIANCE / SOP:
+  - Contact: phone 844-967-5247, email josh@contractorschoiceagency.com (canonical)
+  - NO fake street address (removed 12220 E Riggs Rd / 85249; shows "Based in Chandler, AZ · statewide")
+  - NO testimonials anywhere (TESTIMONIALS array + component + COPY block removed)
+  - "Licensed all 50 states" corrected to "Licensed in Arizona" sitewide (AZ-only site)
+  - Zero spray-foam / wrong-niche words remaining in src/ and public/
+  - ZERO git commands run. No deploy. Only this site's folder touched. Nothing rm -rf'd.
+
+RESEARCH: ai/research/keywords.md, competitors.md, topical-map.md (real DataForSEO + analysis)
