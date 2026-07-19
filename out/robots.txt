@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://azhomeownersinsurance.com
+Sitemap: https://azhomeownersinsurance.com/sitemap.xml
