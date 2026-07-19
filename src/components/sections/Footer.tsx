@@ -59,7 +59,7 @@ export function Footer() {
           <ul className="space-y-3.5 text-sm">
             <li><a href={SITE.phoneHref} className="flex items-start gap-2.5 text-cream/80 hover:text-gold transition-colors"><Phone className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span><span className="block font-semibold text-cream">{SITE.phone}</span><span className="text-xs text-cream/60">Toll-free</span></span></a></li>
             <li><a href={`mailto:${SITE.email}`} className="flex items-start gap-2.5 text-cream/80 hover:text-gold transition-colors"><Mail className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span className="break-all">{SITE.email}</span></a></li>
-            <li className="flex items-start gap-2.5 text-cream/80"><MapPin className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span>{SITE.address.street}<br />{SITE.address.city}, {SITE.address.state} {SITE.address.zip}</span></li>
+            <li className="flex items-start gap-2.5 text-cream/80"><MapPin className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span>Based in {SITE.address.city}, {SITE.address.state}<br /><span className="text-xs text-cream/60">Serving homeowners statewide across Arizona</span></span></li>
             <li className="flex items-start gap-2.5 text-cream/80"><Clock className="h-4 w-4 mt-0.5 text-gold flex-shrink-0" /><span>{SITE.hours}<br /><span className="text-xs text-cream/60">Same-day claims contact</span></span></li>
           </ul>
         </div>

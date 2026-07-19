@@ -51,11 +51,6 @@ export const COPY = {
   process: {
     lead: "No forms that take an hour, no callbacks from a call center. Tell us about your Arizona home, we shop the right carriers, and you have real quotes in 15 minutes — not a week.",
   },
-  testimonials: {
-    eyebrow: "From Arizona homeowners",
-    h2Lead: "Homeowners who found",
-    h2Highlight: "coverage that actually protects them",
-  },
   finalCta: {
     h2Lead: "Protect Your Arizona Home",
     h2Highlight: "with coverage built for the desert.",
@@ -129,7 +124,7 @@ export const COPY = {
     h1Lead: "Get your",
     h1Highlight: "Arizona homeowners insurance quote",
     lead: "Tell us about your Arizona home. We'll shop 12+ A-rated carriers and come back with real quotes in about 15 minutes — no obligation.",
-    businessPlaceholder: "123 Desert View Drive, Chandler AZ 85249",
+    businessPlaceholder: "Property street address, city, ZIP",
     emailPlaceholder: "yourname@email.com",
     phonePlaceholder: "(480) 555-0100",
     messagePlaceholder:

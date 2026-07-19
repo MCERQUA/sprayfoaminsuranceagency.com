@@ -62,13 +62,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     logo: `${SITE.url}/images/og-image.jpg`,
     address: {
       "@type": "PostalAddress",
-      streetAddress: SITE.address.street,
       addressLocality: SITE.address.city,
       addressRegion: SITE.address.state,
-      postalCode: SITE.address.zip,
       addressCountry: SITE.address.country,
     },
-    geo: { "@type": "GeoCoordinates", latitude: 33.2622, longitude: -111.7826 },
     employee: { "@type": "Person", name: "Josh Cotner", jobTitle: "Founder & Insurance Agent" },
     areaServed: { "@type": "State", name: "Arizona" },
     serviceType: [
