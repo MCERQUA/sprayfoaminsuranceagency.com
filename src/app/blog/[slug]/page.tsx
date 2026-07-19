@@ -89,8 +89,8 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="prose-warm mt-10" dangerouslySetInnerHTML={{ __html: html }} />
 
               <div className="mt-12 p-7 rounded-3xl bg-espresso text-cream">
-                <p className="font-heading font-extrabold text-cream text-xl">Need this coverage for your spray foam business?</p>
-                <p className="text-cream/75 mt-2 text-sm">Get a real quote in about 15 minutes — we shop A-rated specialty contractor markets.</p>
+                <p className="font-heading font-extrabold text-cream text-xl">Need this coverage for your Arizona home?</p>
+                <p className="text-cream/75 mt-2 text-sm">Get a real quote in about 15 minutes — we compare 12+ A-rated carriers for your Arizona home.</p>
                 <div className="mt-5 flex flex-col sm:flex-row gap-3">
                   <Link href="/quote" className="btn-primary">Get a quote</Link>
                   <a href={SITE.phoneHref} className="btn-secondary !text-cream !border-white/20 !bg-white/10 hover:!bg-white/20">{SITE.phone}</a>

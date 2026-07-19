@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 /* ============================================================
-   SPRAY FOAM INSURANCE AGENCY — "Industrial Energy" Design System
-   Light · corporate · clean · spray foam industrial motif
+   AZ HOMEOWNERS INSURANCE — "Desert Warmth" Design System
+   Light · warm · clean · Arizona desert motif
    (token NAMES inherited; VALUES remapped: clay=vibrant orange,
    sage=deep navy, gold=amber)
    ============================================================ */
@@ -110,7 +110,7 @@
   .h-section { @apply font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-espresso leading-[1.1]; }
   .lead { @apply text-lg md:text-xl text-mocha leading-relaxed; }
 
-  /* === Decorative motifs — "industrial energy" (spray foam contractor) === */
+  /* === Decorative motifs — "desert warmth" (Arizona homeowners) === */
   .bg-sonoran {
     background-color: var(--bg-cream);
     background-image:

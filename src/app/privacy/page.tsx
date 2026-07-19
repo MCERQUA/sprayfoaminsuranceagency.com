@@ -29,7 +29,7 @@ export default function PrivacyPage() {
               <p>When you request a quote or contact us, we may collect:</p>
               <ul>
                 <li>Your name, business name, and contact details (email, phone, address)</li>
-                <li>Information about your spray foam business needed to quote insurance (crew size, equipment value, annual revenue, job types, states of operation, loss history)</li>
+                <li>Information about your home needed to quote insurance (property address, year built, square footage, construction type, roof age, prior claims, current insurer, and coverage needs)</li>
                 <li>Communications you send us and non-identifying usage data about your visit</li>
               </ul>
 
