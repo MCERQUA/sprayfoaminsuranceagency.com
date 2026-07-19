@@ -1,0 +1,10 @@
+[hero.jpg] together attempt 1
+[hero.jpg] OK together (449934 bytes)
+[coverage.jpg] together attempt 1
+[coverage.jpg] OK together (163760 bytes)
+[about.jpg] together attempt 1
+[about.jpg] OK together (106208 bytes)
+[og-image.jpg] together attempt 1
+[og-image.jpg] OK together (104059 bytes)
+[dwelling-coverage.jpg] together attempt 1
+[dwelling-coverage.jpg] together attempt 2
