@@ -441,4 +441,100 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
       { q: "What insurance does an Arizona landlord need?", a: "Arizona landlords need a dwelling fire policy (DP-3) rather than a standard homeowners policy. A DP-3 covers the structure, your liability as a landlord, and optionally loss of rents if a covered loss makes the unit uninhabitable. Standard HO-3 policies exclude rental activity." },
     ],
   },
+  "condo-insurance": {
+    intro: "An Arizona condo policy (HO-6) covers the part of your home your HOA master policy leaves out — the interior 'walls-in,' your personal property, personal liability, and special assessments the association passes on to owners.",
+    whatsCovered: [
+      "Interior walls, flooring, cabinets, built-ins, and fixtures ('walls-in')",
+      "Personal property against theft, fire, and monsoon water damage",
+      "Loss assessment coverage when the HOA bills owners after a loss",
+      "Personal liability and loss of use if your unit is uninhabitable",
+    ],
+    whoItsFor: [
+      "Condo and townhome owners in Tempe, Scottsdale, and Phoenix",
+      "Anyone whose HOA carries a 'bare walls' master policy",
+      "Owners who've upgraded flooring, cabinets, or countertops",
+      "Investors renting out an Arizona condo (HO-6 + landlord endorsement)",
+    ],
+    whyCca: [
+      "We read your HOA master policy to find the exact coverage gap",
+      "We right-size your dwelling (Coverage A) 'walls-in' limit",
+      "We add loss assessment coverage most owners forget",
+    ],
+    faqs: [
+      { q: "What does condo insurance (HO-6) cover in Arizona?", a: "An Arizona HO-6 policy covers your unit's interior ('walls-in') — flooring, cabinets, fixtures, and improvements — plus your personal property, personal liability, loss of use, and loss assessment. It fills the gap left by your HOA's master policy, which typically only insures the building structure and common areas." },
+      { q: "Does my HOA's insurance cover the inside of my condo?", a: "Usually not fully. Most Arizona HOA master policies are 'bare walls' or 'single entity' — they cover the building shell and common areas but not your interior finishes, upgrades, or belongings. That's exactly what your HO-6 condo policy is for, along with loss assessments the HOA can bill back to you." },
+    ],
+  },
+  "renters-insurance": {
+    intro: "Arizona renters insurance (HO-4) protects your belongings, your personal liability, and your temporary living costs for a low monthly premium — usually $12–$20/month for most Phoenix and Tucson renters.",
+    whatsCovered: [
+      "Personal property against theft, fire, smoke, and monsoon water damage",
+      "Personal liability if you injure someone or damage their property",
+      "Additional living expenses if a covered loss forces you to relocate",
+      "Belongings worldwide — even items stolen from your car",
+    ],
+    whoItsFor: [
+      "Apartment, house, and condo renters across Arizona",
+      "Renters whose landlord now requires proof of coverage",
+      "Students and young professionals in Tempe, Tucson, and Phoenix",
+      "Roommates who want to protect their own belongings",
+    ],
+    whyCca: [
+      "We bundle renters with auto for extra Arizona savings",
+      "We set replacement-cost coverage so you're paid what items cost today",
+      "We make it easy to add your landlord as an interested party",
+    ],
+    faqs: [
+      { q: "How much is renters insurance in Arizona?", a: "Most Arizona renters pay about $12–$20 per month, depending on your coverage limits, deductible, and location. It's one of the most affordable policies available — and it covers your belongings, liability, and temporary housing after a covered loss. Bundling with auto often lowers the cost further." },
+      { q: "Does my landlord's insurance cover my belongings?", a: "No. Your Arizona landlord's policy covers the building structure, not your personal property or liability. If a fire, theft, or burst pipe damages your belongings, only your own renters (HO-4) policy will reimburse you. That's why many landlords now require renters insurance in the lease." },
+    ],
+  },
+  "mobile-home-insurance": {
+    intro: "Manufactured and mobile homes need a specialty policy — not a standard HO-3. We write coverage for single- and double-wide homes across Arizona, protecting the structure, attached additions, and your belongings against Arizona's real perils.",
+    whatsCovered: [
+      "The manufactured/mobile home structure on a specialty form",
+      "Attached structures — carports, awnings, decks, and Arizona rooms",
+      "Personal property, personal liability, and loss of use",
+      "Wind, fire, monsoon, and theft perils common in AZ communities",
+    ],
+    whoItsFor: [
+      "Single- and double-wide owners in Arizona manufactured communities",
+      "Retirees and snowbirds in 55+ desert parks",
+      "Owners of older manufactured homes standard carriers decline",
+      "Anyone financing a manufactured home who needs lender-required coverage",
+    ],
+    whyCca: [
+      "We access specialty manufactured-home carriers, not just standard markets",
+      "We insure older homes other agents can't place",
+      "We reflect true replacement cost for manufactured construction",
+    ],
+    faqs: [
+      { q: "Do I need special insurance for a mobile home in Arizona?", a: "Yes. Manufactured and mobile homes use a specialty policy form (often an HO-7 or mobile-home program) rather than a standard HO-3, because their construction and risk profile differ from site-built homes. We place these with carriers that specialize in Arizona manufactured homes, including older units many standard insurers decline." },
+      { q: "Does mobile home insurance cover monsoon and wind damage?", a: "Yes. A properly written Arizona manufactured-home policy covers wind, monsoon storm, hail, fire, and theft. Because manufactured homes are more vulnerable to high wind, we make sure your policy has adequate limits and we discuss tie-down and anchoring requirements that can affect eligibility and rate." },
+    ],
+  },
+  "high-value-home-insurance": {
+    intro: "High-value Arizona homes need high-net-worth carriers — not standard markets that underinsure custom construction. We access specialty programs with guaranteed or extended replacement cost, higher liability, and coverage for the features luxury desert homes actually have.",
+    whatsCovered: [
+      "Guaranteed or extended replacement cost on custom construction",
+      "Higher liability limits and built-in personal umbrella options",
+      "Scheduled coverage for art, jewelry, wine, and collections",
+      "Pools, casitas, guest houses, and detached structures",
+    ],
+    whoItsFor: [
+      "Scottsdale, Paradise Valley, and Silverleaf estate owners",
+      "Custom and luxury homes valued above $1M rebuild cost",
+      "Owners with art, jewelry, or wine collections to protect",
+      "Homeowners wanting cash-settlement and concierge claims service",
+    ],
+    whyCca: [
+      "We place high-value homes with true HNW carriers, not standard markets",
+      "We commission accurate custom rebuild-cost appraisals",
+      "We coordinate home, auto, umbrella, and valuables into one program",
+    ],
+    faqs: [
+      { q: "Why do high-value Arizona homes need specialty insurance?", a: "Standard carriers often cap coverage and use generic rebuild-cost estimators that badly underinsure custom Scottsdale and Paradise Valley homes. High-net-worth carriers offer guaranteed or extended replacement cost, higher liability, cash-settlement options, and coverage tailored to custom finishes, pools, casitas, and collections." },
+      { q: "What counts as a high-value home in Arizona?", a: "There's no single line, but homes with a rebuild cost above roughly $750K–$1M, custom construction, high-end finishes, or significant collections typically belong in a high-value program. We evaluate your home's true replacement cost and features to determine whether a specialty carrier will serve you better than a standard market." },
+    ],
+  },
 };
