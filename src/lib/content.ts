@@ -176,7 +176,7 @@ export const WHY_CHOOSE = [
   { icon: Droplets, title: "Flood coverage for monsoon season", description: "Standard homeowners policies exclude flood entirely. Arizona's monsoon season brings flash flooding that can cause tens of thousands in damage — we add NFIP or private flood coverage so you're not uncovered." },
   { icon: Home, title: "12+ carriers compared for every quote", description: "We don't work for one carrier. We compare 12+ A-rated options for your Arizona home and present the best combination of price, coverage, and financial strength." },
   { icon: Gem, title: "Scheduled property for high-value items", description: "Jewelry, firearms, art, and collections have low sub-limits under standard policies. We schedule individual items to ensure they're covered for their actual replacement value." },
-  { icon: Umbrella, title: "Umbrella for pool and dog liability", description: "Arizona pools and dog bites are among the leading sources of personal liability claims. A $1M umbrella above your base liability limits runs $15–$30/month and covers the gap between your policy and a serious injury judgment." },
+  { icon: Umbrella, title: "Umbrella for pool and dog liability", description: "Arizona pools and dog bites are among the leading sources of personal liability claims. A $1M umbrella above your base liability limits covers the gap between your policy and a serious injury judgment." },
   { icon: Building, title: "Rental property and vacant home coverage", description: "Standard HO-3 policies don't cover non-owner-occupied or vacant properties. We write landlord policies and dwelling fire policies for Arizona rental properties and investment homes." },
 ] as const;
 
@@ -195,9 +195,9 @@ export const HOME_FAQS = [
   { q: "Does homeowners insurance cover dog bites in Arizona?", a: "Yes, under your personal liability coverage. Arizona has strict liability laws for dog bites — owners are liable regardless of the dog's history. If you own a large-breed dog or a breed some carriers surcharge or exclude, we find you carriers that write the coverage without restricting your dog." },
   { q: "What is loss of use coverage and why is it important in Arizona?", a: "Loss of use (additional living expenses) pays for hotel, food, and temporary housing if a covered loss makes your Arizona home uninhabitable during repairs. In the Phoenix metro, hotel rates run $150–$400/night. A major claim repair can take months — loss of use coverage is critical." },
   { q: "Can I get homeowners insurance for a high-value home in Scottsdale?", a: "Yes. We access specialty markets for high-value Scottsdale, Paradise Valley, and Fountain Hills homes that require true replacement-cost coverage, extended replacement-cost endorsements, and custom rebuild-cost analysis. Standard carriers often underprice and underinsure these properties." },
-  { q: "What does an umbrella policy cover in addition to homeowners insurance?", a: "A personal umbrella adds $1M–$5M in liability above your homeowners and auto policies. It pays when a judgment exceeds your base liability limit — from a pool injury, dog bite, serious auto accident, or other liability event. In Arizona, a $1M umbrella costs $15–$30/month." },
+  { q: "What does an umbrella policy cover in addition to homeowners insurance?", a: "A personal umbrella adds $1M–$5M in liability above your homeowners and auto policies. It pays when a judgment exceeds your base liability limit — from a pool injury, dog bite, serious auto accident, or other liability event." },
   { q: "How do I insure a rental property or investment home in Arizona?", a: "Standard HO-3 policies cover owner-occupied homes only. For rental properties, you need a landlord policy (also called a dwelling fire or DP-3 policy) that covers the structure, your liability as a landlord, and optional loss of rents. We write landlord policies for Phoenix, Scottsdale, Tucson, and East Valley rental properties." },
-  { q: "What is scheduled personal property and when do I need it?", a: "Standard homeowners policies cap jewelry at $1,500–$2,500, firearms at $2,500, and fine art at similar limits. If your jewelry, gun collection, art, or other valuables exceed those sub-limits, you need to schedule individual items. Scheduled coverage removes sub-limits and often covers mysterious disappearance." },
+  { q: "What is scheduled personal property and when do I need it?", a: "Standard homeowners policies cap jewelry, firearms, and fine art at low sub-limits. If your jewelry, gun collection, art, or other valuables exceed those sub-limits, you need to schedule individual items. Scheduled coverage removes sub-limits and often covers mysterious disappearance." },
   { q: "Can you insure a home in a wildfire interface area near Flagstaff or Prescott?", a: "Yes — though it's challenging. Some admitted carriers have exited northern Arizona WUI zones. We work with specialty admitted and surplus lines markets that still write Flagstaff, Prescott, Sedona, and Yavapai County homes with competitive terms." },
   { q: "Does homeowners insurance cover my personal property outside my home?", a: "Yes. Standard HO-3 policies cover your personal property worldwide at a reduced percentage (typically 10% of your personal property limit). If your laptop is stolen from your car or your luggage is lost on a trip, your homeowners policy may cover it." },
   { q: "What happens if my Arizona home is vacant?", a: "A standard HO-3 typically excludes or limits coverage after 30–60 days of vacancy. If your Arizona home is vacant for an extended period — during renovation, estate settlement, or a seasonal absence — you need a vacancy endorsement or a separate dwelling fire policy to maintain coverage." },
@@ -329,7 +329,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
       "We find carriers that write dog breeds others surcharge or exclude",
     ],
     faqs: [
-      { q: "How much personal liability coverage do I need?", a: "Most homeowners carry $100,000–$300,000 in personal liability. If you have a pool, dogs, significant assets, or teenage drivers, you should consider a $1M personal umbrella policy above your base liability limit — it typically costs $15–$30/month." },
+      { q: "How much personal liability coverage do I need?", a: "Most homeowners carry $100,000–$300,000 in personal liability. If you have a pool, dogs, significant assets, or teenage drivers, you should consider a $1M personal umbrella policy above your base liability limit." },
     ],
   },
   "loss-of-use": {
@@ -398,7 +398,7 @@ export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: stri
       "We explain exactly what the umbrella covers and where it kicks in",
     ],
     faqs: [
-      { q: "Do I need a personal umbrella if I have homeowners insurance?", a: "If you own a pool, have dogs, have significant assets to protect, or have teenage drivers, a personal umbrella is highly recommended. A serious injury on your property or a major auto accident can result in a judgment far exceeding your base liability limits. A $1M umbrella costs $15–$30/month in Arizona." },
+      { q: "Do I need a personal umbrella if I have homeowners insurance?", a: "If you own a pool, have dogs, have significant assets to protect, or have teenage drivers, a personal umbrella is highly recommended. A serious injury on your property or a major auto accident can result in a judgment far exceeding your base liability limits." },
     ],
   },
   "scheduled-personal-property": {

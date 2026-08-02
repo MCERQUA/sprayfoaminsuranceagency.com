@@ -108,7 +108,7 @@ export const SERVICES = [
     title: "Personal Umbrella",
     short: "Extra liability above your home and auto policies",
     description:
-      "A $1M personal umbrella runs $15–$30/month in Arizona and provides excess liability above your homeowners and auto policies. Essential for Arizona homeowners with pools, dogs, teenage drivers, or significant assets.",
+      "A $1M personal umbrella provides excess liability above your homeowners and auto policies. Essential for Arizona homeowners with pools, dogs, teenage drivers, or significant assets.",
     icon: "Umbrella",
     keywords: ["arizona personal umbrella insurance", "az homeowners umbrella policy", "arizona umbrella liability coverage", "phoenix homeowners umbrella"],
   },
@@ -117,7 +117,7 @@ export const SERVICES = [
     title: "Scheduled Personal Property",
     short: "Jewelry, art, guns, and high-value items properly covered",
     description:
-      "Standard homeowners policies cap jewelry at $1,500–$2,500 and firearms at $2,500. Scheduling individual items on a floater removes sub-limits and provides broader coverage including mysterious disappearance — important for Arizona homeowners with collections or jewelry.",
+      "Standard homeowners policies cap jewelry and firearms at low sub-limits. Scheduling individual items on a floater removes those sub-limits and provides broader coverage including mysterious disappearance — important for Arizona homeowners with collections or jewelry.",
     icon: "Gem",
     keywords: ["arizona scheduled personal property", "jewelry insurance arizona", "az firearms insurance homeowners", "arizona high value items coverage"],
   },
