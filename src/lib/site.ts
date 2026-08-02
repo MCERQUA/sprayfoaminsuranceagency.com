@@ -187,7 +187,6 @@ export const CREDENTIALS = [
 ] as const;
 
 export const STATS = [
-  { value: 2000, suffix: "+", label: "Arizona homeowners insured", prefix: "" },
   { value: 20, suffix: "+", label: "Years insuring Arizona homes", prefix: "" },
   { value: 15, suffix: " min", label: "Average quote turnaround", prefix: "" },
   { value: 12, suffix: "+", label: "Carriers compared for every quote", prefix: "" },

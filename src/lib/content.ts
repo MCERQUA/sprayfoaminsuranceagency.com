@@ -14,8 +14,8 @@ export const COPY = {
     h1Highlight: "the heat, the monsoon, and the wildfire",
     subcopy:
       "Dwelling coverage, personal property, liability, loss of use, flood, and umbrella — purpose-built for Arizona homeowners. We compare 12+ A-rated carriers to find the best rate for your Phoenix, Scottsdale, Tucson, or northern Arizona home. Licensed in Arizona. 15-minute quotes.",
-    statValue: "2,000+",
-    statLabel: "Arizona homeowners insured across Phoenix, Scottsdale, Tucson, Chandler, and northern Arizona",
+    statValue: "Arizona homeowners",
+    statLabel: "Insured across Phoenix, Scottsdale, Tucson, Chandler, and northern Arizona",
     imageAlt: "Arizona home in the Sonoran desert — homeowners insurance for Phoenix, Scottsdale, and Tucson",
   },
   nav: { ariaLabel: "AZ Homeowners Insurance home" },
