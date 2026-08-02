@@ -110,7 +110,7 @@ export const COPY = {
     valuesTitle: "Four things we won't compromise on.",
     timeline: [
       { year: "2005", title: "Contractors Choice Agency founded in Chandler, AZ", desc: "Josh Cotner opens CCA in Chandler — built to provide honest, expert insurance guidance for Arizona businesses and homeowners." },
-      { year: "10 yrs", title: "Expanded Arizona homeowners division", desc: "After insuring hundreds of Arizona homes, CCA builds a dedicated homeowners division focused on AZ-specific risk: monsoon, wildfire, extreme heat, and specialty coverage needs." },
+      { year: "10 yrs", title: "Expanded Arizona homeowners division", desc: "CCA builds a dedicated homeowners division focused on AZ-specific risk: monsoon, wildfire, extreme heat, and specialty coverage needs." },
       { year: "Today", title: "AZ Homeowners Insurance — statewide coverage", desc: "Serving Phoenix, Scottsdale, Tucson, Chandler, Flagstaff, Prescott, and every Arizona market — with 12+ carriers compared for every quote." },
     ],
     values: [
