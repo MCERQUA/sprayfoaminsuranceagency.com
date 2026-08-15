@@ -40,7 +40,7 @@ export default function QuotePage() {
     setSubmitting(true);
     setError("");
     try {
-      const res = await fetch("/", {
+      const res = await fetch("/__forms.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "quote", ...formData }),
