@@ -24,7 +24,7 @@ const trustItems = [
 
 export default function QuotePage() {
   const [formData, setFormData] = useState({
-    name: "", businessName: "", email: "", phone: "", state: "", serviceType: "", yearsInBusiness: "", message: "", "bot-field": "",
+    name: "", businessName: "", email: "", phone: "", state: "", serviceType: "", yearsInBusiness: "", message: "", "bot-field": "", street_address: "", city: "", zip: "",
   });
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -125,6 +125,19 @@ export default function QuotePage() {
                         <div><label htmlFor="state" className={labelClass}>Primary state *</label>
                           <select id="state" name="state" required value={formData.state} onChange={handleChange} className={inputClass}><option value="">Select a state…</option>{US_STATES.map((s) => (<option key={s} value={s}>{s}</option>))}</select>
                         </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-2">Business address</label>
+                      <input name="street_address" type="text" value={formData.street_address} onChange={handleChange} className={inputClass} />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-2">City</label>
+                      <input name="city" type="text" value={formData.city} onChange={handleChange} className={inputClass} />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-2">ZIP code</label>
+                      <input name="zip" type="text" inputMode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" maxLength={10} value={formData.zip} onChange={handleChange} className={inputClass} />
+                    </div>
+
                         <div><label htmlFor="yearsInBusiness" className={labelClass}>How long you've owned it</label>
                           <select id="yearsInBusiness" name="yearsInBusiness" value={formData.yearsInBusiness} onChange={handleChange} className={inputClass}><option value="">Select…</option>{YEARS_OPTIONS.map((y) => (<option key={y} value={y}>{y}</option>))}</select>
                         </div>
