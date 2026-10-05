@@ -1,8 +1,8 @@
-// Rich, niche-accurate content blocks + centralized COPY for AZ Homeowners Insurance.
+// Rich, niche-accurate content blocks + centralized COPY for Spray Foam Insurance Agency.
 
 import {
   PhoneCall, FileSearch, FileSignature, ShieldCheck,
-  Home, Droplets, Building, Gem, Flame, Umbrella,
+  Droplets, Truck, HardHat, Wrench, Gauge, FileCheck,
 } from "lucide-react";
 
 /* ============================================================
@@ -10,150 +10,150 @@ import {
    ============================================================ */
 export const COPY = {
   hero: {
-    h1Lead: "Arizona homeowners insurance that covers",
-    h1Highlight: "the heat, the monsoon, and the wildfire",
+    h1Lead: "Spray foam contractor insurance that covers",
+    h1Highlight: "the rig, the chemical, and the claim",
     subcopy:
-      "Dwelling coverage, personal property, liability, loss of use, flood, and umbrella — purpose-built for Arizona homeowners. We compare 12+ A-rated carriers to find the best rate for your Phoenix, Scottsdale, Tucson, or northern Arizona home. Licensed in Arizona. 15-minute quotes.",
-    statValue: "Arizona homeowners",
-    statLabel: "Insured across Phoenix, Scottsdale, Tucson, Chandler, and northern Arizona",
-    imageAlt: "Arizona home in the Sonoran desert — homeowners insurance for Phoenix, Scottsdale, and Tucson",
+      "General liability built for spray foam, off-ratio coverage, contractor pollution liability for VOC and isocyanate exposure, workers' comp, commercial auto for spray rigs, tools and equipment, umbrella, and bonds — purpose-built for spray foam insulation contractors. A-rated carriers. 15-minute quotes.",
+    statValue: "Spray foam contractors",
+    statLabel: "Insured nationwide — applicators, insulation businesses, and specialty crews",
+    imageAlt: "Spray foam contractor applying closed-cell foam insulation in a commercial building",
   },
-  nav: { ariaLabel: "AZ Homeowners Insurance home" },
+  nav: { ariaLabel: "Spray Foam Insurance Agency home" },
   footer: {
-    ctaTitle: "Ready to protect your Arizona home?",
-    ctaSubcopy: "15-minute quotes. Same-day claims contact. Homeowners insurance across Arizona — Phoenix, Scottsdale, Tucson, Chandler, Flagstaff, and beyond.",
+    ctaTitle: "Ready to protect your spray foam business?",
+    ctaSubcopy: "15-minute quotes. 2-hour claims response. Insurance for spray foam contractors and insulation businesses nationwide.",
     description:
-      "Arizona homeowners insurance specialists — dwelling coverage, personal property, liability, loss of use, flood, and umbrella for AZ homeowners. We compare top-rated carriers to find the best rate for your Arizona home. A division of Contractors Choice Agency — founded 2005, licensed in Arizona.",
+      "Specialized insurance for spray foam insulation contractors — GL with spray foam endorsements, off-ratio coverage, contractor pollution liability for VOC and isocyanate exposure, workers' comp, commercial auto for spray rigs, tools and equipment, umbrella, and bonds. A division of Contractors Choice Agency — founded 2005, licensed all 50 states.",
   },
   servicesGrid: {
     h2Lead: "Coverage built specifically for",
-    h2Highlight: "Arizona homeowners",
-    lead: "Arizona's homeowners insurance market is unique — extreme heat, monsoon flooding, wildfire interface risk, and carriers that have tightened underwriting across the state. We build programs designed for the actual risk of owning a home in Arizona.",
+    h2Highlight: "spray foam contractors",
+    lead: "Standard contractor policies exclude the chemical-application exposure, off-ratio risk, and pollution claims that define spray foam work. We build programs designed for the actual risks of spray polyurethane foam insulation.",
   },
   why: {
-    eyebrow: "Why Arizona homeowners switch to us",
+    eyebrow: "Why spray foam contractors switch to us",
     h2Lead: "The coverage gaps that",
-    h2Highlight: "cost Arizona homeowners the most",
-    lead: "Most homeowners don't find out their coverage is wrong until a claim is denied. We check your dwelling rebuild cost, your flood exclusion, your liability limits for pools and dogs, and your personal property sub-limits before you need them.",
-    sidebarTitle: "Local Arizona expertise since 2005",
+    h2Highlight: "cost spray foam contractors the most",
+    lead: "Most insurance agents hand a spray foam contractor a generic GL policy and call it done. Then an off-ratio event, a VOC exposure claim, or a completed-operations lawsuit hits — and the exclusion language kicks in. We underwrite the parts of your operation everyone else leaves out.",
+    sidebarTitle: "Run by people who know the trades",
     sidebarBody:
-      "Contractors Choice Agency was founded in Chandler, AZ in 2005. We know Arizona's homeowners market — monsoon season claims patterns, wildfire interface underwriting, and which carriers actually pay fairly in the Valley.",
+      "Contractors Choice Agency was founded in 2005 by people from the contractor world. We know what spray foam equipment costs, what a proportioner failure looks like, and what happens when a chemical exposure claim lands.",
   },
   coverage: {
     eyebrow: "Where we write",
-    h2Lead: "Arizona homeowners insurance.",
-    h2Highlight: "Phoenix to Flagstaff.",
-    lead: "From the Phoenix metro and Scottsdale to Tucson, Prescott, and northern Arizona, we insure Arizona homes across every region and risk profile.",
-    imageAlt: "Arizona neighborhood with desert landscaping — homeowners insurance coverage across Phoenix, Tucson, and Flagstaff",
-    badgeTitle: "Statewide coverage for Arizona homeowners.",
-    badgeSub: "Insuring Arizona homes since 2005.",
+    h2Lead: "Spray foam contractor coverage.",
+    h2Highlight: "All 50 states.",
+    lead: "From Texas and Florida to the Northeast and Pacific Northwest, Contractors Choice Agency writes spray foam insurance in every state where insulation contractors operate.",
+    imageAlt: "Spray foam insulation contractor applying foam in a residential attic — national spray foam insurance coverage",
+    badgeTitle: "National coverage for spray foam contractors.",
+    badgeSub: "Writing spray foam programs in all 50 states since 2005.",
   },
   process: {
-    lead: "No forms that take an hour, no callbacks from a call center. Tell us about your Arizona home, we shop the right carriers, and you have real quotes in 15 minutes — not a week.",
+    lead: "No generic forms, no two-week delays. A real conversation about your foam operation, real markets that understand the chemical exposure, and a program you can actually understand — fast.",
   },
   finalCta: {
-    h2Lead: "Protect Your Arizona Home",
-    h2Highlight: "with coverage built for the desert.",
-    lead: "Whether you need a standard HO-3 policy today, or a full program — dwelling, flood, umbrella, scheduled property — one call gets you real quotes from carriers that understand Arizona's risk environment. Not a voicemail and a two-week wait.",
+    h2Lead: "Protect Your Spray Foam Business",
+    h2Highlight: "with coverage built for the chemical risk.",
+    lead: "Whether you need a GL policy with proper spray foam endorsements today, or a full program — CPL, off-ratio, workers' comp, auto, and tools — one call gets you real quotes from specialty markets that know the trade. Not a voicemail and a two-week wait.",
   },
   ctaBand: {
-    defaultTitle: "Ready to protect your Arizona home?",
+    defaultTitle: "Ready to protect your spray foam operation?",
     defaultDescription:
-      "Get a 15-minute quote from specialists who understand Arizona homeowners insurance — monsoon flood risk, wildfire interface underwriting, pool liability, and dwelling rebuild costs in Arizona's construction market.",
+      "Get a 15-minute quote from specialists who understand spray foam insulation — off-ratio risk, VOC and isocyanate exposure, equipment-intensive operations, and chemical-application liability.",
   },
   faq: {
-    defaultTitleLead: "Arizona homeowners insurance,",
+    defaultTitleLead: "Spray foam contractor insurance,",
     defaultTitleHighlight: "in plain English",
   },
   servicesPage: {
-    metaTitle: "Arizona Homeowners Insurance Coverage & Services | AZ Home Insurance",
+    metaTitle: "Spray Foam Contractor Insurance Coverage & Services",
     metaDescription:
-      "Twelve lines of homeowners insurance for Arizona — dwelling, personal property, liability, loss of use, flood, umbrella, scheduled property, rental, condo, renters, mobile home, and high-value home coverage. Licensed in Arizona, quotes in 15 minutes.",
+      "Eight lines of insurance built for spray foam contractors: GL with spray foam endorsements, off-ratio coverage, contractor pollution liability, workers' comp, commercial auto, tools and equipment, umbrella, and bonds. Licensed all 50 states.",
     h1Lead: "Insurance built line-by-line for",
-    h1Highlight: "Arizona homeowners",
-    lead: "Each coverage below addresses a specific exposure Arizona homeowners face — from monsoon flooding standard policies exclude to wildfire interface dwelling coverage and pool liability.",
-    ogTitle: "Arizona Homeowners Insurance Coverage | AZ Homeowners Insurance",
+    h1Highlight: "spray foam contractors",
+    lead: "Each policy below addresses a specific exposure in spray foam insulation work — from the GL exclusions that catch foam contractors off guard to the contractor pollution liability your standard policy leaves out.",
+    ogTitle: "Spray Foam Contractor Insurance Coverage | Contractors Choice Agency",
     ogDescription:
-      "Dwelling, personal property, liability, loss of use, flood, umbrella, scheduled property, and rental coverage for Arizona homeowners. Licensed in Arizona, quotes in 15 minutes.",
-    ctaTitle: "Not sure which coverage you need?",
+      "GL with spray foam endorsements, off-ratio coverage, contractor pollution liability, workers' comp, commercial auto, tools and equipment, umbrella, and bonds — written specifically for spray foam insulation contractors.",
+    ctaTitle: "Not sure which lines you need?",
     ctaDescription:
-      "Most Arizona homeowners need dwelling, personal property, liability, and loss of use at minimum — plus flood if you're in a monsoon-prone area. We'll build the right program in one call.",
+      "Most spray foam contractors bundle GL + CPL + off-ratio + workers' comp + tools into one coordinated program. We'll build the right mix in one call.",
   },
   blogPage: {
-    metaTitle: "Arizona Homeowners Insurance Blog — Guides & Insights",
+    metaTitle: "Spray Foam Contractor Insurance Blog — Guides & Insights",
     metaDescription:
-      "Practical homeowners insurance guidance for Arizona — monsoon flood coverage, wildfire interface underwriting, pool liability, dwelling rebuild cost, and choosing the right AZ home insurance policy.",
-    h1Lead: "Arizona homeowners insurance,",
+      "Practical insurance guidance for spray foam contractors: GL exclusions, off-ratio coverage, contractor pollution liability, workers' comp class codes, and commercial auto for spray rigs.",
+    h1Lead: "Spray foam contractor insurance,",
     h1Highlight: "decoded",
-    lead: "Plain-English guides on the coverage that matters for Arizona homeowners — monsoon flooding, wildfire risk, pool liability, dwelling rebuild cost, and how to stop overpaying on renewal.",
-    ogTitle: "Arizona Homeowners Insurance Blog | AZ Homeowners Insurance",
+    lead: "Plain-English guides on the coverage that matters for spray foam insulation businesses — off-ratio risk, VOC and isocyanate liability, GL exclusions, and workers' comp for applicator crews.",
+    ogTitle: "Spray Foam Contractor Insurance Blog | Contractors Choice Agency",
     ogDescription:
-      "Practical homeowners insurance guidance for Arizona — monsoon flood coverage, wildfire interface underwriting, pool liability, dwelling rebuild cost, and choosing the right AZ home insurance policy.",
+      "Practical insurance guidance for spray foam contractors: GL exclusions, off-ratio coverage, contractor pollution liability, workers' comp class codes, and commercial auto for spray rigs.",
   },
   serviceDetail: {
-    h1Suffix: "for Arizona homeowners",
-    imageAltSuffix: "Arizona homeowners insurance",
-    category: "Arizona Homeowners Insurance",
+    h1Suffix: "for spray foam contractors",
+    imageAltSuffix: "spray foam insulation contracting",
+    category: "Spray Foam Contractor Insurance",
   },
   about: {
-    metaTitle: "About AZ Homeowners Insurance | Contractors Choice Agency",
+    metaTitle: "About Spray Foam Insurance Agency | Contractors Choice Agency",
     metaDescription:
-      "AZ Homeowners Insurance is the Arizona home-focused division of Contractors Choice Agency, founded in 2005 in Chandler, AZ. Dwelling, flood, liability, and umbrella coverage for Arizona homeowners. Licensed in Arizona.",
-    h1Lead: "Built by Arizona insurance professionals,",
-    h1Highlight: "for Arizona homeowners",
-    lead: "AZ Homeowners Insurance is the Arizona home-focused division of Contractors Choice Agency — founded in 2005 by Josh Cotner in Chandler, AZ. We know Arizona's homeowners market because we've been in it for 20 years.",
-    imageAlt: "Arizona home with desert landscaping — insured by AZ Homeowners Insurance, a division of Contractors Choice Agency",
+      "Spray Foam Insurance Agency is the spray foam–focused division of Contractors Choice Agency, founded in 2005. GL with spray foam endorsements, off-ratio coverage, CPL, and workers' comp for spray foam contractors. Licensed all 50 states.",
+    h1Lead: "Built by people who know the trades,",
+    h1Highlight: "for spray foam contractors",
+    lead: "Spray Foam Insurance Agency is the spray foam–focused division of Contractors Choice Agency — founded in 2005 by Josh Cotner, who knows exactly what happens when a GL exclusion or a missing CPL policy shows up in a claim denial for a spray foam contractor.",
+    imageAlt: "A spray foam contractor in full PPE applying closed-cell foam insulation on a commercial jobsite",
     storyEyebrow: "Our story",
-    storyTitle: "Founded in Arizona. Built for Arizona homes.",
+    storyTitle: "From the jobsite to the agency.",
     storyLead:
-      "Josh Cotner founded Contractors Choice Agency in Chandler in 2005. Over 20 years we've seen every challenge Arizona homeowners face — monsoon claims, wildfire interface underwriting, carriers exiting the state, and the coverage gaps that show up at claim time.",
+      "Josh Cotner ran equipment, read specs, and filed certificates before founding CCA in 2005. That background is why we understand what's at stake when a spray foam contractor's GL policy excludes the claim or a CPL is missing and a VOC exposure lands.",
     valuesTitle: "Four things we won't compromise on.",
     timeline: [
-      { year: "2005", title: "Contractors Choice Agency founded in Chandler, AZ", desc: "Josh Cotner opens CCA in Chandler — built to provide honest, expert insurance guidance for Arizona businesses and homeowners." },
-      { year: "10 yrs", title: "Expanded Arizona homeowners division", desc: "CCA builds a dedicated homeowners division focused on AZ-specific risk: monsoon, wildfire, extreme heat, and specialty coverage needs." },
-      { year: "Today", title: "AZ Homeowners Insurance — statewide coverage", desc: "Serving Phoenix, Scottsdale, Tucson, Chandler, Flagstaff, Prescott, and every Arizona market — with 12+ carriers compared for every quote." },
+      { year: "2005", title: "Contractors Choice Agency founded", desc: "Josh Cotner opens CCA in Chandler, AZ, after years working in the trades — built to insure contractors, specialty operators, and trades the right way." },
+      { year: "10 yrs", title: "Expanded to specialty contractor markets", desc: "After placing programs for dozens of specialty trades, CCA extends deep expertise to high-risk chemical applicators including spray foam, polyurea, and insulation contractors." },
+      { year: "Today", title: "Dedicated spray foam division", desc: "Spray Foam Insurance Agency focuses CCA's expertise on spray polyurethane foam contractors — operations where off-ratio risk, CPL, and GL exclusions are the real exposures." },
     ],
     values: [
-      { icon: "Home", title: "Arizona-first expertise", desc: "We know Arizona's homeowners market — monsoon season claims, wildfire interface underwriting, carriers tightening in the Valley, and the rebuild-cost gaps that leave homeowners underinsured." },
-      { icon: "ShieldCheck", title: "Coverage that closes the gaps", desc: "Flood exclusions in standard policies, pool liability, dwelling underinsurance, personal property sub-limits — we check all of it before you need it." },
-      { icon: "Award", title: "A-rated carriers only", desc: "We shop 12+ carriers with strong financial ratings and fair claims handling — so when a monsoon event or wildfire hits, your claim gets paid." },
-      { icon: "Handshake", title: "Honest, no-pressure advice", desc: "If you don't need a coverage line, we'll tell you. We earn long-term clients by being straight about what your Arizona home actually requires." },
+      { icon: "HardHat", title: "Contractor-first, always", desc: "Josh spent years in the trades before starting the agency. We speak the language of spray foam contracting because we know what happens when coverage fails at claim time." },
+      { icon: "ShieldCheck", title: "Coverage that closes the gaps", desc: "GL exclusions for chemical application, missing CPL, no off-ratio coverage — we address the risks standard contractor markets miss entirely." },
+      { icon: "Award", title: "A-rated markets only", desc: "We shop carriers with the financial strength and contractor experience to be there when an off-ratio event, a pollution claim, or a completed-operations lawsuit hits." },
+      { icon: "Handshake", title: "Honest, no-pressure advice", desc: "If you don't need a line of coverage, we'll tell you. We earn trust by being straight about what your spray foam operation actually requires." },
     ],
   },
   quote: {
     h1Lead: "Get your",
-    h1Highlight: "Arizona homeowners insurance quote",
-    lead: "Tell us about your Arizona home. We'll shop 12+ A-rated carriers and come back with real quotes in about 15 minutes — no obligation.",
-    businessPlaceholder: "Property street address, city, ZIP",
-    emailPlaceholder: "yourname@email.com",
-    phonePlaceholder: "(480) 555-0100",
+    h1Highlight: "spray foam contractor insurance quote",
+    lead: "Tell us about your spray foam operation. We'll shop A-rated specialty markets and come back with real quotes in about 15 minutes — no obligation.",
+    businessPlaceholder: "Apex Spray Foam LLC",
+    emailPlaceholder: "owner@apexsprayfoam.com",
+    phonePlaceholder: "(512) 555-0100",
     messagePlaceholder:
-      "Home address, year built, square footage, construction type, pool/trampoline/dogs, current insurer, renewal date, or anything else that helps us quote accurately…",
+      "Jobs you do (residential, commercial, roofing), equipment and rig count, crew size, states where you work, coverage lines needed, current insurer, loss history, or anything else that helps us quote accurately…",
     errorMessage: "Something went wrong. Please call us at 844-967-5247 or try again.",
-    trustNicheTitle: "Built for Arizona homeowners",
-    trustNicheDesc: "Policies written for Arizona's climate — not generic home coverage.",
+    trustNicheTitle: "Built for spray foam contractors",
+    trustNicheDesc: "Policies written for spray foam operations — not generic contractor coverage.",
   },
   contact: {
     h1Lead: "Let's talk about your",
-    h1Highlight: "Arizona homeowners coverage",
-    lead: "Questions, a quote, or a claim — reach a person who knows Arizona's homeowners market, not a call center.",
+    h1Highlight: "spray foam contractor coverage",
+    lead: "Questions, a quote, or a claim — reach a person who knows spray foam insulation, not a queue.",
     errorMessage: "Something went wrong. Please call us at 844-967-5247.",
   },
   coveragePage: {
-    metaTitle: "Arizona Homeowners Insurance — Phoenix, Scottsdale, Tucson & Statewide",
+    metaTitle: "Spray Foam Contractor Insurance — National Coverage, All 50 States",
     metaDescription:
-      "AZ Homeowners Insurance writes homeowners insurance across Arizona — Phoenix, Scottsdale, Tucson, Chandler, Flagstaff, Prescott, and every Arizona market. Licensed in Arizona, quotes in 15 minutes.",
-    h1Lead: "Arizona statewide coverage.",
-    h1Highlight: "Phoenix to Flagstaff, every AZ market.",
-    lead: "We insure Arizona homes across every region — Phoenix metro, Scottsdale, Tucson, the East Valley, northern Arizona, and Prescott/Yavapai County.",
-    sectionTitle: "Arizona regions we serve.",
-    statewideLead:
-      "Whether your home is in the Phoenix metro, Tucson, Flagstaff, or a small Arizona community, we compare carriers to find the right coverage. NPN #8608479.",
+      "Contractors Choice Agency writes spray foam contractor insurance in all 50 states — Texas, Florida, the Northeast, Midwest, California, Mountain States, and everywhere spray foam insulation contractors operate.",
+    h1Lead: "National reach.",
+    h1Highlight: "All 50 states, every spray foam market.",
+    lead: "Contractors Choice Agency places spray foam insurance programs in all 50 states — from Texas and Florida to the Northeast, Midwest, and Pacific Northwest.",
+    sectionTitle: "Spray foam contractor regions we serve.",
+    nationwideLead:
+      "Whether your spray foam business is in Texas, Florida, the Northeast, the Mountain States, or anywhere in between — one agent, one coordinated program. NPN #8608479.",
     faqs: [
-      { q: "Do you only write homeowners insurance in certain parts of Arizona?", a: "No. We insure homes across all of Arizona — Phoenix metro, Scottsdale, Tucson, Chandler, Gilbert, Tempe, Flagstaff, Prescott, Sedona, Sierra Vista, and everywhere in between." },
-      { q: "Can you insure a high-value home in Scottsdale or Paradise Valley?", a: "Yes. We access specialty markets for high-value Arizona homes that require true replacement-cost coverage above $1M. Scottsdale and Paradise Valley homes often need carriers with custom rebuild-cost analysis and extended replacement-cost endorsements." },
-      { q: "Can you insure a home in a wildfire interface area like Flagstaff or Prescott?", a: "Yes — though the market is challenging. We work with admitted and surplus lines carriers that still write WUI (wildland-urban interface) homes in Flagstaff, Prescott, Sedona, and other northern Arizona communities where some carriers have exited." },
-      { q: "Do you write rental properties and investment homes in Arizona?", a: "Yes. We write landlord policies and dwelling fire policies for Arizona rental properties, vacation homes, and vacant properties — including Phoenix, Scottsdale, and Tucson investment homes." },
+      { q: "Do you only insure spray foam contractors in certain states?", a: "No. Contractors Choice Agency is licensed in all 50 states and writes spray foam programs for contractors anywhere in the country — Texas, Florida, the Northeast, Midwest, California, Mountain States, Pacific Northwest, and everywhere in between." },
+      { q: "Can you write coverage if we work across state lines?", a: "Yes. We structure programs so your GL, CPL, workers' comp, and commercial auto coordinate across state lines without gaps — including spray rigs that travel for commercial and industrial jobs." },
+      { q: "Do you understand the specific risks in my state's spray foam market?", a: "Yes. We work with specialty markets that understand regional differences — California VOC regulations, Texas high-volume new construction, Northeast retrofit work, and Mountain State cold-weather application risk." },
+      { q: "Can you coordinate coverage across multiple jobsites and locations?", a: "Yes. If you operate crews across multiple states or have multiple rigs, we build one coordinated program that covers all locations, vehicles, and crews with no gaps." },
     ],
   },
 } as const;
@@ -162,385 +162,232 @@ export const COPY = {
    PROCESS
    ============================================================ */
 export const PROCESS = [
-  { step: "01", icon: PhoneCall, title: "Tell us about your Arizona home", description: "15-min call or quick form. Home address, year built, square footage, pool or dogs, current insurer, and what's changed since your last renewal." },
-  { step: "02", icon: FileSearch, title: "We shop 12+ Arizona carriers", description: "We compare rates and coverage from multiple A-rated carriers that write in Arizona — including options your current agent may not have access to." },
-  { step: "03", icon: FileSignature, title: "Bind a policy built for your home", description: "Dwelling + personal property + liability + loss of use, plus flood or umbrella if needed — one coordinated program with no coverage gaps." },
-  { step: "04", icon: ShieldCheck, title: "Claims support when you need it", description: "When a monsoon event, wildfire, theft, or liability claim arrives, you reach a person who knows your policy — not a call center. Same-day contact." },
+  { step: "01", icon: PhoneCall, title: "Tell us about your spray foam operation", description: "15-min call or form. Crew size, equipment, jobs you do (residential, commercial, roofing), states where you work, and the coverage lines you need." },
+  { step: "02", icon: FileSearch, title: "We shop specialty contractor markets", description: "Niche markets that actually write spray foam GL with proper endorsements, off-ratio coverage, and CPL — not generic contractor forms that carve out chemical application." },
+  { step: "03", icon: FileSignature, title: "Bind a program built for foam work", description: "GL + CPL + off-ratio + workers' comp + tools + auto, coordinated so there are no gaps across your rig, your crew, and your completed jobs." },
+  { step: "04", icon: ShieldCheck, title: "Claims support that moves fast", description: "When an off-ratio event, a VOC complaint, or a property-damage claim arrives, you reach a person who knows spray foam — not a queue. 2-hour response." },
 ] as const;
 
 /* ============================================================
    WHY CHOOSE US
    ============================================================ */
 export const WHY_CHOOSE = [
-  { icon: ShieldCheck, title: "Dwelling coverage at true rebuild cost", description: "Many Arizona homeowners are insured at market value — not replacement cost. After a total loss, you need to rebuild, not buy. We verify your dwelling limit against actual construction costs in your Arizona market." },
-  { icon: Droplets, title: "Flood coverage for monsoon season", description: "Standard homeowners policies exclude flood entirely. Arizona's monsoon season brings flash flooding that can cause tens of thousands in damage — we add NFIP or private flood coverage so you're not uncovered." },
-  { icon: Home, title: "12+ carriers compared for every quote", description: "We don't work for one carrier. We compare 12+ A-rated options for your Arizona home and present the best combination of price, coverage, and financial strength." },
-  { icon: Gem, title: "Scheduled property for high-value items", description: "Jewelry, firearms, art, and collections have low sub-limits under standard policies. We schedule individual items to ensure they're covered for their actual replacement value." },
-  { icon: Umbrella, title: "Umbrella for pool and dog liability", description: "Arizona pools and dog bites are among the leading sources of personal liability claims. A $1M umbrella above your base liability limits covers the gap between your policy and a serious injury judgment." },
-  { icon: Building, title: "Rental property and vacant home coverage", description: "Standard HO-3 policies don't cover non-owner-occupied or vacant properties. We write landlord policies and dwelling fire policies for Arizona rental properties and investment homes." },
+  { icon: ShieldCheck, title: "GL built for spray foam — not a generic form", description: "Most contractor GL policies exclude chemical application, restrict completed-operations for foam, or cap coverage at amounts that don't reflect the real cost of a spray foam claim. We place forms that match the actual exposure." },
+  { icon: Gauge, title: "Off-ratio coverage no one else offers", description: "When the A:B component ratio is wrong, foam doesn't cure right — and the resulting property damage and chemical exposure claims are excluded by nearly every standard GL. We place off-ratio as a distinct, insurable risk." },
+  { icon: Droplets, title: "CPL for VOC and isocyanate exposure", description: "Spray foam releases volatile organic compounds and MDI isocyanates that can cause third-party bodily injury claims. Standard GL excludes these under the pollution exclusion. Contractor Pollution Liability closes that gap." },
+  { icon: Wrench, title: "Equipment coverage for proportioners and rigs", description: "A proportioning machine alone can be worth $80,000+. Tools and equipment coverage insures your spray guns, heated hoses, generators, and rigs against theft, damage, and breakdown on the jobsite." },
+  { icon: HardHat, title: "Workers' comp with correct class codes", description: "Spray foam workers' comp is often miscoded under generic insulation or painting codes, resulting in audit surprises and coverage gaps. We assign codes to your actual workflow — applicators, helpers, and supervisors." },
+  { icon: Truck, title: "Commercial auto for spray rigs on the road", description: "A rig with a proportioner and chemical tanks is not just a pickup truck. We structure commercial auto for the vehicle, the equipment on it, and the liability when a spray rig is in transit or parked on a jobsite." },
 ] as const;
 
 /* ============================================================
    HOMEPAGE FAQ — 20 questions
    ============================================================ */
 export const HOME_FAQS = [
-  { q: "What does homeowners insurance cover in Arizona?", a: "A standard Arizona homeowners policy (HO-3) covers your dwelling structure, personal property, personal liability, and loss of use if your home is uninhabitable after a covered loss. It does NOT cover flood, earthquake, or normal wear and tear. Arizona homeowners in monsoon zones should strongly consider adding flood coverage separately." },
-  { q: "How much does homeowners insurance cost in Arizona?", a: "Arizona homeowners insurance averages $1,200–$2,500/year depending on location, home value, age, construction type, wildfire risk, flood zone, pool, dogs, and claims history. Phoenix and Tucson metro homes tend to run lower; northern Arizona and wildfire interface areas run significantly higher. We compare 12+ carriers to find your best rate." },
-  { q: "Does homeowners insurance cover monsoon damage in Arizona?", a: "Yes — windstorm and hail from monsoon storms are covered under a standard HO-3. However, flood from monsoon runoff or flash flooding is excluded under the flood exclusion. You need separate flood coverage (NFIP or private flood) to cover monsoon-related flooding." },
-  { q: "Does homeowners insurance cover wildfire damage in Arizona?", a: "Yes. Wildfire is a covered peril under standard Arizona homeowners policies. However, some carriers have restricted underwriting in wildfire interface (WUI) zones — particularly around Flagstaff, Prescott, and Sedona. If you're in a WUI area, we access specialty carriers that still write competitively in those markets." },
-  { q: "What is not covered by Arizona homeowners insurance?", a: "Standard Arizona homeowners policies exclude flood, earthquake, sewer backup (unless endorsed), normal wear and tear, pest damage, and intentional acts. Luxury items like jewelry, firearms, and art often have sub-limits. We review your exclusions and fill the gaps with endorsements or separate policies." },
-  { q: "Do I need flood insurance in Arizona?", a: "If you're in a FEMA-designated flood zone, your lender will require it. But flash flooding from Arizona monsoons can affect homes well outside mapped flood zones. We recommend flood coverage for any Arizona home in a low-lying area, near a wash, or in a known monsoon runoff corridor." },
-  { q: "How much dwelling coverage do I need for my Arizona home?", a: "You need enough to rebuild your home at current Arizona construction costs — not its market value. In Arizona, residential reconstruction runs $150–$350+ per square foot depending on construction type, finishes, and location. Many Arizona homeowners are underinsured because their policy was set at purchase price, not rebuild cost. We verify this for every client." },
-  { q: "Does homeowners insurance cover my pool in Arizona?", a: "Your pool structure is covered under dwelling coverage. Pool equipment (pumps, heaters) may be covered under personal property or other structures. Pool-related liability — if a guest is injured in your pool — is covered under your personal liability limit. A pool increases your liability exposure; we often recommend an umbrella policy." },
-  { q: "Does homeowners insurance cover dog bites in Arizona?", a: "Yes, under your personal liability coverage. Arizona has strict liability laws for dog bites — owners are liable regardless of the dog's history. If you own a large-breed dog or a breed some carriers surcharge or exclude, we find you carriers that write the coverage without restricting your dog." },
-  { q: "What is loss of use coverage and why is it important in Arizona?", a: "Loss of use (additional living expenses) pays for hotel, food, and temporary housing if a covered loss makes your Arizona home uninhabitable during repairs. In the Phoenix metro, hotel rates run $150–$400/night. A major claim repair can take months — loss of use coverage is critical." },
-  { q: "Can I get homeowners insurance for a high-value home in Scottsdale?", a: "Yes. We access specialty markets for high-value Scottsdale, Paradise Valley, and Fountain Hills homes that require true replacement-cost coverage, extended replacement-cost endorsements, and custom rebuild-cost analysis. Standard carriers often underprice and underinsure these properties." },
-  { q: "What does an umbrella policy cover in addition to homeowners insurance?", a: "A personal umbrella adds $1M–$5M in liability above your homeowners and auto policies. It pays when a judgment exceeds your base liability limit — from a pool injury, dog bite, serious auto accident, or other liability event." },
-  { q: "How do I insure a rental property or investment home in Arizona?", a: "Standard HO-3 policies cover owner-occupied homes only. For rental properties, you need a landlord policy (also called a dwelling fire or DP-3 policy) that covers the structure, your liability as a landlord, and optional loss of rents. We write landlord policies for Phoenix, Scottsdale, Tucson, and East Valley rental properties." },
-  { q: "What is scheduled personal property and when do I need it?", a: "Standard homeowners policies cap jewelry, firearms, and fine art at low sub-limits. If your jewelry, gun collection, art, or other valuables exceed those sub-limits, you need to schedule individual items. Scheduled coverage removes sub-limits and often covers mysterious disappearance." },
-  { q: "Can you insure a home in a wildfire interface area near Flagstaff or Prescott?", a: "Yes — though it's challenging. Some admitted carriers have exited northern Arizona WUI zones. We work with specialty admitted and surplus lines markets that still write Flagstaff, Prescott, Sedona, and Yavapai County homes with competitive terms." },
-  { q: "Does homeowners insurance cover my personal property outside my home?", a: "Yes. Standard HO-3 policies cover your personal property worldwide at a reduced percentage (typically 10% of your personal property limit). If your laptop is stolen from your car or your luggage is lost on a trip, your homeowners policy may cover it." },
-  { q: "What happens if my Arizona home is vacant?", a: "A standard HO-3 typically excludes or limits coverage after 30–60 days of vacancy. If your Arizona home is vacant for an extended period — during renovation, estate settlement, or a seasonal absence — you need a vacancy endorsement or a separate dwelling fire policy to maintain coverage." },
-  { q: "How do I reduce my Arizona homeowners insurance premium?", a: "The most effective ways: install a monitored alarm system (5–15% discount), add impact-resistant roofing (10–30%), bundle with your auto policy (5–15%), increase your deductible, and shop multiple carriers at renewal. We re-shop your coverage annually to prevent renewal-creep premium increases." },
-  { q: "Does homeowners insurance cover sewer backup in Arizona?", a: "Not by default. Sewer and drain backup is excluded from standard HO-3 policies but can be added as an endorsement for $50–$150/year. Given Arizona's aging sewer infrastructure in older Phoenix and Tucson neighborhoods, it's a cost-effective add." },
-  { q: "How do I file a homeowners insurance claim in Arizona?", a: "Contact your insurer directly (their claims line is on your declarations page) as soon as the loss occurs. Document everything with photos before making temporary repairs. Temporary repairs to prevent further damage are covered — keep receipts. We walk clients through the process and help navigate disputes with the carrier." },
-] as const;
+  { q: "What insurance does a spray foam contractor need?", a: "A working spray foam contractor typically needs general liability with spray foam endorsements, contractor pollution liability (CPL) for VOC and isocyanate exposure, off-ratio coverage for A:B component mix errors, workers' compensation, commercial auto for spray rigs, tools and equipment coverage, a commercial umbrella, and contractor bonds. Most spray foam businesses carry all eight as one coordinated program." },
+  { q: "How much does spray foam contractor insurance cost?", a: "Cost depends on annual revenue, crew size, types of jobs (residential, commercial, industrial), states where you work, equipment value, and loss history. Small residential-only spray foam contractors may pay a few thousand a year; larger commercial operations with significant equipment and payroll run considerably more. We quote your actual operation in about 15 minutes — never a generic estimate." },
+  { q: "Does a standard contractor GL policy cover spray foam work?", a: "Often not. Most generic contractor GL policies contain exclusions for chemical application, completed-operations for foam products, or pollution events from VOCs and isocyanates. Spray foam contractors need GL forms that include proper spray foam endorsements and don't carve out the primary risks of the trade." },
+  { q: "What is off-ratio coverage and why do I need it?", a: "Off-ratio occurs when the A-component (isocyanate) and B-component (polyol) in spray polyurethane foam are mixed at the wrong ratio. The foam doesn't cure correctly, can off-gas harmful chemicals, and causes property damage — claims that are explicitly excluded by most standard GL policies. Off-ratio coverage insures this specific risk as a standalone event." },
+  { q: "What is Contractor Pollution Liability (CPL) for spray foam?", a: "CPL covers third-party bodily injury and property damage from chemical releases during spray foam application — VOC off-gassing, MDI isocyanate exposure, blowing agent releases, and related events. Standard GL policies exclude these under the pollution exclusion. CPL fills that gap." },
+  { q: "Are VOC and isocyanate exposure claims covered by standard GL?", a: "No. Volatile organic compounds and MDI isocyanates released during spray foam application are treated as pollutants under standard GL policies, placing those claims under the pollution exclusion. Only a dedicated Contractor Pollution Liability policy covers bodily injury and property damage from chemical exposure." },
+  { q: "Do I need workers' comp if I have spray foam employees?", a: "In most states, yes — workers' comp is required once you have employees, and spray foam work is high-hazard. Chemical inhalation, confined-space exposure, fall hazards, and exothermic reaction burns are common injury patterns. Proper workers' comp with correct class codes for spray foam crews is essential." },
+  { q: "What class codes apply to spray foam workers?", a: "Spray foam workers are often miscoded under generic insulation (class code 5473) or painting codes. The correct code matters because it affects premium, coverage scope at audit, and whether a chemical-exposure injury is properly recognized. We assign codes to your actual workflow — applicators, helpers, and estimators." },
+  { q: "Is my spray rig or proportioning machine covered under commercial auto?", a: "The proportioner and equipment mounted on the rig are not automatically covered by auto insurance — they need inland marine or tools and equipment coverage. The vehicle itself needs commercial auto with proper endorsements for equipment-carrying vehicles. We coordinate both so there's no gap." },
+  { q: "What equipment should I insure as a spray foam contractor?", a: "At minimum: your proportioning machine, spray gun and hoses, heated hose set, transfer pumps, generators, and the vehicle the equipment rides on. A proportioner alone can be worth $60,000–$120,000. Tools and equipment coverage insures these against theft, damage, and breakdown on or off the jobsite." },
+  { q: "Does commercial umbrella cover spray foam claims?", a: "Yes — commercial umbrella sits above your GL, auto, and workers' comp to cover claims that exceed underlying limits. Given that a single off-ratio event or fire claim can run into the hundreds of thousands, most spray foam contractors doing commercial work should carry an umbrella." },
+  { q: "Do I need a bond to work as a spray foam contractor?", a: "Many states require a contractor license bond as a condition of licensing. General contractors and commercial project owners often require performance and payment bonds for spray foam subcontractors. We issue contractor bonds quickly — often same-day — and coordinate them with your liability program." },
+  { q: "Can you insure a spray foam contractor who has been declined before?", a: "Often yes. We have admitted and excess-and-surplus (E&S) markets for spray foam contractors declined over prior claims, CPL history, high chemical exposure, or other issues. Bring us what you have and we'll find a market." },
+  { q: "What happens if I do both open-cell and closed-cell spray foam?", a: "Both types carry similar liability exposures but different application risks. Open-cell foam is more common in residential applications; closed-cell is used in commercial, roofing, and cold-climate work. We account for both in the program — including the higher chemical concentrations in closed-cell applications." },
+  { q: "Is spray foam roofing covered the same as standard spray foam?", a: "Not automatically. Spray polyurethane foam (SPF) roofing systems involve additional exposures — roof-level fall hazards, UV coating application, and different completed-operations claims patterns. We specifically address roofing foam application in the GL and CPL so those jobs are covered." },
+  { q: "What if a homeowner claims the spray foam damaged their home?", a: "Property-damage completed-operations claims — foam expansion into HVAC systems, incorrect application causing structural issues, or off-ratio foam that must be removed — are covered under a properly structured GL policy with spray foam endorsements. Without those endorsements, the claim can be excluded." },
+  { q: "Do you write spray foam contractor insurance in all 50 states?", a: "Yes. Contractors Choice Agency is licensed in all 50 states and has markets for spray foam operations whether your business is in Texas, Florida, the Northeast, Midwest, California, or anywhere in between." },
+  { q: "How fast can we get a spray foam contractor insurance quote?", a: "Typically 15 minutes on a call. For larger programs with significant commercial work or high equipment values, we may need a day or two to involve the right markets — but we move fast and tell you the timeline up front." },
+  { q: "Should I bundle all my spray foam coverage with one program?", a: "Usually yes. Bundling GL + CPL + workers' comp + auto + tools into one coordinated program closes gaps between policies — especially between GL and CPL where most spray foam claims fall in the gray zone — and is typically cheaper and easier to manage at claim time." },
+  { q: "Can I get insurance if I just started my spray foam business?", a: "Yes. New spray foam contractors can be harder to place with some markets, but we have programs for startups and recently-established businesses. The key is having proper equipment, PPE protocols, and training in place — we'll help you document what underwriters want to see." },
+];
 
 /* ============================================================
-   GENERAL FAQS (used on coverage page)
+   GENERAL FAQ — pads service & location pages to 20.
    ============================================================ */
 export const GENERAL_FAQS = [
-  { q: "How do I switch homeowners insurance carriers in Arizona?", a: "Switching is straightforward: get a new policy bound before your current one expires, then cancel the old policy effective the new policy start date. Your mortgage lender will need the new declarations page. We handle the paperwork and coordinate with your lender." },
-  { q: "Will my homeowners insurance cover me if I rent out part of my home?", a: "Typically no — standard HO-3 policies exclude business and rental activities. If you rent a room or a guest house on your property, you may need a homeowners endorsement or a separate landlord policy for that portion of the home." },
-  { q: "How much does homeowners insurance cost in Arizona?", a: "Arizona home insurance averages roughly $1,200–$2,500 per year, though city and risk profile move it a lot — Phoenix and Tucson metro homes often land lower, while Flagstaff, Prescott, and wildfire-interface areas run higher. Home value, age, roof, construction, pool, dogs, and claims history all factor in. We compare 12+ carriers to find your best rate." },
-  { q: "How fast can I get an Arizona homeowners insurance quote?", a: "Most quotes take about 15 minutes once we have your home's address, year built, square footage, and a few risk details. Call 844-967-5247 or start online and we'll shop A-rated Arizona carriers and come back with real numbers — not a call-center callback a week later." },
-  { q: "Do you compare multiple carriers or just one?", a: "We're an independent agency, so we compare 12+ A-rated carriers that write in Arizona for every quote — including markets your current agent may not have. That's how we find the right combination of price, coverage, and financial strength for your home." },
-  { q: "Can bundling my home and auto lower my Arizona premium?", a: "Usually yes. Bundling home and auto with the same carrier typically earns a 5–15% multi-policy discount in Arizona and simplifies billing and renewals. We quote the bundle alongside stand-alone options so you can see the real savings." },
-  { q: "Does homeowners insurance cover roof damage in Arizona?", a: "Yes — sudden, accidental roof damage from monsoon wind, hail, or fire is covered under a standard HO-3. Note that many Arizona carriers now settle older tile and shingle roofs on an actual-cash-value (depreciated) basis rather than full replacement cost, so we review your roof settlement terms before you buy." },
-  { q: "Will a claim raise my Arizona home insurance rate?", a: "It can, especially multiple claims within a few years or a claim on a home in a wildfire or monsoon-prone area. Small losses you can absorb are often better left unfiled to protect your claims history. We help you weigh whether filing makes sense and re-shop your coverage if a carrier non-renews you." },
-] as const;
+  { q: "How much does spray foam contractor insurance cost?", a: "Cost is driven by annual revenue, crew size, job type (residential, commercial, roofing), states where you operate, equipment values, and loss history. We quote your actual operation in about 15 minutes — never a ballpark from a generic contractor form." },
+  { q: "Do you write spray foam insurance in all 50 states?", a: "Yes. Contractors Choice Agency is licensed in all 50 states and writes spray foam programs nationwide — Texas, Florida, the Northeast, Midwest, California, Mountain States, and everywhere spray foam contractors operate." },
+  { q: "How fast can we get a quote?", a: "Typically 15 minutes on a call. Larger or higher-risk programs may take a day or two to place with the right markets, but we move fast and set expectations up front." },
+  { q: "Will you insure a spray foam contractor who has been declined or has prior claims?", a: "Often yes. We have admitted and E&S markets for spray foam contractors declined over CPL history, prior claims, or other issues. Bring us your situation and we'll find a market." },
+  { q: "Should I bundle all my spray foam coverage with one program?", a: "Usually yes. A coordinated program — especially one that aligns GL and CPL — closes the gaps where most spray foam claims fall and is typically cheaper than separate policies from separate carriers." },
+  { q: "What does an A-rated carrier mean and why does it matter?", a: "A.M. Best ratings reflect a carrier's financial strength. We place coverage with A-rated carriers so the coverage is there when an off-ratio event, a pollution claim, or a property-damage lawsuit hits." },
+  { q: "Do you insure both residential and commercial spray foam contractors?", a: "Yes. Residential foam contractors carry completed-operations and off-ratio exposure; commercial contractors add higher limits requirements, GC bonding, and larger pollution exposure. We tailor the program to your actual work mix." },
+  { q: "How are completed-operations claims handled for spray foam work?", a: "Completed-operations covers claims that arise after the job is done — foam that off-gasses, expands incorrectly, or causes property damage. These claims need to be explicitly included in the GL policy; many generic contractor forms sub-limit or exclude spray foam completed-ops." },
+  { q: "What information do you need to quote my spray foam business?", a: "Annual revenue, crew size, job types (residential, commercial, roofing foam), equipment list and values, states where you work, current coverage, and loss history. The more detail, the more accurate and competitive the quote." },
+  { q: "Does spray foam insurance cover subcontractor crews?", a: "It depends on the structure. If you 1099 subs, you need to verify they carry their own GL and workers' comp — or add them as additional insureds. We help you structure a program that doesn't create gaps when subs are on your jobsites." },
+  { q: "Are newly established spray foam contractors insurable?", a: "Yes, though some markets are more restrictive for startups. Having proper PPE, documented safety protocols, and trained applicators makes placement easier and pricing more competitive. We'll help you document what underwriters want to see." },
+  { q: "What happens if my proportioner or spray equipment is stolen from the jobsite?", a: "Tools and equipment coverage pays for the stolen equipment. Standard commercial auto covers the vehicle, but the spray gun, hoses, and proportioner on it need dedicated inland marine or tools coverage to be insured against theft or damage on a jobsite." },
+  { q: "Can you coordinate coverage across multiple rigs and crews?", a: "Yes. If you operate multiple spray rigs and crews, we build one coordinated program covering all vehicles, equipment, and workers with no gaps — including fleet auto and a blanket tools policy." },
+  { q: "Do you offer guidance on applicator certification and underwriting requirements?", a: "We help you understand what underwriters require in terms of applicator certification (SPFA training, BPI, etc.) and can structure your program to reflect your crew's credentials, which can improve both placement and pricing." },
+];
 
 /* ============================================================
-   AZ REGIONS (used on coverage page and CoverageMap)
+   SERVICE DETAIL
+   ============================================================ */
+export interface ServiceDetail {
+  heroBlurb: string;
+  whatsCovered: string[];
+  whoItsFor: string[];
+  whyCca: string[];
+  faqs: { q: string; a: string }[];
+}
+
+export const SERVICE_DETAIL: Record<string, ServiceDetail> = {
+  "general-liability": {
+    heroBlurb: "General liability insurance written for spray foam insulation contractors — with endorsements that cover the chemical-application exposure, completed-operations for foam products, and property damage that generic contractor GL policies exclude.",
+    whatsCovered: ["Third-party bodily injury on the jobsite", "Property damage from foam expansion, application errors, or adhesion failures", "Completed-operations claims arising after the job is done", "Defense costs and legal fees for covered claims", "Products liability for spray foam materials you apply", "Additional insured requirements for GCs and project owners"],
+    whoItsFor: ["Any spray foam contractor — residential, commercial, or roofing foam", "Operations required to show GL certificates to general contractors", "Contractors whose current GL excludes or sublimits chemical application", "Spray foam businesses that have been declined or canceled by standard markets"],
+    whyCca: ["We place GL forms with spray foam endorsements — not generic contractor forms with carve-outs", "Completed-operations limits set to reflect the real cost of a foam removal or property-damage claim", "E&S market access for contractors standard carriers won't write"],
+    faqs: [
+      { q: "Why doesn't a standard contractor GL cover spray foam work?", a: "Standard contractor GL policies are built around general construction. Spray foam is a chemical application that releases VOCs, involves specialized equipment, and creates unique completed-operations risks. Most policies either exclude chemical application entirely or sub-limit coverage in ways that make the policy nearly useless for a foam claim." },
+      { q: "What are completed-operations claims for spray foam?", a: "Completed-operations covers claims that arise after you've finished the job — a homeowner discovers foam expanded into their HVAC system, a commercial tenant reports off-gassing after application, or foam with an incorrect ratio causes structural issues. Without proper completed-ops coverage, these post-job claims can be denied." },
+      { q: "How much GL coverage does a spray foam contractor need?", a: "Most GCs and commercial project owners require $1M per occurrence / $2M aggregate at minimum. For commercial and industrial work, $2M/$4M is increasingly common. We size the limit to your actual work and supplement with an umbrella for large projects." },
+      { q: "Will GL cover a fire from spray foam off-gassing?", a: "Fire from foam off-gassing during or after application is a covered peril under a properly structured GL — but only if the chemical application exclusions are properly handled. We confirm the fire-from-foam scenario is covered in the forms we place." },
+      { q: "Does GL cover damage from over-spray or drift?", a: "Yes — over-spray that lands on a homeowner's car, a neighboring property, or HVAC equipment is a property-damage claim covered under the GL. We make sure the policy's coverage territory and property-damage provisions reflect the realities of spray foam application." },
+      { q: "What additional insured endorsements do spray foam contractors need?", a: "Most GCs require you to add them as additional insured on your GL and sometimes CPL. We can issue blanket additional-insured endorsements so you're not calling us for every certificate — and we make sure the AI language satisfies the typical GC contract requirement." },
+    ],
+  },
+  "off-ratio-coverage": {
+    heroBlurb: "Coverage for off-ratio spray foam events — when the A:B component ratio is wrong, foam doesn't cure correctly, and the resulting property damage, chemical exposure, and removal costs land in a gap most GL policies explicitly exclude.",
+    whatsCovered: ["Property damage from improperly cured spray foam that must be removed", "Third-party bodily injury from chemical exposure due to off-ratio foam", "Costs to identify and remove defective foam from a structure", "Defense costs when an off-ratio event results in a lawsuit", "Chemical release claims from incompletely reacted isocyanate or polyol", "Remediation and restoration costs following an off-ratio application"],
+    whoItsFor: ["Any spray foam contractor using two-component spray polyurethane foam systems", "Contractors whose GL policy excludes or sublimits off-ratio events", "High-volume commercial applicators with greater exposure to equipment malfunction", "Residential contractors working in occupied homes where off-ratio exposure is a tenant risk"],
+    whyCca: ["We access specialty markets that write off-ratio as a distinct, insurable risk", "Off-ratio coverage coordinated with CPL so chemical exposure from incomplete reactions is also covered", "Claims handling with adjusters who understand spray foam chemistry — not generic property adjusters"],
+    faqs: [
+      { q: "What exactly is an off-ratio spray foam event?", a: "Spray polyurethane foam is a two-component system — isocyanate (A-side) and polyol (B-side) — that must be mixed at a precise ratio for the foam to cure correctly. When equipment malfunctions, heaters fail, or a setup error occurs, the ratio goes off. The result is foam that doesn't cure, remains tacky, off-gasses incompletely reacted isocyanate, and can cause serious property damage and bodily injury." },
+      { q: "Why does my standard GL exclude off-ratio claims?", a: "Most GL policies have language excluding damage arising from the insured's own product or work that is defective, or from chemical releases treated as pollution events. An off-ratio foam application can be classified as either a defective product or a pollution release — and both exclusions can apply. Off-ratio coverage is written to address this specific gap." },
+      { q: "How common are off-ratio events?", a: "More common than most contractors realize. Equipment heater failures, hose blockages, pressure imbalances, and cold-weather application can all produce off-ratio foam. Even experienced applicators working with well-maintained equipment face off-ratio risk on every job." },
+      { q: "Is off-ratio coverage the same as CPL?", a: "No. Contractor Pollution Liability covers third-party bodily injury and property damage from chemical releases — VOCs, isocyanates, and blowing agents. Off-ratio coverage addresses the defective-product aspect — foam that didn't cure right and the property damage from removing it. For full protection, you want both, coordinated." },
+      { q: "Does the foam manufacturer's warranty cover off-ratio events?", a: "Manufacturer warranties typically cover product defects — issues with the chemical itself. An off-ratio event caused by equipment malfunction or applicator error is not a product defect and is not covered by the manufacturer's warranty. That's a contractor liability — which is exactly what off-ratio coverage addresses." },
+    ],
+  },
+  "contractor-pollution-liability": {
+    heroBlurb: "Contractor Pollution Liability (CPL) for spray foam applicators — covering third-party bodily injury and property damage from VOC emissions, MDI isocyanate exposure, blowing agent releases, and the chemical events that standard GL excludes under the pollution exclusion.",
+    whatsCovered: ["Third-party bodily injury from VOC and isocyanate exposure during application", "Property damage from chemical releases and residual off-gassing", "Cleanup and remediation costs following a chemical release event", "Defense costs for bodily injury and pollution claims", "Tenant and occupant exposure claims in occupied buildings", "Transport and storage incidents involving two-component foam chemicals"],
+    whoItsFor: ["Any spray foam contractor — the pollution exposure is inherent in the trade", "Contractors working in occupied residences or commercial buildings where tenant exposure is a real risk", "High-volume applicators whose chemical storage and transport creates additional exposure", "Any contractor who has been required by a GC or project owner to carry CPL"],
+    whyCca: ["CPL coordinated with GL so VOC and isocyanate claims don't fall through the policy gap", "We document your PPE protocols, ventilation procedures, and applicator training to improve placement and pricing", "E&S CPL market access for contractors with prior pollution claims or challenging work environments"],
+    faqs: [
+      { q: "Why does my standard GL exclude VOC and isocyanate claims?", a: "Standard GL policies contain a pollution exclusion that removes coverage for the discharge, dispersal, or release of chemical substances. VOCs and MDI isocyanates released during spray foam application are classified as pollutants under most policies — meaning third-party bodily injury and property damage from those releases is excluded. CPL is written specifically to fill that gap." },
+      { q: "What is MDI isocyanate and why is it a liability risk?", a: "MDI (methylene diphenyl diisocyanate) is the primary chemical in the A-side of two-component spray foam. During application, aerosol and vapor can be inhaled by workers and occupants, causing respiratory sensitization, asthma, and in severe cases, occupational asthma or hypersensitivity pneumonitis. Third-party bodily injury claims from isocyanate exposure are a real and significant liability." },
+      { q: "Do I need CPL even if I use proper PPE and ventilation?", a: "Yes. PPE and ventilation reduce the risk of a claim, but they don't eliminate it — and they don't replace insurance coverage. A tenant who claims respiratory symptoms after a spray foam job can file a claim regardless of your safety protocols. CPL covers the defense and any damages in that event." },
+      { q: "Is CPL required by GCs for spray foam subcontractors?", a: "Increasingly, yes. As GCs become more aware of the chemical exposure risk in spray foam work, many are adding CPL requirements to their subcontractor agreements alongside the standard GL requirement. We place CPL that satisfies these contract requirements." },
+      { q: "What limits should a spray foam contractor carry for CPL?", a: "Minimum CPL limits are typically $1M per occurrence / $2M aggregate. For commercial and industrial work, or contractors working in occupied buildings, $2M/$4M or higher is common. We model your actual exposure and size the limit accordingly." },
+      { q: "Can CPL cover a chemical spill during transport?", a: "Yes — CPL can include coverage for pollution events during transport and storage of A and B-side foam chemicals. If a drum leaks or spills in transit, the resulting cleanup and third-party claims can be covered. We confirm the transport endorsement is in the form we place." },
+    ],
+  },
+  "workers-compensation": {
+    heroBlurb: "Workers' compensation coverage for spray foam insulation crews — properly class-coded for chemical applicators, written by markets that understand the high-hazard spray foam work environment, and structured for residential and commercial operations.",
+    whatsCovered: ["Medical treatment for on-the-job injuries", "Disability and lost-wage benefits for injured workers", "Chemical inhalation and respiratory injury from foam chemicals", "Fall injuries from working at height (roofs, attics, walls)", "Burn injuries from exothermic foam reactions", "Employers' liability (Part Two) protection for employer negligence claims"],
+    whoItsFor: ["Spray foam contractors with W-2 employees (required in most states)", "Applicator crews handling two-component foam chemicals", "Roofing foam applicators with fall exposure", "Operations whose workers are misclassified under generic insulation codes"],
+    whyCca: ["Class codes structured for actual spray foam applicator job categories", "High-hazard chemical exposure reflected in the rating — not generic insulation or painting codes", "Markets that write spray foam workers' comp without excessive surcharges or exclusions"],
+    faqs: [
+      { q: "Is workers' comp required for spray foam employees?", a: "In most states, yes — once you have employees, workers' comp is mandatory. Spray foam work is classified as high-hazard due to chemical inhalation, fall exposure, and confined-space risk. Proper workers' comp is essential for both your crew's protection and your legal compliance." },
+      { q: "What class codes apply to spray foam workers?", a: "Spray foam applicators are often coded under 5473 (insulation work) or occasionally under painting codes. The correct code matters for premium calculation, audit results, and claims handling. We assign codes to your actual workflow — chemical applicators, helpers, and supervisors each have different exposure profiles." },
+      { q: "Are chemical inhalation injuries covered under workers' comp?", a: "Yes — respiratory injuries from isocyanate, VOC, or blowing agent exposure are covered under workers' comp for the affected employee. On the third-party side (a building occupant or neighboring worker), that's a CPL claim. Workers' comp covers the employer's own crew only." },
+      { q: "What if my spray foam workers are misclassified?", a: "Misclassification leads to premium disputes at audit — either underpayment that results in a large audit bill, or overpayment that costs you money unnecessarily. We assign class codes to your actual workflow and document it so your audit produces no surprises." },
+      { q: "How are 1099 spray foam subcontractors handled?", a: "1099 contractors who don't carry their own workers' comp can be deemed employees in many states, making you responsible for their comp claims. We help you understand which subs need to carry their own coverage and how to document it — protecting you from the audit exposure." },
+    ],
+  },
+  "commercial-auto": {
+    heroBlurb: "Commercial auto coverage for spray foam contractors' vehicles — proportioner trucks, chemical transport vehicles, service vans, and spray rigs — structured for equipment-intensive, multi-state spray foam insulation operations.",
+    whatsCovered: ["Liability for at-fault accidents involving foam rigs and chemical transport vehicles", "Physical damage to owned vehicles used for spray foam work", "Hired and non-owned auto for employees driving personal vehicles", "Equipment endorsements for proportioners and spray equipment on vehicles", "Multi-state operation coverage for contractors who travel for commercial jobs", "Loading and unloading liability for chemical handling"],
+    whoItsFor: ["Any spray foam contractor with owned vehicles (trucks, vans, spray rigs)", "Contractors transporting two-component foam chemicals on public roads", "Operations whose vehicles carry proportioning machines and spray equipment", "Businesses whose employees drive personal vehicles for work errands or site visits"],
+    whyCca: ["Commercial auto structured for the spray foam exposure — chemical transport, equipment-carrying vehicles, and multi-state travel", "Coordinates with tools and equipment coverage for the proportioner and gear on the vehicle", "Fleet programs for contractors with multiple rigs"],
+    faqs: [
+      { q: "Is my spray foam rig different from a standard contractor vehicle?", a: "Yes — a vehicle carrying a proportioning machine, chemical drums, and spray equipment is a specialized commercial vehicle with different liability and physical damage considerations than a standard pickup truck. We structure commercial auto to reflect the actual nature of a spray foam rig." },
+      { q: "Is the proportioner and spray equipment on my truck covered by auto?", a: "No — the vehicle is covered by commercial auto; the equipment on it needs inland marine or tools and equipment coverage. We coordinate both so there's no gap between the vehicle policy and the equipment policy when a rig is involved in an accident or theft." },
+      { q: "Do I need special endorsements for transporting foam chemicals?", a: "The A-side chemical (MDI isocyanate) has specific transport requirements. Commercial auto can be endorsed for chemical transport, and we confirm that the policy addresses the loading and unloading liability that comes with moving hazardous materials." },
+      { q: "What is hired and non-owned auto, and do I need it?", a: "Hired and non-owned covers liability when employees drive personal or rented vehicles on business — running to the supply house, meeting a client, or traveling to a jobsite. Any spray foam business where employees occasionally use their own vehicles should carry this coverage." },
+      { q: "Are spray foam contractors who travel across state lines covered?", a: "Yes — commercial auto provides coverage across state lines. We confirm the policy's coverage territory and make sure the travel patterns of your rigs and crews are properly reflected in the program." },
+    ],
+  },
+  "tools-equipment": {
+    heroBlurb: "Tools and equipment coverage for spray foam contractors — insuring proportioners, spray guns, heated hoses, generators, and chemical transfer equipment against theft, damage, and breakdown on the jobsite or in transit.",
+    whatsCovered: ["Proportioning machines stolen from vehicles or jobsites", "Spray guns, hoses, and heated hose sets damaged or stolen", "Generators and power equipment used in spray foam operations", "Chemical transfer pumps and ancillary spray equipment", "Equipment damaged during transport or setup", "Rented equipment temporarily in your care, custody, or control"],
+    whoItsFor: ["Any spray foam contractor with equipment worth insuring (essentially all of them)", "Contractors working on jobsites where theft is a real risk", "Operations that transport expensive proportioners between jobsites", "Contractors who rent equipment and bear responsibility for it"],
+    whyCca: ["Blanket tools and equipment policies that cover all your spray gear without scheduling every item", "Agreed-value options for high-value proportioners so depreciation doesn't reduce the claim", "Coordinates with commercial auto so there's no gap between vehicle and equipment coverage"],
+    faqs: [
+      { q: "How much is a proportioning machine worth to insure?", a: "A mid-range proportioner for closed-cell foam can run $60,000–$120,000 new. Heated hose sets are another $10,000–$25,000. A full spray foam rig represents $80,000–$150,000 or more in specialized equipment — well worth insuring on its own terms." },
+      { q: "Is spray foam equipment covered under commercial auto if it's in my truck?", a: "No — commercial auto covers the vehicle itself. The proportioner, spray guns, and hoses in or on the truck need inland marine or tools and equipment coverage. This is one of the most common coverage gaps for spray foam contractors." },
+      { q: "Does tools coverage pay for equipment damaged on the jobsite?", a: "Yes — tools and equipment coverage typically covers damage caused by jobsite conditions: a hose run over by a vehicle, equipment knocked off scaffolding, or weather damage to gear left on-site. Blanket forms cover the equipment wherever it is." },
+      { q: "What if my spray equipment is stolen from a locked vehicle?", a: "Tools and equipment coverage typically covers theft from a locked vehicle. Auto policies generally don't cover tools and equipment in the vehicle. We make sure the form we place explicitly covers theft from a locked vehicle, which is the most common way spray foam equipment is stolen." },
+      { q: "Can I insure rented or borrowed equipment?", a: "Yes — a care, custody, and control (CC&C) endorsement or rented equipment provision covers temporary equipment in your possession. This is important for spray foam contractors who rent backup proportioners when their primary machine is in for service." },
+    ],
+  },
+  "umbrella": {
+    heroBlurb: "Commercial umbrella coverage for spray foam contractors — providing excess limits above your GL, commercial auto, and workers' comp for catastrophic claims that exceed underlying policy limits.",
+    whatsCovered: ["Excess limits above general liability for large property damage or injury claims", "Excess limits above commercial auto for major vehicle accidents", "Excess limits above workers' comp employers' liability for negligence claims", "Coverage for claims that trigger multiple underlying policies simultaneously", "Defense cost coverage above underlying policy limits", "Drop-down coverage when an underlying policy is exhausted"],
+    whoItsFor: ["Spray foam contractors doing commercial or industrial work", "Any contractor required by GCs or project owners to carry $2M+ in coverage", "Operations with multiple rigs and crews creating broader exposure", "Any spray foam business that wants protection against catastrophic loss scenarios"],
+    whyCca: ["Umbrella coordinated with the underlying GL, CPL, and auto so there are no coverage gaps at the trigger point", "Higher limits available for large commercial operations requiring $5M or $10M in total coverage", "Umbrella markets that understand chemical-application contractor exposures"],
+    faqs: [
+      { q: "Why does a spray foam contractor need an umbrella?", a: "A single large off-ratio event in a commercial building, a fire from foam off-gassing, or a serious vehicle accident can produce claims that exceed standard GL or auto limits. Commercial umbrella provides the coverage above underlying limits that catastrophic claims require — and it's typically the most cost-effective way to get higher total limits." },
+      { q: "What limits should a spray foam contractor carry for umbrella?", a: "For residential-only contractors, $1M–$2M umbrella is common. For commercial and industrial work or operations with multiple crews and rigs, $2M–$5M is typical. Some project owners and GCs require $5M or higher for large projects." },
+      { q: "Does the umbrella cover claims from CPL policies?", a: "Most commercial umbrella policies follow the form of the underlying GL, not a standalone CPL. If your CPL is a separate policy, the umbrella may not automatically follow it — we confirm the umbrella's relationship to the CPL so there are no surprises at claim time." },
+      { q: "Is an umbrella required by GCs on commercial spray foam projects?", a: "Yes, increasingly. Many commercial GCs require $2M total ($1M GL + $1M umbrella) or $3M or higher for spray foam subcontractors on their projects. We issue the certificate of insurance showing the combined limits." },
+      { q: "How does umbrella interact with my workers' comp employers' liability?", a: "A commercial umbrella can be structured to sit above the employers' liability (Part Two) of your workers' comp policy. This is important because employers' liability claims — where an employee sues the employer for negligence — can produce large verdicts that statutory comp limits don't cover." },
+    ],
+  },
+  "bonds": {
+    heroBlurb: "Contractor bonds for spray foam insulation businesses — license and permit bonds required by states and municipalities, performance and payment bonds for commercial projects, and the certificate tracking that keeps your bond current.",
+    whatsCovered: ["License and permit bonds required for state contractor licensing", "Performance bonds for commercial spray foam projects", "Payment bonds ensuring subcontractors and suppliers are paid", "Bid bonds for commercial project bids", "Subdivision and site bonds for development projects", "Maintenance bonds during post-completion warranty periods"],
+    whoItsFor: ["Spray foam contractors required to be bonded to maintain a contractor's license", "Contractors bidding on commercial, government, or institutional spray foam projects", "Operations whose GCs require performance and payment bonds as a contract condition", "New spray foam businesses establishing bonding credit for the first time"],
+    whyCca: ["Fast bond issuance — often same-day for license bonds under standard limits", "Bond coordinated with your GL and CPL program so underwriters see the full risk picture", "Bonding capacity for larger commercial projects and established spray foam businesses"],
+    faqs: [
+      { q: "Do I need a bond to operate as a spray foam contractor?", a: "Many states require a contractor license bond as a condition of licensing or registration. Bond requirements and amounts vary by state and license type. We issue license bonds in all states that require them, often same-day for standard limits." },
+      { q: "What's the difference between a license bond and a performance bond?", a: "A license bond protects the public — it's a condition of your contractor's license and compensates clients if you don't perform licensed work correctly. A performance bond is project-specific — it guarantees you'll complete a specific job per the contract terms. Both are common requirements for spray foam contractors." },
+      { q: "Do I need a performance bond for spray foam jobs?", a: "For commercial, government, and institutional spray foam projects, performance bonds are increasingly required. The project owner or GC requires the bond to ensure the spray foam work is completed per specification and any defects are remediated." },
+      { q: "How much does a spray foam contractor bond cost?", a: "License bond premiums depend on the bond amount your state requires and your credit. Performance bonds are priced as a percentage of the contract value, typically 1%–3% depending on project size and your credit and financial strength." },
+      { q: "What happens if a claim is made against my bond?", a: "A bond claim is filed by a third party claiming you didn't perform as required. The surety investigates and, if the claim is valid, pays the claimant up to the bond amount. You are then responsible to reimburse the surety — a bond is a guarantee to others, not insurance for you. This is why proper GL coverage alongside the bond matters." },
+    ],
+  },
+};
+
+/* ============================================================
+   COVERAGE REGIONS — coverage page
    ============================================================ */
 export const AZ_REGIONS = [
-  { name: "Phoenix Metro", cities: "Phoenix · Mesa · Tempe · Glendale · Peoria", description: "The largest Arizona homeowners market. We compare 12+ carriers for Phoenix metro homes and re-shop annually to prevent renewal-creep." },
-  { name: "Scottsdale & East Valley", cities: "Scottsdale · Paradise Valley · Chandler · Gilbert · Queen Creek", description: "High-value homes and newer subdivisions. Specialty markets for Scottsdale custom homes; competitive programs for East Valley families." },
-  { name: "Tucson & Southern Arizona", cities: "Tucson · Marana · Oro Valley · Sierra Vista · Nogales", description: "Arizona's second-largest market. Competitive homeowners programs for Tucson homes across all ages, conditions, and risk profiles." },
-  { name: "Northern Arizona", cities: "Flagstaff · Sedona · Williams · Winslow · Show Low", description: "WUI specialist access for Flagstaff and northern Arizona homes. Admitted and surplus lines options when standard carriers decline." },
-  { name: "Prescott & Yavapai County", cities: "Prescott · Prescott Valley · Chino Valley · Cottonwood", description: "Challenging market requiring specialty placement. We work all admitted and surplus lines options for Prescott-area homeowners." },
-  { name: "West & Northwest Arizona", cities: "Surprise · Buckeye · Goodyear · Avondale · Wickenburg", description: "Newer West Valley communities with favorable risk profiles. Competitive programs for growing West Valley homeowners." },
-] as const;
+  { name: "Texas & Southwest", note: "TX, AZ, NM, NV — high-volume new construction and commercial foam markets" },
+  { name: "Southeast", note: "FL, GA, NC, SC — humidity-driven insulation demand and coastal construction" },
+  { name: "Midwest", note: "IL, IN, OH, MI, MN — cold-climate residential and commercial foam work" },
+  { name: "Northeast", note: "NY, PA, NJ, CT, MA — aging housing stock retrofits and tight energy codes" },
+  { name: "California", note: "CA — Title 24 energy codes and strict VOC regulations" },
+  { name: "Mountain States", note: "CO, UT, ID, WY — cold-weather application and booming construction" },
+  { name: "Mid-Atlantic", note: "VA, MD, DC, DE — residential retrofits, commercial builds, federal projects" },
+  { name: "Pacific Northwest", note: "WA, OR, ID — energy efficiency codes and environmental regulations" },
+];
 
-/* ============================================================
-   QUOTE PAGE CONSTANTS
-   ============================================================ */
-export const US_STATES = ["Arizona"] as const;
+export const US_STATES = [
+  "Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut",
+  "Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa",
+  "Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan",
+  "Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire",
+  "New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio",
+  "Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota",
+  "Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia",
+  "Wisconsin","Wyoming",
+];
 
 export const QUOTE_SERVICE_TYPES = [
-  "Homeowners Insurance (HO-3)",
-  "Condo Insurance (HO-6)",
-  "Renters Insurance (HO-4)",
-  "Flood Insurance",
-  "Personal Umbrella",
-  "Rental / Landlord Policy",
-  "Vacant Home Coverage",
-  "Scheduled Personal Property",
-  "Bundle (Home + Auto)",
-  "Other / Not Sure",
-] as const;
+  "General Liability for Spray Foam",
+  "Off-Ratio Coverage",
+  "Contractor Pollution Liability (CPL)",
+  "Workers' Compensation",
+  "Commercial Auto / Spray Rigs",
+  "Tools & Equipment Coverage",
+  "Commercial Umbrella",
+  "Contractor Bonds",
+  "Full program / bundle (recommended)",
+  "Not sure — help me figure it out",
+];
 
 export const YEARS_OPTIONS = [
-  "Just purchased",
+  "Less than 1 year",
   "1–2 years",
   "3–5 years",
   "6–10 years",
   "10+ years",
-] as const;
-
-/* ============================================================
-   SERVICE DETAIL (per-slug extended content for service pages)
-   ============================================================ */
-export const SERVICE_DETAIL: Record<string, { intro?: string; whatsCovered: string[]; whoItsFor: string[]; whyCca: string[]; faqs?: { q: string; a: string }[] }> = {
-  "dwelling-coverage": {
-    intro: "Your Arizona home's dwelling coverage pays to rebuild the structure after a covered loss — fire, wildfire, windstorm, hail, lightning, or vandalism. The key is matching your coverage limit to actual rebuild cost, not market value.",
-    whatsCovered: [
-      "Home structure, walls, roof, foundation, and attached garage",
-      "Built-in appliances, electrical, plumbing, and HVAC systems",
-      "Extended replacement cost: 25–50% buffer above your stated limit",
-      "Inflation guard auto-adjusts your limit annually",
-    ],
-    whoItsFor: [
-      "Homeowners who haven't verified their dwelling limit in 2+ years",
-      "Anyone who's done renovations without updating coverage",
-      "Scottsdale and Paradise Valley owners with high-value construction",
-      "Any homeowner who wants extended replacement cost protection",
-    ],
-    whyCca: [
-      "We verify your dwelling limit against Arizona rebuild costs",
-      "Extended replacement cost endorsements recommended for every client",
-      "Annual inflation guard review included at renewal",
-    ],
-    faqs: [
-      { q: "What does dwelling coverage pay for?", a: "Dwelling coverage (Coverage A) pays to repair or rebuild your home's structure after a covered loss — including the foundation, walls, roof, windows, built-in appliances, and attached structures like a garage. It does not cover personal property or the land." },
-      { q: "How is dwelling coverage limit set?", a: "Your dwelling limit should be based on the cost to rebuild your home at today's construction costs — not market value. We use residential reconstruction cost estimators calibrated to Arizona's construction market to set appropriate limits." },
-    ],
-  },
-  "personal-property": {
-    intro: "Personal property coverage (Coverage C) pays to replace your furniture, electronics, clothing, appliances, and other belongings after theft, fire, or covered storm damage.",
-    whatsCovered: [
-      "Furniture, clothing, electronics, and appliances",
-      "Personal property worldwide at 10% of your coverage limit",
-      "Replacement cost pays more at claim time than ACV",
-      "Theft from your vehicle if property is inside",
-    ],
-    whoItsFor: [
-      "Homeowners who've never done a home inventory",
-      "Anyone with jewelry or firearms near sub-limits",
-      "Homeowners who want replacement cost at claim time",
-      "Anyone who works from home with high-value equipment",
-    ],
-    whyCca: [
-      "We right-size personal property limits — not over or under-insure",
-      "We flag sub-limit exposures and recommend scheduling high-value items",
-      "Replacement cost endorsement recommended for every client",
-    ],
-    faqs: [
-      { q: "Does personal property coverage apply outside my home?", a: "Yes. HO-3 personal property coverage applies worldwide, typically at 10% of your personal property limit for items away from home. If your laptop is stolen from your car or your luggage is lost in transit, your homeowners policy may cover it." },
-    ],
-  },
-  "liability": {
-    intro: "Personal liability (Coverage E) pays for legal defense and judgments if you're found legally responsible for bodily injury or property damage to others. Arizona pools, dogs, and trampolines all create significant liability exposure.",
-    whatsCovered: [
-      "Legal defense costs if you're sued for bodily injury or property damage",
-      "Judgments up to your policy liability limit",
-      "Dog bite claims under Arizona's strict liability statute",
-      "Guest injuries on your property — pool, stairs, sidewalks",
-    ],
-    whoItsFor: [
-      "Arizona homeowners with pools — top liability exposure in the state",
-      "Dog owners — Arizona has strict liability, no 'one bite' rule",
-      "Homeowners with trampolines or other attractive nuisances",
-      "Anyone with significant assets to protect from a lawsuit",
-    ],
-    whyCca: [
-      "We review your liability limits against your actual exposure",
-      "We recommend personal umbrella for elevated liability risk",
-      "We find carriers that write dog breeds others surcharge or exclude",
-    ],
-    faqs: [
-      { q: "How much personal liability coverage do I need?", a: "Most homeowners carry $100,000–$300,000 in personal liability. If you have a pool, dogs, significant assets, or teenage drivers, you should consider a $1M personal umbrella policy above your base liability limit." },
-    ],
-  },
-  "loss-of-use": {
-    intro: "Loss of use coverage (Coverage D) pays your additional living expenses — hotel, restaurant meals, temporary housing — while your home is being repaired after a covered loss.",
-    whatsCovered: [
-      "Hotel stays above your normal housing cost",
-      "Restaurant meals above your normal food budget",
-      "Temporary rental housing while repairs are underway",
-      "Storage costs for personal property during repairs",
-    ],
-    whoItsFor: [
-      "All Arizona homeowners — this coverage is standard and critical",
-      "Homeowners in areas with limited temporary housing options",
-      "Families who'd face hardship without their home for months",
-      "Anyone whose home repair could take months after a major loss",
-    ],
-    whyCca: [
-      "We verify loss of use limits are adequate for your area's hotel and rental costs",
-      "We explain the flood exclusion interaction so you're not surprised at claim time",
-      "We make sure you understand what qualifies as an 'additional' expense",
-    ],
-    faqs: [
-      { q: "What is loss of use coverage?", a: "Loss of use (Coverage D) pays for additional living expenses you incur while your home is uninhabitable after a covered loss — hotel stays, restaurant meals above your normal food budget, and temporary housing. It does not cover your normal living expenses, only the incremental cost of living elsewhere." },
-    ],
-  },
-  "flood-insurance": {
-    intro: "Flood insurance covers damage from external water — flash flooding, monsoon runoff, rising water from washes and canals — that standard homeowners policies exclude entirely.",
-    whatsCovered: [
-      "Structure damage from rising water, flash flooding, and monsoon runoff",
-      "Contents when purchased separately (or bundled in private flood)",
-      "Foundation, walls, electrical, plumbing, HVAC damaged by flooding",
-      "Built-in appliances and flooring damaged by covered flood events",
-    ],
-    whoItsFor: [
-      "Arizona homeowners near washes, canals, or drainage corridors",
-      "Homes in FEMA Special Flood Hazard Areas (lender-required)",
-      "Any Arizona homeowner in a monsoon-prone area",
-      "Homeowners whose standard policy leaves them exposed to water damage",
-    ],
-    whyCca: [
-      "We compare NFIP and private flood markets for every Arizona homeowner",
-      "We advise on waiting period timing relative to monsoon season",
-      "We explain the gap between flood coverage and loss of use under standard policies",
-    ],
-    faqs: [
-      { q: "Does my homeowners insurance cover monsoon flooding?", a: "No. Flood caused by monsoon runoff, flash flooding, or rising water from a wash or canal is excluded under the flood exclusion in your standard homeowners policy. You need separate flood insurance — either NFIP or private flood — to cover this exposure." },
-    ],
-  },
-  "umbrella": {
-    intro: "A personal umbrella policy adds $1M–$5M in liability above your homeowners and auto policies for a modest annual premium — typically $150–$300/year in Arizona.",
-    whatsCovered: [
-      "Liability judgments above your homeowners policy limit",
-      "Liability judgments above your auto policy limit",
-      "Personal injury claims: defamation, false arrest, invasion of privacy",
-      "Legal defense costs for covered claims above underlying limits",
-    ],
-    whoItsFor: [
-      "Arizona homeowners with pools — pool injury suits regularly exceed base limits",
-      "Dog owners — large injury claims can far exceed $300K limits",
-      "Households with teenage drivers — high auto liability exposure",
-      "Anyone with significant assets to protect",
-    ],
-    whyCca: [
-      "We bundle umbrella with your homeowners quote for accurate pricing",
-      "We verify your underlying limits meet umbrella carrier requirements",
-      "We explain exactly what the umbrella covers and where it kicks in",
-    ],
-    faqs: [
-      { q: "Do I need a personal umbrella if I have homeowners insurance?", a: "If you own a pool, have dogs, have significant assets to protect, or have teenage drivers, a personal umbrella is highly recommended. A serious injury on your property or a major auto accident can result in a judgment far exceeding your base liability limits." },
-    ],
-  },
-  "scheduled-personal-property": {
-    intro: "Scheduling valuable items removes the sub-limits in your standard policy and often provides broader coverage, including mysterious disappearance.",
-    whatsCovered: [
-      "Jewelry at full appraised value, typically no deductible",
-      "Firearms collection at full replacement value",
-      "Fine art, antiques, and collectibles at scheduled value",
-      "Musical instruments, cameras, and high-value electronics",
-    ],
-    whoItsFor: [
-      "Arizona homeowners with jewelry collections over $2,500",
-      "Gun collectors whose collection exceeds the $2,500 sub-limit",
-      "Art collectors and antique owners",
-      "Musicians with professional-grade instruments",
-    ],
-    whyCca: [
-      "We review your standard policy sub-limits and identify items needing scheduling",
-      "We coordinate scheduled coverage with your overall policy for no gaps",
-      "We recommend appraisals for jewelry and art to set correct scheduled values",
-    ],
-    faqs: [
-      { q: "What items should I schedule on my homeowners policy?", a: "Consider scheduling any individual item worth more than the standard sub-limit — typically jewelry over $2,500, firearms collections, fine art, musical instruments, collectibles, and cameras. Scheduled coverage also covers mysterious disappearance (lost jewelry, for example) that standard policies exclude." },
-    ],
-  },
-  "dwelling-fire": {
-    intro: "Dwelling fire policies cover non-owner-occupied properties — rental homes, vacation homes, and vacant properties — that standard HO-3 policies won't cover.",
-    whatsCovered: [
-      "Rental property structure for fire, windstorm, and covered perils",
-      "Landlord personal liability for tenant injury claims",
-      "Loss of rents if a covered loss makes the unit uninhabitable",
-      "Vacant home structure coverage during extended vacancy",
-    ],
-    whoItsFor: [
-      "Phoenix, Scottsdale, and Tucson investment property owners",
-      "Homeowners renting out a house while temporarily relocated",
-      "Estate executors managing a vacant property",
-      "Short-term rental owners needing landlord liability",
-    ],
-    whyCca: [
-      "We write landlord policies for Arizona rental properties across all markets",
-      "We coordinate landlord policies with your primary homeowners program",
-      "We add loss of rents coverage so a major claim doesn't mean lost rental income",
-    ],
-    faqs: [
-      { q: "What insurance does an Arizona landlord need?", a: "Arizona landlords need a dwelling fire policy (DP-3) rather than a standard homeowners policy. A DP-3 covers the structure, your liability as a landlord, and optionally loss of rents if a covered loss makes the unit uninhabitable. Standard HO-3 policies exclude rental activity." },
-    ],
-  },
-  "condo-insurance": {
-    intro: "An Arizona condo policy (HO-6) covers the part of your home your HOA master policy leaves out — the interior 'walls-in,' your personal property, personal liability, and special assessments the association passes on to owners.",
-    whatsCovered: [
-      "Interior walls, flooring, cabinets, built-ins, and fixtures ('walls-in')",
-      "Personal property against theft, fire, and monsoon water damage",
-      "Loss assessment coverage when the HOA bills owners after a loss",
-      "Personal liability and loss of use if your unit is uninhabitable",
-    ],
-    whoItsFor: [
-      "Condo and townhome owners in Tempe, Scottsdale, and Phoenix",
-      "Anyone whose HOA carries a 'bare walls' master policy",
-      "Owners who've upgraded flooring, cabinets, or countertops",
-      "Investors renting out an Arizona condo (HO-6 + landlord endorsement)",
-    ],
-    whyCca: [
-      "We read your HOA master policy to find the exact coverage gap",
-      "We right-size your dwelling (Coverage A) 'walls-in' limit",
-      "We add loss assessment coverage most owners forget",
-    ],
-    faqs: [
-      { q: "What does condo insurance (HO-6) cover in Arizona?", a: "An Arizona HO-6 policy covers your unit's interior ('walls-in') — flooring, cabinets, fixtures, and improvements — plus your personal property, personal liability, loss of use, and loss assessment. It fills the gap left by your HOA's master policy, which typically only insures the building structure and common areas." },
-      { q: "Does my HOA's insurance cover the inside of my condo?", a: "Usually not fully. Most Arizona HOA master policies are 'bare walls' or 'single entity' — they cover the building shell and common areas but not your interior finishes, upgrades, or belongings. That's exactly what your HO-6 condo policy is for, along with loss assessments the HOA can bill back to you." },
-    ],
-  },
-  "renters-insurance": {
-    intro: "Arizona renters insurance (HO-4) protects your belongings, your personal liability, and your temporary living costs for a low monthly premium — usually $12–$20/month for most Phoenix and Tucson renters.",
-    whatsCovered: [
-      "Personal property against theft, fire, smoke, and monsoon water damage",
-      "Personal liability if you injure someone or damage their property",
-      "Additional living expenses if a covered loss forces you to relocate",
-      "Belongings worldwide — even items stolen from your car",
-    ],
-    whoItsFor: [
-      "Apartment, house, and condo renters across Arizona",
-      "Renters whose landlord now requires proof of coverage",
-      "Students and young professionals in Tempe, Tucson, and Phoenix",
-      "Roommates who want to protect their own belongings",
-    ],
-    whyCca: [
-      "We bundle renters with auto for extra Arizona savings",
-      "We set replacement-cost coverage so you're paid what items cost today",
-      "We make it easy to add your landlord as an interested party",
-    ],
-    faqs: [
-      { q: "How much is renters insurance in Arizona?", a: "Most Arizona renters pay about $12–$20 per month, depending on your coverage limits, deductible, and location. It's one of the most affordable policies available — and it covers your belongings, liability, and temporary housing after a covered loss. Bundling with auto often lowers the cost further." },
-      { q: "Does my landlord's insurance cover my belongings?", a: "No. Your Arizona landlord's policy covers the building structure, not your personal property or liability. If a fire, theft, or burst pipe damages your belongings, only your own renters (HO-4) policy will reimburse you. That's why many landlords now require renters insurance in the lease." },
-    ],
-  },
-  "mobile-home-insurance": {
-    intro: "Manufactured and mobile homes need a specialty policy — not a standard HO-3. We write coverage for single- and double-wide homes across Arizona, protecting the structure, attached additions, and your belongings against Arizona's real perils.",
-    whatsCovered: [
-      "The manufactured/mobile home structure on a specialty form",
-      "Attached structures — carports, awnings, decks, and Arizona rooms",
-      "Personal property, personal liability, and loss of use",
-      "Wind, fire, monsoon, and theft perils common in AZ communities",
-    ],
-    whoItsFor: [
-      "Single- and double-wide owners in Arizona manufactured communities",
-      "Retirees and snowbirds in 55+ desert parks",
-      "Owners of older manufactured homes standard carriers decline",
-      "Anyone financing a manufactured home who needs lender-required coverage",
-    ],
-    whyCca: [
-      "We access specialty manufactured-home carriers, not just standard markets",
-      "We insure older homes other agents can't place",
-      "We reflect true replacement cost for manufactured construction",
-    ],
-    faqs: [
-      { q: "Do I need special insurance for a mobile home in Arizona?", a: "Yes. Manufactured and mobile homes use a specialty policy form (often an HO-7 or mobile-home program) rather than a standard HO-3, because their construction and risk profile differ from site-built homes. We place these with carriers that specialize in Arizona manufactured homes, including older units many standard insurers decline." },
-      { q: "Does mobile home insurance cover monsoon and wind damage?", a: "Yes. A properly written Arizona manufactured-home policy covers wind, monsoon storm, hail, fire, and theft. Because manufactured homes are more vulnerable to high wind, we make sure your policy has adequate limits and we discuss tie-down and anchoring requirements that can affect eligibility and rate." },
-    ],
-  },
-  "high-value-home-insurance": {
-    intro: "High-value Arizona homes need high-net-worth carriers — not standard markets that underinsure custom construction. We access specialty programs with guaranteed or extended replacement cost, higher liability, and coverage for the features luxury desert homes actually have.",
-    whatsCovered: [
-      "Guaranteed or extended replacement cost on custom construction",
-      "Higher liability limits and built-in personal umbrella options",
-      "Scheduled coverage for art, jewelry, wine, and collections",
-      "Pools, casitas, guest houses, and detached structures",
-    ],
-    whoItsFor: [
-      "Scottsdale, Paradise Valley, and Silverleaf estate owners",
-      "Custom and luxury homes valued above $1M rebuild cost",
-      "Owners with art, jewelry, or wine collections to protect",
-      "Homeowners wanting cash-settlement and concierge claims service",
-    ],
-    whyCca: [
-      "We place high-value homes with true HNW carriers, not standard markets",
-      "We commission accurate custom rebuild-cost appraisals",
-      "We coordinate home, auto, umbrella, and valuables into one program",
-    ],
-    faqs: [
-      { q: "Why do high-value Arizona homes need specialty insurance?", a: "Standard carriers often cap coverage and use generic rebuild-cost estimators that badly underinsure custom Scottsdale and Paradise Valley homes. High-net-worth carriers offer guaranteed or extended replacement cost, higher liability, cash-settlement options, and coverage tailored to custom finishes, pools, casitas, and collections." },
-      { q: "What counts as a high-value home in Arizona?", a: "There's no single line, but homes with a rebuild cost above roughly $750K–$1M, custom construction, high-end finishes, or significant collections typically belong in a high-value program. We evaluate your home's true replacement cost and features to determine whether a specialty carrier will serve you better than a standard market." },
-    ],
-  },
-};
+];

@@ -81,9 +81,9 @@ const config: Config = {
         "sunrise-bands":
           "linear-gradient(180deg, #FAF9F7 0%, #F2F4F8 40%, #EEF1F6 70%, #FAF9F7 100%)",
         "warm-radial":
-          "radial-gradient(circle at 30% 20%, rgba(212,96,10,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(28,58,95,0.08) 0%, transparent 55%)",
+          "radial-gradient(circle at 30% 20%, rgba(212,96,10,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(232,160,32,0.08) 0%, transparent 55%)",
         "clay-gradient": "linear-gradient(135deg, #D4600A 0%, #E8821E 100%)",
-        "sage-gradient": "linear-gradient(135deg, #1C3A5F 0%, #2E5A8E 100%)",
+        "sage-gradient": "linear-gradient(135deg, #A84A06 0%, #D4600A 100%)",
         "gold-gradient": "linear-gradient(135deg, #E8A020 0%, #F5C050 100%)",
       },
       boxShadow: {

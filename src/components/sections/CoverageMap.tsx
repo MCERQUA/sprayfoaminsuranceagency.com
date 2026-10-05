@@ -20,20 +20,20 @@ export function CoverageMap() {
               {AZ_REGIONS.map((region) => (
                 <li key={region.name} className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-clay flex-shrink-0 mt-0.5" />
-                  <div><span className="font-heading font-semibold text-espresso">{region.name}</span><span className="text-mocha"> — {"cities" in region ? region.cities : ""}</span></div>
+                  <div><span className="font-heading font-semibold text-espresso">{region.name}</span><span className="text-mocha"> — {region.note}</span></div>
                 </li>
               ))}
             </ul>
 
             <div className="mt-7 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sage/10 border border-sage/20 text-sage-dark text-sm font-heading font-semibold">
-              <CheckCircle2 className="h-4 w-4" />Licensed & writing across Arizona — NPN #8608479
+              <CheckCircle2 className="h-4 w-4" />Licensed & writing in all 50 states — NPN #8608479
             </div>
           </FadeIn>
 
           <FadeIn direction="left">
             <div className="relative rounded-t-[12rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
               <img src="/images/coverage.jpg" alt={COPY.coverage.imageAlt} className="w-full h-[360px] md:h-[440px] object-cover" loading="lazy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-espresso/55 via-espresso/10 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
               <div className="absolute bottom-0 inset-x-0 p-7">
                 <p className="font-heading font-extrabold text-cream text-2xl leading-tight">{COPY.coverage.badgeTitle}</p>
                 <p className="text-cream/80 text-sm mt-1">{COPY.coverage.badgeSub}</p>

@@ -41,10 +41,10 @@ export default function TermsPage() {
               <p>The Site is provided &ldquo;as is&rdquo; without warranties of any kind. To the fullest extent permitted by law, {SITE.name} and Contractors Choice Agency are not liable for any damages arising from your use of the Site.</p>
 
               <h2>Licensing &amp; States</h2>
-              <p>{SITE.name} is a division of Contractors Choice Agency, a licensed insurance agency (NPN #{SITE.npn}) writing across Arizona. Insurance products are underwritten by licensed insurance carriers.</p>
+              <p>{SITE.name} is a division of Contractors Choice Agency, a licensed insurance agency (NPN #{SITE.npn}) writing in all 50 states. Insurance products are underwritten by licensed insurance carriers.</p>
 
               <h2>Contact</h2>
-              <p>Questions about these terms? Contact us at <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or <a href={SITE.phoneHref}>{SITE.phone}</a>.</p>
+              <p>Questions about these terms? Contact us at <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or <a href={SITE.phoneHref}>{SITE.phone}</a>, or write to {SITE.address.street}, {SITE.address.city}, {SITE.address.state} {SITE.address.zip}.</p>
             </div>
           </FadeIn>
         </div>

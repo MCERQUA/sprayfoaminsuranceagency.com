@@ -9,12 +9,12 @@ import { COPY } from "@/lib/content";
 import {
   ShieldCheck, HardHat, Truck, Wrench, FileCheck,
   Umbrella, Gauge, ArrowRight,
-  Droplets, Flame, Home, Package, Building, Gem,
+  Droplets, Flame,
 } from "lucide-react";
 
 const ICONS = {
   ShieldCheck, HardHat, Truck, Wrench, FileCheck,
-  Umbrella, Gauge, Droplets, Flame, Home, Package, Building, Gem,
+  Umbrella, Gauge, Droplets, Flame,
 } as const;
 
 export const metadata: Metadata = {
@@ -57,7 +57,7 @@ export default function ServicesPage() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {SERVICES.map((s, i) => {
                 const Icon = ICONS[s.icon as keyof typeof ICONS] ?? ShieldCheck;
-                const featured = s.slug === "dwelling-coverage";
+                const featured = s.slug === "general-liability";
                 return (
                   <FadeIn key={s.slug} delay={(i % 3) * 0.06}>
                     <Link href={`/services/${s.slug}`} className={`group relative block h-full p-7 rounded-3xl border transition-all duration-300 hover:-translate-y-1.5 ${featured ? "bg-espresso text-cream border-espresso shadow-warm-lg" : "bg-white text-espresso border-adobe shadow-card hover:shadow-card-hover"}`}>

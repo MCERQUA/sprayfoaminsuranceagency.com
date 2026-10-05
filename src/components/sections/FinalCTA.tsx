@@ -21,7 +21,7 @@ export function FinalCTA() {
             <Link href="/quote" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white text-clay-dark font-heading font-bold text-base shadow-warm-lg hover:-translate-y-0.5 hover:bg-cream transition-all">Get my free quote<ArrowRight className="h-5 w-5" /></Link>
             <a href={SITE.phoneHref} className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-espresso/20 backdrop-blur text-white font-heading font-bold text-base border-2 border-white/30 hover:bg-espresso/40 transition-all"><Phone className="h-5 w-5" />{SITE.phone}</a>
           </div>
-          <p className="mt-5 text-cream/70 text-sm">No obligation. No spam. Licensed in Arizona.</p>
+          <p className="mt-5 text-cream/70 text-sm">No obligation. No spam. Licensed all 50 states.</p>
         </FadeIn>
       </div>
     </section>

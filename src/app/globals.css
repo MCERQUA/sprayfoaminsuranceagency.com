@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 /* ============================================================
-   AZ HOMEOWNERS INSURANCE — "Desert Warmth" Design System
-   Light · warm · clean · Arizona desert motif
+   SPRAY FOAM INSURANCE AGENCY — "Industrial Energy" Design System
+   Light · corporate · clean · spray foam industrial motif
    (token NAMES inherited; VALUES remapped: clay=vibrant orange,
    sage=deep navy, gold=amber)
    ============================================================ */
@@ -99,7 +99,7 @@
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #D4600A 0%, #E8821E 24%, #1C3A5F 58%, #E8A020 100%);
+    background: linear-gradient(90deg, #D4600A 0%, #E8821E 24%, #A84A06 58%, #E8A020 100%);
   }
   .pill { @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-heading font-semibold uppercase tracking-wider; }
   .pill-clay { @apply pill bg-clay/10 text-clay border border-clay/20; }
@@ -110,12 +110,12 @@
   .h-section { @apply font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-espresso leading-[1.1]; }
   .lead { @apply text-lg md:text-xl text-mocha leading-relaxed; }
 
-  /* === Decorative motifs — "desert warmth" (Arizona homeowners) === */
+  /* === Decorative motifs — "industrial energy" (spray foam contractor) === */
   .bg-sonoran {
     background-color: var(--bg-cream);
     background-image:
       radial-gradient(circle at 15% 15%, rgba(212, 96, 10, 0.08) 0%, transparent 35%),
-      radial-gradient(circle at 85% 75%, rgba(28, 58, 95, 0.07) 0%, transparent 40%);
+      radial-gradient(circle at 85% 75%, rgba(232, 160, 32, 0.07) 0%, transparent 40%);
   }
   .bg-sonoran-sand {
     background-color: var(--bg-sand);
@@ -126,14 +126,14 @@
   .bg-warm-radial {
     background:
       radial-gradient(ellipse at top, rgba(212, 96, 10, 0.10) 0%, transparent 55%),
-      radial-gradient(ellipse at bottom right, rgba(28, 58, 95, 0.07) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(232, 160, 32, 0.07) 0%, transparent 50%),
       var(--bg-cream);
   }
   /* Industrial band — layered orange, navy, amber */
   .horizon-band {
     background: linear-gradient(180deg,
       #D4600A 0% 18%, #E8821E 18% 34%, #E8A020 34% 48%,
-      #E8821E 48% 62%, #1C3A5F 62% 78%, #2E5A8E 78% 100%);
+      #E8821E 48% 62%, #A84A06 62% 78%, #D4600A 78% 100%);
   }
   .grain {
     background-image:
@@ -148,7 +148,7 @@
   .arch-divider::after {
     content: ""; position: absolute; inset: 0; margin: auto;
     width: 10rem; height: 1.4rem;
-    background: linear-gradient(90deg, #D4600A 0% 18%, #E8821E 18% 40%, #E8A020 40% 62%, #1C3A5F 62% 82%, #D4600A 82% 100%);
+    background: linear-gradient(90deg, #D4600A 0% 18%, #E8821E 18% 40%, #E8A020 40% 62%, #A84A06 62% 82%, #D4600A 82% 100%);
     border-radius: 0.5rem; opacity: 0.92;
   }
 
@@ -161,7 +161,7 @@
   .prose-warm li::before {
     content: ""; position: absolute; left: 0; top: 0.55em;
     width: 1.1rem; height: 0.5rem;
-    background: linear-gradient(90deg, #D4600A 0% 35%, #E8A020 35% 70%, #1C3A5F 70% 100%);
+    background: linear-gradient(90deg, #D4600A 0% 35%, #E8A020 35% 70%, #A84A06 70% 100%);
     border-radius: 0.15rem 0.5rem 0.15rem 0.5rem; opacity: 0.9;
   }
   .prose-warm strong { @apply text-espresso font-semibold; }

@@ -1,5 +1,5 @@
 User-Agent: *
 Allow: /
 
-Host: https://azhomeownersinsurance.com
-Sitemap: https://azhomeownersinsurance.com/sitemap.xml
+Host: https://sprayfoaminsuranceagency.com
+Sitemap: https://sprayfoaminsuranceagency.com/sitemap.xml

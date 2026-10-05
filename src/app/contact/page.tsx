@@ -87,8 +87,8 @@ export default function ContactPage() {
               </div>
 
               <div className="rounded-2xl bg-espresso text-cream p-6">
-                <div className="flex items-start gap-3 mb-4"><MapPin className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" /><div><p className="font-heading font-bold text-cream">Service area</p><p className="text-cream/75 text-sm">Based in {SITE.address.city}, {SITE.address.state}<br />Serving homeowners statewide across Arizona</p></div></div>
-                <div className="flex items-start gap-3"><Clock className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" /><div><p className="font-heading font-bold text-cream">Hours</p><p className="text-cream/75 text-sm">{SITE.hours}</p><p className="text-cream/55 text-xs mt-0.5">Same-day claims contact</p></div></div>
+                <div className="flex items-start gap-3 mb-4"><MapPin className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" /><div><p className="font-heading font-bold text-cream">Office</p><p className="text-cream/75 text-sm">{SITE.address.street}<br />{SITE.address.city}, {SITE.address.state} {SITE.address.zip}</p></div></div>
+                <div className="flex items-start gap-3"><Clock className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" /><div><p className="font-heading font-bold text-cream">Hours</p><p className="text-cream/75 text-sm">{SITE.hours}</p><p className="text-cream/55 text-xs mt-0.5">24/7 claims hotline</p></div></div>
               </div>
             </FadeIn>
 
@@ -106,12 +106,12 @@ export default function ContactPage() {
 
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div><label htmlFor="name" className={labelClass}>Name *</label><input id="name" name="name" type="text" required value={formData.name} onChange={handleChange} placeholder="Jane Smith" className={inputClass} /></div>
-                    <div><label htmlFor="phone" className={labelClass}>Phone</label><input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} placeholder="(480) 555-0100" className={inputClass} /></div>
+                    <div><label htmlFor="phone" className={labelClass}>Phone</label><input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} placeholder="(608) 555-0100" className={inputClass} /></div>
                   </div>
 
                   <div><label htmlFor="email" className={labelClass}>Email *</label><input id="email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder={COPY.quote.emailPlaceholder} className={inputClass} /></div>
                   <div><label htmlFor="subject" className={labelClass}>Subject</label><input id="subject" name="subject" type="text" value={formData.subject} onChange={handleChange} placeholder="How can we help?" className={inputClass} /></div>
-                  <div><label htmlFor="message" className={labelClass}>Message *</label><textarea id="message" name="message" rows={5} required value={formData.message} onChange={handleChange} placeholder="Tell us about your home, a question, or a claim…" className={`${inputClass} resize-none`} /></div>
+                  <div><label htmlFor="message" className={labelClass}>Message *</label><textarea id="message" name="message" rows={5} required value={formData.message} onChange={handleChange} placeholder="Tell us about your operation or question…" className={`${inputClass} resize-none`} /></div>
 
                   {error && <p className="text-red-600 text-sm font-medium">{error}</p>}
 

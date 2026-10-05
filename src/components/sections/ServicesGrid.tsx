@@ -4,7 +4,7 @@ import Link from "next/link";
 import {
   ShieldCheck, HardHat, Truck, Wrench, FileCheck,
   Umbrella, Gauge, ArrowRight,
-  Droplets, Flame, Home, Package, Building, Gem,
+  Droplets, Flame,
 } from "lucide-react";
 import { SERVICES } from "@/lib/site";
 import { COPY } from "@/lib/content";
@@ -12,7 +12,7 @@ import { FadeIn } from "@/components/animations/FadeIn";
 
 const ICONS = {
   ShieldCheck, HardHat, Truck, Wrench, FileCheck,
-  Umbrella, Gauge, Droplets, Flame, Home, Package, Building, Gem,
+  Umbrella, Gauge, Droplets, Flame,
 } as const;
 
 export function ServicesGrid() {
@@ -28,7 +28,7 @@ export function ServicesGrid() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {SERVICES.map((service, i) => {
             const Icon = ICONS[service.icon as keyof typeof ICONS] ?? ShieldCheck;
-            const isFeatured = service.slug === "dwelling-coverage";
+            const isFeatured = service.slug === "general-liability";
             return (
               <FadeIn key={service.slug} delay={(i % 4) * 0.05}>
                 <Link href={`/services/${service.slug}`} className={`group relative block h-full p-6 rounded-3xl border transition-all duration-300 hover:-translate-y-1.5 ${isFeatured ? "bg-espresso text-cream border-espresso shadow-warm-lg" : "bg-white text-espresso border-adobe shadow-card hover:shadow-card-hover"}`}>

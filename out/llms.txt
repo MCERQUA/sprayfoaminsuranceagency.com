@@ -1,55 +1,54 @@
-# AZ Homeowners Insurance
+# Spray Foam Insurance Agency
 
-> AZ Homeowners Insurance (a division of Contractors Choice Agency) is an independent insurance agency specializing in homeowners insurance for Arizona homeowners statewide. We compare 12+ A-rated carriers to find the best rate and coverage for your Arizona home. Coverage lines: homeowners (HO-3), dwelling coverage, personal property, personal liability, loss of use, flood insurance, personal umbrella, scheduled personal property, rental/landlord (dwelling fire), condo (HO-6), renters (HO-4), mobile/manufactured home, and high-value home insurance. Arizona-specific expertise: monsoon and haboob/dust-storm damage, wildfire and wildland-urban-interface (WUI) risk, roof/hail/wind, sun and AC-heat wear, expansive-soil foundation, and water/pipe damage. Serving Phoenix, Tucson, Mesa, Scottsdale, Chandler, Gilbert, Glendale, Flagstaff, Tempe, Peoria, Prescott, and all of Arizona. Licensed in Arizona — NPN #8608479. Founded 2005 in Chandler, AZ. 15-minute quotes, same-day claims contact. Contact: 844-967-5247, josh@contractorschoiceagency.com.
+> Spray Foam Insurance Agency (by Contractors Choice Agency) provides specialized commercial insurance for spray foam insulation contractors in all 50 states. Coverage lines: general liability with spray foam endorsements, off-ratio coverage for A:B component mix errors, contractor pollution liability (CPL) for VOC and isocyanate exposure, workers' compensation for spray foam crews, commercial auto for spray rigs and proportioner trucks, tools and equipment coverage for proportioners and spray guns, commercial umbrella, and contractor license and surety bonds. A-rated carriers. 15-minute quotes, 2-hour claims response. Licensed in all 50 states — NPN #8608479. Founded 2005. Contact: 844-967-5247, josh@contractorschoiceagency.com.
 
 ## Core pages
 
-- Homepage: https://azhomeownersinsurance.com
-- Coverage & services: https://azhomeownersinsurance.com/services
-- Statewide coverage: https://azhomeownersinsurance.com/coverage
-- About: https://azhomeownersinsurance.com/about
-- FAQ: https://azhomeownersinsurance.com/faq
-- Get a quote: https://azhomeownersinsurance.com/quote
-- Contact: https://azhomeownersinsurance.com/contact
-- Blog: https://azhomeownersinsurance.com/blog
+- Homepage: https://sprayfoaminsuranceagency.com
+- Services: https://sprayfoaminsuranceagency.com/services
+- Coverage map: https://sprayfoaminsuranceagency.com/coverage
+- About: https://sprayfoaminsuranceagency.com/about
+- Get a quote: https://sprayfoaminsuranceagency.com/quote
+- Contact: https://sprayfoaminsuranceagency.com/contact
+- Blog: https://sprayfoaminsuranceagency.com/blog
 
-## Coverage & service lines (Arizona homeowners)
+## Insurance service lines (spray foam contractors)
 
-- Dwelling Coverage (rebuild-cost protection): https://azhomeownersinsurance.com/services/dwelling-coverage
-- Personal Property Coverage: https://azhomeownersinsurance.com/services/personal-property
-- Personal Liability: https://azhomeownersinsurance.com/services/liability
-- Loss of Use Coverage: https://azhomeownersinsurance.com/services/loss-of-use
-- Flood Insurance (monsoon/flash-flood): https://azhomeownersinsurance.com/services/flood-insurance
-- Personal Umbrella: https://azhomeownersinsurance.com/services/umbrella
-- Scheduled Personal Property (jewelry, firearms, art): https://azhomeownersinsurance.com/services/scheduled-personal-property
-- Rental & Vacant Home Coverage (dwelling fire / DP-3): https://azhomeownersinsurance.com/services/dwelling-fire
-- Condo Insurance (HO-6): https://azhomeownersinsurance.com/services/condo-insurance
-- Renters Insurance (HO-4): https://azhomeownersinsurance.com/services/renters-insurance
-- Mobile & Manufactured Home Insurance: https://azhomeownersinsurance.com/services/mobile-home-insurance
-- High-Value Home Insurance: https://azhomeownersinsurance.com/services/high-value-home-insurance
+- General Liability for Spray Foam: https://sprayfoaminsuranceagency.com/services/general-liability
+- Off-Ratio Coverage: https://sprayfoaminsuranceagency.com/services/off-ratio-coverage
+- Contractor Pollution Liability: https://sprayfoaminsuranceagency.com/services/contractor-pollution-liability
+- Workers' Compensation: https://sprayfoaminsuranceagency.com/services/workers-compensation
+- Commercial Auto & Spray Rigs: https://sprayfoaminsuranceagency.com/services/commercial-auto
+- Tools & Equipment Coverage: https://sprayfoaminsuranceagency.com/services/tools-equipment
+- Commercial Umbrella: https://sprayfoaminsuranceagency.com/services/umbrella
+- Contractor License & Surety Bonds: https://sprayfoaminsuranceagency.com/services/bonds
 
-## Arizona regions served
+## Coverage regions
 
-- Phoenix Metro (Phoenix, Mesa, Tempe, Glendale, Peoria): https://azhomeownersinsurance.com/locations/phoenix
-- Scottsdale & Paradise Valley: https://azhomeownersinsurance.com/locations/scottsdale
-- Tucson & Southern Arizona: https://azhomeownersinsurance.com/locations/tucson
-- Chandler, Gilbert & East Valley: https://azhomeownersinsurance.com/locations/chandler-gilbert
-- Flagstaff & Northern Arizona: https://azhomeownersinsurance.com/locations/flagstaff
-- Prescott & Yavapai County: https://azhomeownersinsurance.com/locations/prescott
+- Texas & Southwest: https://sprayfoaminsuranceagency.com/locations/texas-southwest
+- Southeast: https://sprayfoaminsuranceagency.com/locations/southeast
+- Midwest: https://sprayfoaminsuranceagency.com/locations/midwest
+- Northeast: https://sprayfoaminsuranceagency.com/locations/northeast
+- California: https://sprayfoaminsuranceagency.com/locations/california
+- Mountain States: https://sprayfoaminsuranceagency.com/locations/mountain-states
+- Mid-Atlantic: https://sprayfoaminsuranceagency.com/locations/mid-atlantic
+- Pacific Northwest: https://sprayfoaminsuranceagency.com/locations/pacific-northwest
 
-## Guides & blog
+## Optional
 
-- The Arizona Homeowner's Guide to Monsoon, Haboob & Storm Damage Claims: https://azhomeownersinsurance.com/blog/arizona-monsoon-haboob-storm-damage-claims-guide
-- How Much Is Homeowners Insurance in Arizona? 2026 Cost Breakdown by City: https://azhomeownersinsurance.com/blog/how-much-homeowners-insurance-cost-arizona-2026
-- Why Arizona Homeowners Are Getting Non-Renewed — and What to Do: https://azhomeownersinsurance.com/blog/arizona-home-insurance-non-renewal-what-to-do
-- Monsoon-Proofing Your Arizona Home: A Pre-Season Checklist: https://azhomeownersinsurance.com/blog/monsoon-proofing-arizona-home-checklist
-- Is Your Dwelling Coverage Enough to Actually Rebuild?: https://azhomeownersinsurance.com/blog/arizona-homeowners-dwelling-coverage-rebuild-cost
-- Arizona Homeowners Insurance and Monsoon Flooding: https://azhomeownersinsurance.com/blog/arizona-homeowners-insurance-monsoon-flood-coverage
-- Wildfire and Homeowners Insurance in Arizona (WUI): https://azhomeownersinsurance.com/blog/arizona-wildfire-homeowners-insurance-flagstaff-prescott
+- Privacy policy: https://sprayfoaminsuranceagency.com/privacy
 
-## Contact
+## Key facts
 
+- Agency: Contractors Choice Agency (division: Spray Foam Insurance Agency)
+- NPN: #8608479
 - Phone: 844-967-5247
 - Email: josh@contractorschoiceagency.com
-- Hours: Mon–Fri 8am–5pm MST
-- Service area: Arizona (statewide), based in Chandler, AZ
+- Address: 12220 E Riggs Road, Suite #104, Chandler, AZ 85249
+- Founded: 2005
+- Licensed: All 50 states
+- Quote turnaround: ~15 minutes
+- Claims response: 2-hour SLA
+- Carriers: A-rated and A.M. Best A+ markets
+- Target clients: Spray foam insulation contractors, spray polyurethane foam (SPF) applicators, insulation contractors, spray foam roofing contractors
+- Key coverages: GL with spray foam endorsements, off-ratio coverage, CPL for VOC/isocyanate exposure, workers' comp, commercial auto for spray rigs, tools and equipment, umbrella, bonds
